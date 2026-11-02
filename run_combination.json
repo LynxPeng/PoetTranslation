@@ -1,0 +1,48 @@
+{
+  "version": "combo-v2-research-first-four-candidates",
+  "condition_id": "COMBO-C02",
+  "poems": "data/benchmark/poems.json",
+  "examples": "data/experiment/examples.json",
+  "generation_output": "results/combination_v2/translations.jsonl",
+  "evaluation_output": "results/combination_v2/scores.jsonl",
+  "realtime_steps_output": "results/combination_v2/steps.jsonl",
+  "search_budget_output": "results/combination_v2/search_budget.jsonl",
+  "previous_search_ledger": "results/combination/steps.jsonl",
+  "search_limit_total": 16,
+  "search_limit_per_poem": 1,
+  "rubric": "evaluation/rubric.json",
+  "judge_prompt": "evaluation/judge_prompt.md",
+  "judge": "deepseek",
+  "repeats": 1,
+  "candidates_per_model": 2,
+  "candidate_workers": 4,
+  "poem_workers": 4,
+  "evaluation_workers": 128,
+  "max_output_tokens": 16384,
+  "models": {
+    "mimo": {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "base_url": "https://api.xiaomimimo.com/v1",
+      "api_key_env": "MIMO_API_KEY",
+      "thinking_enabled": true,
+      "timeout": 600
+    },
+    "qwen38": {
+      "provider": "qwen",
+      "model": "qwen3.8-flash",
+      "base_url": "https://cn-beijing.maas.qianwenaiapi.com/compatible-mode/v1",
+      "api_key_env": "DASHSCOPE_API_KEY",
+      "thinking_enabled": true,
+      "thinking_budget": 4096,
+      "timeout": 600
+    },
+    "deepseek": {
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "thinking_enabled": false
+    }
+  }
+}

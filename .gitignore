@@ -1,0 +1,16 @@
+.conda/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+*.pem
+*.key
+*.log
+*.lock
+*.tmp
+backups/
+docs/*
+!docs/.gitkeep

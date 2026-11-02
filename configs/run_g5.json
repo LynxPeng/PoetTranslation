@@ -1,0 +1,83 @@
+{
+  "poems": "../data/benchmark/poems.json",
+  "design": "../experiments/within_group_design.json",
+  "gold": "../data/benchmark/gold_annotations.json",
+  "manifest": "../data/benchmark/manifest.json",
+  "rubric": "../evaluation/rubric.json",
+  "judge_prompt": "../evaluation/judge_prompt.md",
+  "generation_output": "../results/translations.json_mode_no_thinking.jsonl",
+  "evaluation_output": "../results/scores.jsonl",
+  "repeats": 5,
+  "conditions": [
+    "G5-C00",
+    "G5-C01",
+    "G5-C02",
+    "G5-C03",
+    "G5-C04",
+    "G5-C05",
+    "G5-C06",
+    "G5-C07",
+    "G5-C08",
+    "G5-C09",
+    "G5-C10",
+    "G5-C11",
+    "G5-C12",
+    "G5-C13",
+    "G5-C14",
+    "G5-C15"
+  ],
+  "judge": "deepseek",
+  "models": {
+    "mimo": {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "base_url": "https://api.xiaomimimo.com/v1",
+      "api_key_env": "MIMO_API_KEY",
+      "thinking_enabled": false,
+      "timeout": 300
+    },
+    "deepseek": {
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "api_key_env": "DEEPSEEK_API_KEY"
+    },
+    "qwen": {
+      "provider": "qwen",
+      "model": "qwen-flash",
+      "base_url": "https://cn-beijing.maas.qianwenaiapi.com/compatible-mode/v1",
+      "api_key_env": "DASHSCOPE_API_KEY",
+      "thinking_enabled": false,
+      "timeout": 300
+    }
+  },
+  "transport": "realtime",
+  "steps_output": "../results/steps.jsonl",
+  "experiment_files": [
+    "groups/g1.json",
+    "groups/g2.json",
+    "groups/g3.json",
+    "groups/g4.json",
+    "groups/g5.json",
+    "groups/g6.json"
+  ],
+  "generation_tracks": [
+    "mimo",
+    "qwen"
+  ],
+  "materials": {
+    "examples": "../data/experiment/examples.json",
+    "glossaries": "../data/experiment/glossaries.json",
+    "references": "../data/experiment/references.json",
+    "static_references": "../data/experiment/static_references.json"
+  },
+  "configuration_version": "all-54-json-mode-no-thinking-v1",
+  "material_review_status": "authored_draft_pending_human_literary_review",
+  "single_turn_source_first": true,
+  "realtime_steps_output": "../results/realtime_steps.json_mode_no_thinking.jsonl",
+  "batch_generation_output": "../results/translations.jsonl",
+  "translation_tags": true,
+  "generation_workers": 48,
+  "natural_conversations": true,
+  "final_json_output": true
+}

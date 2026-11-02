@@ -1,0 +1,743 @@
+{
+  "experiments": {
+    "G1-C00": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        }
+      ]
+    },
+    "G1-C01": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "translation",
+          "prompt": "请对照原作检查初稿是否忠实、自然，作必要修订；允许原样保留。给出完整英文译文。",
+          "sample_slot": "generic_revision",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "draft"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C02": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "critic_full",
+          "prompt": "请检查刚才的英译，说明真正影响含义或表达的问题及修改建议。只给问题概述和建议，不引用具体原文或译文片段，也不给字词位置。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "self_refine_feedback",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "feedback",
+          "op": "identity",
+          "input": "critic_full"
+        },
+        {
+          "id": "translation",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "self_refine_revision",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "feedback"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C03": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "critic_full",
+          "prompt": "请检查刚才的英译，说明问题和修改建议，并指出涉及的原文、英文片段。无需另给论证依据。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "self_refine_feedback",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "feedback",
+          "op": "identity",
+          "input": "critic_full"
+        },
+        {
+          "id": "translation",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "self_refine_revision",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "feedback"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C04": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "critic_full",
+          "prompt": "请检查刚才的英译，说明问题和修改建议，引用原文说明判断依据；不另列字词位置或偏移。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "self_refine_feedback",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "feedback",
+          "op": "identity",
+          "input": "critic_full"
+        },
+        {
+          "id": "translation",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "self_refine_revision",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "feedback"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C05": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "critic_full",
+          "prompt": "请检查刚才的英译，说明问题和修改建议，指出涉及的原文、英文片段，并引用原文解释判断依据。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "self_refine_feedback",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "feedback",
+          "op": "identity",
+          "input": "critic_full"
+        },
+        {
+          "id": "translation",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "self_refine_revision",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "feedback"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C06": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "feedback1",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_1",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate1",
+          "op": "identity",
+          "input": "feedback1"
+        },
+        {
+          "id": "revision1",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "tear_revision_1",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "estimate1"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C07": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "feedback1",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并引用原文解释依据，给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_1",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate1",
+          "op": "identity",
+          "input": "feedback1"
+        },
+        {
+          "id": "revision1",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "tear_revision_1",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "estimate1"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C08": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "backtranslation",
+          "prompt": "请将下面这首英文诗完整回译成中文。只给中文回译。\n英文诗：{{draft}}",
+          "sample_slot": "backtranslation",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "output_format": "text"
+        },
+        {
+          "id": "back_feedback_full",
+          "prompt": "请结合对话中的原作与英文初稿，参考下面回译检查英文是否有误译或遗漏。回译差异只作为线索，不能因回译相近就认定正确。指出具体问题、依据和修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。\n回译：{{backtranslation}}",
+          "sample_slot": "backtranslation_feedback",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "back_feedback",
+          "op": "identity",
+          "input": "back_feedback_full"
+        },
+        {
+          "id": "translation",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "backtranslation_revision",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "back_feedback"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C09": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "feedback1",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_1",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate1",
+          "op": "identity",
+          "input": "feedback1"
+        },
+        {
+          "id": "revision1",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。\n只给英文译文正文。",
+          "sample_slot": "tear_revision_1",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "estimate1"
+        },
+        {
+          "id": "feedback2",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_2",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "revision1",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate2",
+          "op": "identity",
+          "input": "feedback2"
+        },
+        {
+          "id": "revision2",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "tear_revision_2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "estimate2"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C10": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "feedback1",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_1",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate1",
+          "op": "identity",
+          "input": "feedback1"
+        },
+        {
+          "id": "revision1",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。\n只给英文译文正文。",
+          "sample_slot": "tear_revision_1",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "estimate1"
+        },
+        {
+          "id": "feedback2",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_2",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "revision1",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate2",
+          "op": "identity",
+          "input": "feedback2"
+        },
+        {
+          "id": "revision2",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。\n只给英文译文正文。",
+          "sample_slot": "tear_revision_2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "estimate2"
+        },
+        {
+          "id": "feedback3",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_3",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "revision2",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate3",
+          "op": "identity",
+          "input": "feedback3"
+        },
+        {
+          "id": "revision3",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "tear_revision_3",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "estimate3"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C11": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "feedback1",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_1",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "model": "partner",
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate1",
+          "op": "identity",
+          "input": "feedback1"
+        },
+        {
+          "id": "revision1",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "tear_revision_1",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "estimate1"
+        }
+      ],
+      "technical_fallback": true
+    },
+    "G1-C12": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "feedback1",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_1",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate1",
+          "op": "identity",
+          "input": "feedback1"
+        },
+        {
+          "id": "revision1",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。\n只给英文译文正文。",
+          "sample_slot": "tear_revision_1",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "when": {
+            "issues_present": "feedback1"
+          },
+          "fallback": "draft",
+          "history_from": "estimate1"
+        },
+        {
+          "id": "feedback2",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_2",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "when": {
+            "changed": [
+              "draft",
+              "revision1"
+            ],
+            "issues_present": "feedback1"
+          },
+          "fallback": "feedback1",
+          "history_from": "revision1",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate2",
+          "op": "identity",
+          "input": "feedback2"
+        },
+        {
+          "id": "revision2",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。\n只给英文译文正文。",
+          "sample_slot": "tear_revision_2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "when": {
+            "changed": [
+              "draft",
+              "revision1"
+            ],
+            "issues_present": "feedback2"
+          },
+          "fallback": "revision1",
+          "history_from": "estimate2"
+        },
+        {
+          "id": "feedback3",
+          "prompt": "请对照原作检查刚才的英译，找出误译、遗漏、无依据增补、意象修辞或语气方面的实际问题，指出涉及的片段、问题类型和严重程度，并给出修改建议。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "tear_feedback_3",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "when": {
+            "changed": [
+              "revision1",
+              "revision2"
+            ],
+            "issues_present": "feedback2"
+          },
+          "fallback": "feedback2",
+          "history_from": "revision2",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "estimate3",
+          "op": "identity",
+          "input": "feedback3"
+        },
+        {
+          "id": "revision3",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "tear_revision_3",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "when": {
+            "changed": [
+              "revision1",
+              "revision2"
+            ],
+            "issues_present": "feedback3"
+          },
+          "fallback": "revision2",
+          "history_from": "estimate3"
+        }
+      ],
+      "technical_fallback": true
+    }
+  },
+  "implementation_notes": {
+    "feedback_conversation": "Natural-language feedback; each condition directly asks for its registered information level. No output schema or offset validation.",
+    "feedback_variants": "Summary, location, evidence, and combined variants have different questions. Local identity nodes forward the whole corresponding answer.",
+    "technical_fallback": "Technical failure retains the preceding legitimate English draft and records the reason; unexpected reasoning modes remain fatal.",
+    "adaptive": "At most three rounds; exact 无需修改 with optional punctuation, unchanged successive translations, or round cap stops. No extra formatting call.",
+    "generation_output": "Ordinary text for intermediate turns; code adds final translation-tag requirement only to a final translation-producing request.",
+    "shared_initial_prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。"
+  }
+}

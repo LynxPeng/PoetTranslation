@@ -1,0 +1,871 @@
+{
+  "experiments": {
+    "G6-C00": {
+      "alias_of": "G1-C00"
+    },
+    "G6-C01": {
+      "steps": [
+        {
+          "id": "candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "op": "random_select",
+          "inputs": [
+            "candidate1",
+            "candidate2"
+          ]
+        }
+      ]
+    },
+    "G6-C02": {
+      "steps": [
+        {
+          "id": "candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "max_tokens": 256,
+          "select_from": [
+            "candidate1",
+            "candidate2"
+          ],
+          "prompt": "仅据原作从匿名候选英文译文中选择一份。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。只能选择已有候选，不得改写。只输出该展示候选的整数序号，不解释。原作：{{source}}\n候选1：{{candidate1}}\n候选2：{{candidate2}}"
+        }
+      ]
+    },
+    "G6-C03": {
+      "steps": [
+        {
+          "id": "candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate3",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate3",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate4",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate4",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "op": "random_select",
+          "inputs": [
+            "candidate1",
+            "candidate2",
+            "candidate3",
+            "candidate4"
+          ]
+        }
+      ]
+    },
+    "G6-C04": {
+      "steps": [
+        {
+          "id": "candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate3",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate3",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate4",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate4",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "max_tokens": 256,
+          "select_from": [
+            "candidate1",
+            "candidate2",
+            "candidate3",
+            "candidate4"
+          ],
+          "prompt": "仅据原作从匿名候选英文译文中选择一份。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。只能选择已有候选，不得改写。只输出该展示候选的整数序号，不解释。原作：{{source}}\n候选1：{{candidate1}}\n候选2：{{candidate2}}\n候选3：{{candidate3}}\n候选4：{{candidate4}}"
+        }
+      ]
+    },
+    "G6-C05": {
+      "steps": [
+        {
+          "id": "candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate3",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate3",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate4",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate4",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate5",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate5",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate6",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate6",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate7",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate7",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate8",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate8",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "op": "random_select",
+          "inputs": [
+            "candidate1",
+            "candidate2",
+            "candidate3",
+            "candidate4",
+            "candidate5",
+            "candidate6",
+            "candidate7",
+            "candidate8"
+          ]
+        }
+      ]
+    },
+    "G6-C06": {
+      "steps": [
+        {
+          "id": "candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate3",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate3",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate4",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate4",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate5",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate5",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate6",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate6",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate7",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate7",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate8",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate8",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "max_tokens": 256,
+          "select_from": [
+            "candidate1",
+            "candidate2",
+            "candidate3",
+            "candidate4",
+            "candidate5",
+            "candidate6",
+            "candidate7",
+            "candidate8"
+          ],
+          "prompt": "仅据原作从匿名候选英文译文中选择一份。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。只能选择已有候选，不得改写。只输出该展示候选的整数序号，不解释。原作：{{source}}\n候选1：{{candidate1}}\n候选2：{{candidate2}}\n候选3：{{candidate3}}\n候选4：{{candidate4}}\n候选5：{{candidate5}}\n候选6：{{candidate6}}\n候选7：{{candidate7}}\n候选8：{{candidate8}}"
+        }
+      ]
+    },
+    "G6-C07": {
+      "steps": [
+        {
+          "id": "candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate3",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate3",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate4",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate4",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "max_tokens": 256,
+          "select_from": [
+            "candidate1",
+            "candidate2",
+            "candidate3",
+            "candidate4"
+          ],
+          "prompt": "仅据原作从匿名候选英文译文中选择一份。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。只能选择已有候选，不得改写。只输出该展示候选的整数序号，不解释。保留每份稿件的原始ID，按4、3、2、1顺序展示，只返回原始ID。原作：{{source}}\n候选4：{{candidate4}}\n候选3：{{candidate3}}\n候选2：{{candidate2}}\n候选1：{{candidate1}}"
+        }
+      ]
+    },
+    "G6-C08": {
+      "steps": [
+        {
+          "id": "candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate3",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate3",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate4",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate4",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "score1",
+          "max_tokens": 64,
+          "output_format": "score",
+          "prompt": "仅据原作独立评价这一份英文译文。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。输出0到100的单个总分数字，不解释，不改写。原作：{{source}}\n译文：{{candidate1}}"
+        },
+        {
+          "id": "score2",
+          "max_tokens": 64,
+          "output_format": "score",
+          "prompt": "仅据原作独立评价这一份英文译文。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。输出0到100的单个总分数字，不解释，不改写。原作：{{source}}\n译文：{{candidate2}}"
+        },
+        {
+          "id": "score3",
+          "max_tokens": 64,
+          "output_format": "score",
+          "prompt": "仅据原作独立评价这一份英文译文。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。输出0到100的单个总分数字，不解释，不改写。原作：{{source}}\n译文：{{candidate3}}"
+        },
+        {
+          "id": "score4",
+          "max_tokens": 64,
+          "output_format": "score",
+          "prompt": "仅据原作独立评价这一份英文译文。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。输出0到100的单个总分数字，不解释，不改写。原作：{{source}}\n译文：{{candidate4}}"
+        },
+        {
+          "id": "translation",
+          "op": "argmax",
+          "inputs": [
+            "candidate1",
+            "candidate2",
+            "candidate3",
+            "candidate4"
+          ],
+          "scores": [
+            "score1",
+            "score2",
+            "score3",
+            "score4"
+          ]
+        }
+      ]
+    },
+    "G6-C09": {
+      "steps": [
+        {
+          "id": "plan1",
+          "prompt": "仅据完整原作给出一份简短可核查的英译方案：歧义处理、意象关系、篇章及节奏安排；保留不确定处。只给结果方案，不输出推理过程，不写完整译文。原作：{{source}}",
+          "max_tokens": 1024,
+          "sample_slot": "tree_plan1"
+        },
+        {
+          "id": "plan2",
+          "prompt": "仅据完整原作给出一份简短可核查的英译方案：歧义处理、意象关系、篇章及节奏安排；保留不确定处。只给结果方案，不输出推理过程，不写完整译文。原作：{{source}}",
+          "max_tokens": 1024,
+          "sample_slot": "tree_plan2"
+        },
+        {
+          "id": "selected_plan",
+          "max_tokens": 256,
+          "select_from": [
+            "plan1",
+            "plan2"
+          ],
+          "prompt": "仅据完整原作，在以下两份匿名译前方案中选一份。比较词义与关系理解是否有原文依据、是否保留歧义、是否覆盖全文、是否提供可执行的英语诗表达安排。方案有错也只能选一份，不能改写。只输出展示序号1或2，不解释。原作：{{source}}\n候选1：{{plan1}}\n候选2：{{plan2}}"
+        },
+        {
+          "id": "tree_candidate1",
+          "prompt": "依据下列译前方案把原作完整译成英语诗；方案可能有误，始终以原作为准。原作：{{source}}\n方案：{{selected_plan}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "tree_candidate1",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "tree_candidate2",
+          "prompt": "依据下列译前方案把原作完整译成英语诗；方案可能有误，始终以原作为准。原作：{{source}}\n方案：{{selected_plan}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "tree_candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "max_tokens": 256,
+          "select_from": [
+            "tree_candidate1",
+            "tree_candidate2"
+          ],
+          "prompt": "仅据原作从匿名候选英文译文中选择一份。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。只能选择已有候选，不得改写。只输出该展示候选的整数序号，不解释。原作：{{source}}\n候选1：{{tree_candidate1}}\n候选2：{{tree_candidate2}}"
+        }
+      ]
+    },
+    "G6-C10": {
+      "steps": [
+        {
+          "id": "candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate3",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate3",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate4",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate4",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate5",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate5",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "max_tokens": 256,
+          "select_from": [
+            "candidate1",
+            "candidate2",
+            "candidate3",
+            "candidate4",
+            "candidate5"
+          ],
+          "prompt": "仅据原作从匿名候选英文译文中选择一份。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。只能选择已有候选，不得改写。只输出该展示候选的整数序号，不解释。原作：{{source}}\n候选1：{{candidate1}}\n候选2：{{candidate2}}\n候选3：{{candidate3}}\n候选4：{{candidate4}}\n候选5：{{candidate5}}"
+        }
+      ]
+    },
+    "G6-C11": {
+      "reference_budget_chars": 1200,
+      "steps": [
+        {
+          "id": "query1",
+          "max_tokens": 256,
+          "prompt": "请指出原作中最需要资料核实的一个词或典故，只回答原文中的精确中文词；无需查询就回答“不查询”。\n原作：{{source}}",
+          "output_format": "text"
+        },
+        {
+          "id": "observation1",
+          "op": "lookup",
+          "query": "{{query1}}",
+          "max_chars": 600
+        },
+        {
+          "id": "query2",
+          "max_tokens": 256,
+          "prompt": "根据原作和以下已查资料，还有哪个词或典故需要核实？只回答原文中的精确中文词，不重复上次查询；没有新问题就回答“不查询”。\n资料：{{observation1}}",
+          "history_from": "query1",
+          "output_format": "text"
+        },
+        {
+          "id": "observation2",
+          "op": "lookup",
+          "query": "{{query2}}",
+          "max_chars": 600,
+          "exclude_from": [
+            "observation1"
+          ]
+        },
+        {
+          "id": "translation",
+          "prompt": "请根据对话中的原作及已查资料完成整首英译。资料不足时保留歧义，不补造事实。\n补充资料：{{observation2}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "history_from": "query2"
+        }
+      ]
+    },
+    "G6-C12": {
+      "bindings": {
+        "reference": {
+          "asset": "static_references",
+          "max_chars": 1200
+        }
+      },
+      "reference_budget_chars": 1200,
+      "steps": [
+        {
+          "id": "translation",
+          "prompt": "仅据原作并参考以下本地资料译成完整英语诗；资料不足时保留歧义，不补造事实。原作：{{source}}\n资料：{{reference}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        }
+      ]
+    },
+    "G6-C13": {
+      "steps": [
+        {
+          "id": "candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "partner_candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "model": "partner",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "partner_candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "model": "partner",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "max_tokens": 256,
+          "select_from": [
+            "candidate1",
+            "candidate2",
+            "partner_candidate1",
+            "partner_candidate2"
+          ],
+          "prompt": "仅据原作从匿名候选英文译文中选择一份。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。只能选择已有候选，不得改写。只输出该展示候选的整数序号，不解释。原作：{{source}}\n候选1：{{candidate1}}\n候选2：{{candidate2}}\n候选3：{{partner_candidate1}}\n候选4：{{partner_candidate2}}"
+        }
+      ]
+    },
+    "G6-C14": {
+      "steps": [
+        {
+          "id": "partner_candidate1",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "model": "partner",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "partner_candidate2",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate2",
+          "model": "partner",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "partner_candidate3",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate3",
+          "model": "partner",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "partner_candidate4",
+          "prompt": "将给定完整作品译成英语诗。待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "output_format": "translation",
+          "sample_slot": "candidate4",
+          "model": "partner",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        },
+        {
+          "id": "translation",
+          "max_tokens": 256,
+          "select_from": [
+            "partner_candidate1",
+            "partner_candidate2",
+            "partner_candidate3",
+            "partner_candidate4"
+          ],
+          "prompt": "仅据原作从匿名候选英文译文中选择一份。先核对全文意义、人物与时空关系、意象修辞及文化理解，再比较情绪文体、篇章完整和英语表达；这七方面等权，不使用任何外部评分结果。只能选择已有候选，不得改写。只输出该展示候选的整数序号，不解释。原作：{{source}}\n候选1：{{partner_candidate1}}\n候选2：{{partner_candidate2}}\n候选3：{{partner_candidate3}}\n候选4：{{partner_candidate4}}"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "benchmark_id": "tang-song-16-v1.0-rc1",
+  "protocol_version": "dimension-json-v2.2-source-only-no-thinking",
+  "status": "design_not_human_calibrated_not_run",
+  "task": "面向普通成年英语读者的忠实文学译介；自然英语，完整翻译；允许调整分行，不强制押韵，不增加情节。",
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "关键语义与文化理解",
+      "weight": 30,
+      "description": "人物、否定、时间、虚实及典故关系是否准确；依据原文独立判断，接受合理多解。",
+      "internal_reference_range": [
+        0,
+        4
+      ],
+      "returned_score_range": [
+        0,
+        30
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "完整性与内容边界",
+      "weight": 10,
+      "description": "全文是否覆盖，是否遗漏或新增无依据事实与情节；允许自然合并诗行。",
+      "internal_reference_range": [
+        0,
+        4
+      ],
+      "returned_score_range": [
+        0,
+        10
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "意象与修辞再现",
+      "weight": 15,
+      "description": "意象间关系、拟人、比喻、对照和声喻是否成立，不要求逐字复刻。",
+      "internal_reference_range": [
+        0,
+        4
+      ],
+      "returned_score_range": [
+        0,
+        15
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "情感、语气与推进",
+      "weight": 15,
+      "description": "情绪方向、强度、含蓄程度、视角和推进是否贴合原作。",
+      "internal_reference_range": [
+        0,
+        4
+      ],
+      "returned_score_range": [
+        0,
+        15
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "英语语法准确性",
+      "weight": 10,
+      "description": "真实英语语法错误；合法诗歌省略、倒装及片段不机械扣分。",
+      "internal_reference_range": [
+        0,
+        4
+      ],
+      "returned_score_range": [
+        0,
+        10
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "英语自然度与可读性",
+      "weight": 10,
+      "description": "搭配、连贯、可理解性及翻译腔；不偏好更长或更华丽的表达。",
+      "internal_reference_range": [
+        0,
+        4
+      ],
+      "returned_score_range": [
+        0,
+        10
+      ]
+    },
+    {
+      "id": "D7",
+      "name": "文体、节奏与整体诗性",
+      "weight": 10,
+      "description": "与原作相称的节奏、停顿、复沓和整体文体；不强制押韵或汉语格律。",
+      "internal_reference_range": [
+        0,
+        4
+      ],
+      "returned_score_range": [
+        0,
+        10
+      ]
+    }
+  ],
+  "internal_anchors": {
+    "4": "充分实现，只有不影响目标的合理取舍",
+    "3": "基本实现，有局部轻微不足",
+    "2": "部分实现，存在明显损失或不自然",
+    "1": "严重不足，多项重要问题失效",
+    "0": "该方面基本缺失或错误"
+  },
+  "total_formula": "D1..D7 are already weighted points with maxima 30,10,15,15,10,10,10. total = D1+D2+D3+D4+D5+D6+D7, maximum 100; each has at most one decimal place. 0-4 anchors describe relative attainment only. Local code validates ranges and exact sum.",
+  "output": {
+    "score_field": "JSON total; local score alias equals total",
+    "score_range": [
+      0,
+      100
+    ],
+    "decimal_places_max": 1,
+    "exposed_result_fields": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "total"
+    ],
+    "component_scores_returned": true,
+    "coverage_or_grammar_rates_returned": false,
+    "required_evidence_arrays": false,
+    "reasoning_returned": false,
+    "component_scale": "weighted points; per-dimension maximum equals weight",
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "generation": {
+    "repeats": 5,
+    "requested_temperature": 0.7,
+    "requested_top_p": 1,
+    "seeds_if_supported": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "new_context_each_run": true,
+    "transport_retries": 2,
+    "quality_retries": 0,
+    "max_visible_output_tokens_by_hanzi": [
+      {
+        "max_hanzi": 70,
+        "tokens": 2048
+      },
+      {
+        "max_hanzi": 200,
+        "tokens": 4096
+      },
+      {
+        "max_hanzi": null,
+        "tokens": 8192
+      }
+    ],
+    "track_count": 2,
+    "model_configuration": "../experiments/models.json",
+    "track_ids": [
+      "mimo_v26_flash",
+      "qwen_flash"
+    ],
+    "main_thinking_mode": "disabled_for_all_calls_required_by_user"
+  },
+  "judging": {
+    "judge_families": 1,
+    "absolute_repeats_per_judge": 1,
+    "pairwise_orders": [],
+    "new_context_each_judgment": true,
+    "model_ids": [
+      "deepseek-flash"
+    ],
+    "requested_temperature": 0,
+    "minimum_context_window": 65536,
+    "max_visible_output_tokens_by_hanzi": [
+      {
+        "max_hanzi": null,
+        "tokens": 512
+      }
+    ],
+    "human_random_audit_fraction": 0.2,
+    "judge_models": 1,
+    "expected_backend_version": "DeepSeek-V4.1-Flash-1017",
+    "thinking": "disabled",
+    "temperature_note": "Non-thinking numeric score task; zero temperature does not guarantee deterministic scoring.",
+    "pairwise_enabled": false,
+    "repeat_stability_estimate": false,
+    "max_output_tokens": 512
+  },
+  "aggregation": {
+    "poem_weight": "equal",
+    "runs": "mean_within_poem_within_generator_track",
+    "judge_repeats": 1,
+    "score_run_sd": "generation and judge variation are mixed; cannot estimate judge repeat reliability",
+    "cluster_unit": "poem",
+    "bootstrap_repeats": 10000,
+    "bootstrap_seed": 20261031,
+    "generator_models": "report per-track method minus own baseline; same 16 poems are not 32 independent poems"
+  },
+  "retention": {
+    "primary_metric": "total_score_0_100",
+    "practical_gain": 2,
+    "gain_ci_lower_gt": 0,
+    "equivalence_interval": [
+      -2,
+      2
+    ],
+    "human_audit_fraction": 0.2,
+    "no_automatic_D1_coverage_critical_failure_claim": true
+  },
+  "usage_role": "development_evaluation_for_within_group_selection",
+  "method_note": "Only source and anonymous translation are sent with the identical system rubric. No poem-specific gold or coverage units. D1-D7 are subjective weighted rubric scores, not measured grammar accuracy, semantic coverage or critical error rates. Total arithmetic is checked locally."
+}

@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "status": "design_draft_not_model_results",
+    "source": "docs/within_group_experiment_plan.md §5",
+    "pages": {
+      "F09": [
+        29,
+        30,
+        31,
+        74
+      ],
+      "F10": [
+        33,
+        65,
+        66
+      ],
+      "F11": [
+        30,
+        32,
+        69
+      ]
+    },
+    "suspended": {
+      "factor": "F12",
+      "conditions": [
+        "G2-C05",
+        "G2-C06",
+        "G2-C07",
+        "G2-C08"
+      ],
+      "reason": "本轮保持F12暂停，全局思考设置变化不自动恢复其预算消融。"
+    }
+  },
+  "experiments": {
+    "G2-C00": {
+      "alias_of": "G1-C00"
+    },
+    "G2-C01": {
+      "steps": [
+        {
+          "id": "translation",
+          "prompt": "将给定完整作品译成英语诗。\n逐句完成翻译，再按原文顺序检查是否完整，只输出最终译文，不输出步骤或思考链。\n待译作品数据：\n{{source}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        }
+      ],
+      "factors": [
+        "F09"
+      ]
+    },
+    "G2-C02": {
+      "steps": [
+        {
+          "id": "analysis",
+          "prompt": "仅凭下列完整原作，输出紧凑的五项分析结果：人物与逻辑、意象修辞、情绪推进、词义典故疑点、篇章结构。每项列支持片段及不确定处；不编造资料。这是简短结果表，不输出思考链。\n原作数据：{{source}}",
+          "sample_slot": "analysis",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "output_format": "text"
+        },
+        {
+          "id": "translation",
+          "prompt": "请根据对话中的完整原作和译前分析，完成整首英译。分析可能有误，始终以原作为准。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "history_from": "analysis"
+        }
+      ],
+      "factors": [
+        "F10"
+      ]
+    },
+    "G2-C03": {
+      "steps": [
+        {
+          "id": "translation",
+          "prompt": "将给定完整作品译成英语诗。\n先完成完整英译，再在译文之外给出简短的“原文片段—译文对应表达—依据或不确定”说明，不输出推理过程；简短说明不超过{{explanation_token_limit}}可见token。\n待译作品数据：\n{{source}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        }
+      ],
+      "factors": [
+        "F11"
+      ]
+    },
+    "G2-C04": {
+      "steps": [
+        {
+          "id": "analysis",
+          "prompt": "仅凭下列完整原作，输出紧凑的五项分析结果：人物与逻辑、意象修辞、情绪推进、词义典故疑点、篇章结构。每项列支持片段及不确定处；不编造资料。这是简短结果表，不输出思考链。\n原作数据：{{source}}",
+          "sample_slot": "analysis",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "output_format": "text"
+        },
+        {
+          "id": "translation",
+          "prompt": "请根据对话中的完整原作和译前分析，完成整首英译。分析可能有误，始终以原作为准。先完成完整英译，再在译文之外给出简短的“原文片段—译文对应表达—依据或不确定”说明，不输出推理过程；简短说明不超过{{explanation_token_limit}}可见token。",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "history_from": "analysis"
+        }
+      ],
+      "factors": [
+        "F10",
+        "F11"
+      ]
+    }
+  }
+}

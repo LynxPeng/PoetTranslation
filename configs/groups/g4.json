@@ -1,0 +1,91 @@
+{
+  "experiments": {
+    "G4-C00": {
+      "alias_of": "G1-C00"
+    },
+    "G4-C01": {
+      "bindings": {
+        "examples": {
+          "count": 4,
+          "quality": "low"
+        }
+      },
+      "steps": [
+        {
+          "id": "translation",
+          "prompt": "下面是固定的原文—英译示例，学习其对应方式：\n{{examples}}\n将给定完整作品译成英语诗。待译作品数据：\n{{source}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        }
+      ]
+    },
+    "G4-C02": {
+      "bindings": {
+        "examples": {
+          "count": 4,
+          "quality": "high"
+        }
+      },
+      "steps": [
+        {
+          "id": "translation",
+          "prompt": "下面是固定的原文—英译示例，学习其对应方式：\n{{examples}}\n将给定完整作品译成英语诗。待译作品数据：\n{{source}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        }
+      ]
+    },
+    "G4-C03": {
+      "bindings": {
+        "examples": {
+          "count": 8,
+          "quality": "low"
+        }
+      },
+      "steps": [
+        {
+          "id": "translation",
+          "prompt": "下面是固定的原文—英译示例，学习其对应方式：\n{{examples}}\n将给定完整作品译成英语诗。待译作品数据：\n{{source}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        }
+      ]
+    },
+    "G4-C04": {
+      "bindings": {
+        "examples": {
+          "count": 8,
+          "quality": "high"
+        }
+      },
+      "steps": [
+        {
+          "id": "translation",
+          "prompt": "下面是固定的原文—英译示例，学习其对应方式：\n{{examples}}\n将给定完整作品译成英语诗。待译作品数据：\n{{source}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        }
+      ]
+    }
+  }
+}

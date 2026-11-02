@@ -1,0 +1,1738 @@
+{
+  "design_id": "within-group-v2.6-two-cloud-flash-batch-draft",
+  "status": "configuration_complete_material_review_and_live_preflight_pending",
+  "document": "../docs/within_group_experiment_plan.md",
+  "scope": "within_group_only",
+  "factor_rule": "one_method_change_one_factor; variants and internal fields are levels or implementation",
+  "numbering": "Six groups G1-G6; method factors F01-F29 in group order; conditions Gx-Cyy",
+  "groups": [
+    {
+      "id": "G1",
+      "name": "增加反馈、修订和回译环节",
+      "status": "planned",
+      "factor_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08"
+      ],
+      "conditions": [
+        {
+          "id": "G1-C00",
+          "name": "B：最简完整英译",
+          "factor_levels": {},
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C01",
+          "name": "泛泛自检修订",
+          "factor_levels": {
+            "F01": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C02",
+          "name": "Self-Refine基础反馈",
+          "factor_levels": {
+            "F02": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C03",
+          "name": "Self-Refine＋定位",
+          "factor_levels": {
+            "F02": "on",
+            "F03": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C04",
+          "name": "Self-Refine＋依据",
+          "factor_levels": {
+            "F02": "on",
+            "F04": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C05",
+          "name": "Self-Refine＋定位＋依据",
+          "factor_levels": {
+            "F02": "on",
+            "F03": "on",
+            "F04": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C06",
+          "name": "TEaR，1轮",
+          "factor_levels": {
+            "F05": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C07",
+          "name": "TEaR＋源文依据",
+          "factor_levels": {
+            "F05": "on",
+            "F04": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C08",
+          "name": "回译检查后修订",
+          "factor_levels": {
+            "F07": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C09",
+          "name": "TEaR，2轮",
+          "factor_levels": {
+            "F05": "on",
+            "F08": "fixed_2"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C10",
+          "name": "TEaR，3轮",
+          "factor_levels": {
+            "F05": "on",
+            "F08": "fixed_3"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G1-C11",
+          "name": "TEaR，更换反馈模型",
+          "factor_levels": {
+            "F05": "on",
+            "F06": "other_model"
+          },
+          "alias_of": null,
+          "gate": "second_feedback_model_frozen",
+          "fixed_background": null,
+          "model_roles": {
+            "feedback": "other experimental generator track",
+            "initial_draft": "primary",
+            "refiner": "primary"
+          }
+        },
+        {
+          "id": "G1-C12",
+          "name": "TEaR，自适应最多3轮",
+          "factor_levels": {
+            "F05": "on",
+            "F08": "adaptive_max_3"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        }
+      ],
+      "primary_score_contrasts": [
+        [
+          "G1-C06",
+          "G1-C02"
+        ],
+        [
+          "G1-C05",
+          "G1-C02"
+        ]
+      ]
+    },
+    {
+      "id": "G2",
+      "name": "改变翻译前的分析步骤或推理配置",
+      "status": "planned",
+      "factor_ids": [
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "conditions": [
+        {
+          "id": "G2-C00",
+          "name": "B：共享最简完整英译",
+          "factor_levels": {},
+          "alias_of": "G1-C00",
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G2-C01",
+          "name": "泛泛逐步口令",
+          "factor_levels": {
+            "F09": "step_prompt"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G2-C02",
+          "name": "完整译前分析后翻译",
+          "factor_levels": {
+            "F10": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G2-C03",
+          "name": "译文后附简短依据",
+          "factor_levels": {
+            "F11": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G2-C04",
+          "name": "译前分析＋译后依据",
+          "factor_levels": {
+            "F10": "on",
+            "F11": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        }
+      ],
+      "primary_score_contrasts": [
+        [
+          "G2-C02",
+          "G2-C00"
+        ],
+        [
+          "G2-C04",
+          "G2-C02"
+        ]
+      ],
+      "disabled_factor_ids": [
+        "F12"
+      ]
+    },
+    {
+      "id": "G3",
+      "name": "加入角色、文体和风格要求",
+      "status": "planned",
+      "factor_ids": [
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "conditions": [
+        {
+          "id": "G3-C00",
+          "name": "B：共享最简完整英译",
+          "factor_levels": {},
+          "alias_of": "G1-C00",
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G3-C01",
+          "name": "仅专家身份",
+          "factor_levels": {
+            "F13": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G3-C02",
+          "name": "身份改成工作标准",
+          "factor_levels": {
+            "F14": "work_standards"
+          },
+          "alias_of": "G5-C03",
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G3-C03",
+          "name": "专家身份＋同一工作标准",
+          "factor_levels": {
+            "F13": "on",
+            "F14": "work_standards"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G3-C04",
+          "name": "一般英语诗体要求",
+          "factor_levels": {
+            "F16": "modern_english_poetry"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G3-C05",
+          "name": "三视角审阅后修订",
+          "factor_levels": {
+            "F15": "three_views"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": "共享B初稿；一次反馈＋一次修订"
+        },
+        {
+          "id": "G3-C06",
+          "name": "普通审阅后修订",
+          "factor_levels": {},
+          "alias_of": "G1-C02",
+          "gate": null,
+          "fixed_background": "F15的普通审阅对照，流程固定，不使用他组赢家"
+        }
+      ],
+      "primary_score_contrasts": [
+        [
+          "G3-C01",
+          "G3-C00"
+        ],
+        [
+          "G3-C02",
+          "G3-C01"
+        ]
+      ]
+    },
+    {
+      "id": "G4",
+      "name": "增加或调整参考资料与示例（简化为示例配置）",
+      "status": "planned",
+      "factor_ids": [
+        "F17"
+      ],
+      "conditions": [
+        {
+          "id": "G4-C00",
+          "name": "0%：无示例（共享B）",
+          "factor_levels": {},
+          "alias_of": "G1-C00",
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G4-C01",
+          "name": "50%低质量",
+          "factor_levels": {
+            "F17": "50%低质量"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G4-C02",
+          "name": "50%高质量",
+          "factor_levels": {
+            "F17": "50%高质量"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G4-C03",
+          "name": "100%低质量",
+          "factor_levels": {
+            "F17": "100%低质量"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G4-C04",
+          "name": "100%高质量",
+          "factor_levels": {
+            "F17": "100%高质量"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        }
+      ],
+      "primary_score_contrasts": [
+        [
+          "G4-C04",
+          "G4-C00"
+        ],
+        [
+          "G4-C04",
+          "G4-C03"
+        ]
+      ]
+    },
+    {
+      "id": "G5",
+      "name": "修改任务说明",
+      "status": "planned",
+      "factor_ids": [
+        "F18",
+        "F19",
+        "F20",
+        "F21",
+        "F22",
+        "F23",
+        "F24"
+      ],
+      "conditions": [
+        {
+          "id": "G5-C00",
+          "name": "B：共享最简完整英译",
+          "factor_levels": {},
+          "alias_of": "G1-C00",
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C01",
+          "name": "仅加入F18",
+          "factor_levels": {
+            "F18": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C02",
+          "name": "仅加入F19",
+          "factor_levels": {
+            "F19": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C03",
+          "name": "仅加入F20",
+          "factor_levels": {
+            "F20": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C04",
+          "name": "仅加入F21",
+          "factor_levels": {
+            "F21": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C05",
+          "name": "仅加入F22",
+          "factor_levels": {
+            "F22": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C06",
+          "name": "仅加入F23",
+          "factor_levels": {
+            "F23": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C07",
+          "name": "仅加入F24",
+          "factor_levels": {
+            "F24": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C08",
+          "name": "Full：F18—F24全部加入",
+          "factor_levels": {
+            "F18": "on",
+            "F19": "on",
+            "F20": "on",
+            "F21": "on",
+            "F22": "on",
+            "F23": "on",
+            "F24": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C09",
+          "name": "Full删除F18",
+          "factor_levels": {
+            "F19": "on",
+            "F20": "on",
+            "F21": "on",
+            "F22": "on",
+            "F23": "on",
+            "F24": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C10",
+          "name": "Full删除F19",
+          "factor_levels": {
+            "F18": "on",
+            "F20": "on",
+            "F21": "on",
+            "F22": "on",
+            "F23": "on",
+            "F24": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C11",
+          "name": "Full删除F20",
+          "factor_levels": {
+            "F18": "on",
+            "F19": "on",
+            "F21": "on",
+            "F22": "on",
+            "F23": "on",
+            "F24": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C12",
+          "name": "Full删除F21",
+          "factor_levels": {
+            "F18": "on",
+            "F19": "on",
+            "F20": "on",
+            "F22": "on",
+            "F23": "on",
+            "F24": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C13",
+          "name": "Full删除F22",
+          "factor_levels": {
+            "F18": "on",
+            "F19": "on",
+            "F20": "on",
+            "F21": "on",
+            "F23": "on",
+            "F24": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C14",
+          "name": "Full删除F23",
+          "factor_levels": {
+            "F18": "on",
+            "F19": "on",
+            "F20": "on",
+            "F21": "on",
+            "F22": "on",
+            "F24": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G5-C15",
+          "name": "Full删除F24",
+          "factor_levels": {
+            "F18": "on",
+            "F19": "on",
+            "F20": "on",
+            "F21": "on",
+            "F22": "on",
+            "F23": "on"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        }
+      ],
+      "primary_score_contrasts": [
+        [
+          "G5-C08",
+          "G5-C00"
+        ],
+        [
+          "G5-C08",
+          "G5-C11"
+        ]
+      ]
+    },
+    {
+      "id": "G6",
+      "name": "改变候选生成与选择方式",
+      "status": "planned",
+      "factor_ids": [
+        "F25",
+        "F26",
+        "F27",
+        "F28",
+        "F29"
+      ],
+      "conditions": [
+        {
+          "id": "G6-C00",
+          "name": "B：共享最简完整英译",
+          "factor_levels": {},
+          "alias_of": "G1-C00",
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C01",
+          "name": "2候选，预定随机选1",
+          "factor_levels": {
+            "F25": 2,
+            "F26": "random"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C02",
+          "name": "2候选，比较式选择",
+          "factor_levels": {
+            "F25": 2,
+            "F26": "comparative"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C03",
+          "name": "4候选，预定随机选1",
+          "factor_levels": {
+            "F25": 4,
+            "F26": "random"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C04",
+          "name": "4候选，比较式选择",
+          "factor_levels": {
+            "F25": 4,
+            "F26": "comparative"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C05",
+          "name": "8候选，预定随机选1",
+          "factor_levels": {
+            "F25": 8,
+            "F26": "random"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C06",
+          "name": "8候选，比较式选择",
+          "factor_levels": {
+            "F25": 8,
+            "F26": "comparative"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C07",
+          "name": "同4候选反转展示顺序",
+          "factor_levels": {
+            "F25": 4,
+            "F26": "comparative_reversed"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C08",
+          "name": "同4候选逐份评分后选择",
+          "factor_levels": {
+            "F25": 4,
+            "F26": "pointwise"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C09",
+          "name": "两层小型树搜索",
+          "factor_levels": {
+            "F27": "two_stage_tree"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C10",
+          "name": "5份平铺候选＋选择，6调用",
+          "factor_levels": {
+            "F25": 5,
+            "F26": "comparative"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": "F27同调用数对照，复用既有8池的前5份"
+        },
+        {
+          "id": "G6-C11",
+          "name": "最多2轮本地工具查询后翻译",
+          "factor_levels": {
+            "F28": "tool_loop"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": null
+        },
+        {
+          "id": "G6-C12",
+          "name": "同库固定静态资料后翻译",
+          "factor_levels": {
+            "F28": "static_reference"
+          },
+          "alias_of": null,
+          "gate": null,
+          "fixed_background": "F28的资料对照；非第4组独立因子"
+        },
+        {
+          "id": "G6-C13",
+          "name": "A/B各2份候选＋固定选择器A",
+          "factor_levels": {
+            "F25": 4,
+            "F26": "comparative",
+            "F29": "mixed"
+          },
+          "alias_of": null,
+          "gate": "second_generator_frozen",
+          "fixed_background": null,
+          "model_roles": {
+            "candidate_pool": "2 primary + 2 partner",
+            "selector": "primary"
+          }
+        },
+        {
+          "id": "G6-C14",
+          "name": "B的4份候选＋固定选择器A",
+          "factor_levels": {
+            "F25": 4,
+            "F26": "comparative",
+            "F29": "all_B"
+          },
+          "alias_of": null,
+          "gate": "second_generator_frozen",
+          "fixed_background": null,
+          "model_roles": {
+            "candidate_pool": "4 partner",
+            "selector": "primary"
+          }
+        }
+      ],
+      "primary_score_contrasts": [
+        [
+          "G6-C04",
+          "G6-C03"
+        ],
+        [
+          "G6-C09",
+          "G6-C10"
+        ]
+      ]
+    }
+  ],
+  "factors": [
+    {
+      "id": "F01",
+      "group": "G1",
+      "name": "泛泛要求再检查／再想一次",
+      "source_method_ids": [
+        "M23"
+      ],
+      "ppt_and_references": "34—36、66；[S23]",
+      "course_attitude": "降低优先级，不宜默认有效",
+      "course_evidence": "所引旧 GPT-4 实验中，无可靠外部反馈的内在修正不稳定，部分任务下降。证明特定条件有风险，不是当前所有模型永远不能自修正。",
+      "implementation": "共享B初稿，只追加一次“检查初稿是否忠实、自然并作必要修订”的请求，不先生成显式反馈。修订器始终看原文，允许原样保留。",
+      "decision_focus": "记录改对与改错；多一次调用本身不是反馈质量的证据。",
+      "contrasts": [
+        {
+          "test": "G1-C01",
+          "control": "G1-C00",
+          "interpretation": "泛泛自检"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "group": "G1",
+      "name": "按任务标准自反馈修订／Self-Refine",
+      "source_method_ids": [
+        "M24"
+      ],
+      "ppt_and_references": "35—36；[S24]、[S23]",
+      "course_attitude": "有条件有效，值得与强基线比较",
+      "course_evidence": "原论文在多种生成任务展示收益；课件要求同时比较强初稿、同预算重生成和可靠反馈，独立统计净改善，不能与自检失败研究简单二选一。",
+      "implementation": "共享B初稿→同模型按通用翻译标准反馈→同模型修订，共3调用。为定位／证据对照先生成同一份完整问题记录，基础反馈只给不含逐字引用与位置的summary和修改方向；自然语言呈现。后续F03/F04只增减对应载荷，不重新抽取更好问题。",
+      "decision_focus": "比较泛泛自检及B；基础反馈本身也是模型判断，仍可能误报；不给评价gold。",
+      "contrasts": [
+        {
+          "test": "G1-C02",
+          "control": "G1-C01",
+          "interpretation": "任务化反馈对泛泛自检"
+        },
+        {
+          "test": "G1-C02",
+          "control": "G1-C00",
+          "interpretation": "完整Self-Refine流程"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "group": "G1",
+      "name": "给出错误位置再修订",
+      "source_method_ids": [
+        "M25"
+      ],
+      "ppt_and_references": "36、38、66；[S19]、[S24]",
+      "course_attitude": "值得检验，比空泛反馈更可诊断",
+      "course_evidence": "定位提供新增信息，但定位可能误报，需检查发现率、误报和执行修正。信息具体程度不是任何来源必胜的固定排名。",
+      "implementation": "在F02固定问题记录上增加源文／译文可疑片段和可校验偏移，原有summary与建议不变。遗漏可没有目标片段，不伪造位置。",
+      "decision_focus": "比较F02、F02+定位、F02+证据、F02+两者四格；证据也可能间接定位，结论限于显式定位的增量。",
+      "contrasts": [
+        {
+          "test": "G1-C03",
+          "control": "G1-C02",
+          "interpretation": "无证据时显式定位增量"
+        },
+        {
+          "test": "G1-C05",
+          "control": "G1-C04",
+          "interpretation": "有证据时显式定位增量"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "group": "G1",
+      "name": "给出带标准和核实依据的反馈",
+      "source_method_ids": [
+        "M26"
+      ],
+      "ppt_and_references": "36、38、66；[S19]、[S23]、[S03]",
+      "course_attitude": "按需保留，关注反馈是否真实",
+      "course_evidence": "课件认为具体、可核查反馈更便于解释修订收益；反馈正确仍可能修不好，核实也增加信息与成本。",
+      "implementation": "在相同问题记录上加入“违反的通用标准＋真实原文quote＋为何支持该判断”，不用最终gold或人工核实答案。分别在F02与TEaR背景比较。程序仅核对quote存在，支撑是否成立另审。",
+      "decision_focus": "证据与定位信息可能重叠；新增载荷及成本都记录，不将真实引文自动当作正确批评。",
+      "contrasts": [
+        {
+          "test": "G1-C04",
+          "control": "G1-C02",
+          "interpretation": "Self-Refine中的证据"
+        },
+        {
+          "test": "G1-C05",
+          "control": "G1-C03",
+          "interpretation": "有定位时证据增量"
+        },
+        {
+          "test": "G1-C07",
+          "control": "G1-C06",
+          "interpretation": "TEaR中的证据"
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "group": "G1",
+      "name": "TEaR：初译、错误估计、修订",
+      "source_method_ids": [
+        "M27"
+      ],
+      "ppt_and_references": "37—38；[S19]",
+      "course_attitude": "有条件有效，有翻译实验支撑；非必备流程",
+      "course_evidence": "论文包含模块与反馈比较；课件展示特定中英设置中不同反馈收益不等，人工协助条件信息更多。未证明所有文本都要固定示例或一轮修订必胜。",
+      "implementation": "使用独立的Translate→Estimate→Refine流程：共享B初稿，估计器返回errors[{location,type,severity,uncertain}]，修订器看原文、初稿和估计后改稿。type覆盖准确、遗漏、术语、流畅等；severity为项目冻结的critical/major/minor；uncertain为项目审计标记，不确定项仍留在errors中。字段是TEaR方法的内部实现，不再编号为因子；不把增加审计标记称为论文原配置。",
+      "decision_focus": "对F02比较的是两种完整反馈流程，字段组织和信息均可能不同；不宣传为完全复现论文，也不单独归因于类别或严重度。",
+      "contrasts": [
+        {
+          "test": "G1-C06",
+          "control": "G1-C02",
+          "interpretation": "TEaR与Self-Refine完整流程"
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "group": "G1",
+      "name": "改变反馈来源",
+      "source_method_ids": [
+        "M28"
+      ],
+      "ppt_and_references": "36、38；[S19]、[S24]、[S03]",
+      "course_attitude": "研究变量，无固定来源排名",
+      "course_evidence": "同模型、其他模型和人工都可能出错；人工协助结果不能归为完全自动自检。需比较正确性、可执行性、独立性与成本。",
+      "implementation": "保持初稿、TEaR反馈契约和修订器不变，仅将反馈模型从A换成另一个预先冻结的系列B。不给B裁判金标或评分。需额外模型可用时执行，不支持就登记不适用。 两条轨道分别使用另一实验生成模型（MiMo／云端Qwen Flash）作反馈，DeepSeek Flash裁判不作流程内反馈。",
+      "decision_focus": "比较反馈正确性、可执行性、独立性与费用；当前不做人工／gold反馈上界。",
+      "contrasts": [
+        {
+          "test": "G1-C11",
+          "control": "G1-C06",
+          "interpretation": "只更换反馈来源"
+        }
+      ]
+    },
+    {
+      "id": "F07",
+      "group": "G1",
+      "name": "回译检查",
+      "source_method_ids": [
+        "M29"
+      ],
+      "ppt_and_references": "71 及备注；[S19]、[S03]、[S23]作为修订与评价背景",
+      "course_attitude": "辅助线索，可按需保留；不能当正确性证明",
+      "course_evidence": "回译可能恢复成接近原文的表达并掩盖目标语错误，也不能替代诗意、节奏和读者体验评价。此处主要是课件教学分析，未给独立回译增益实验。",
+      "implementation": "初稿→回译→差异反馈→修订，共4调用。回译器只看英语译文，不给中文原诗、作者、题名；反馈器随后看原文、英译及回译，差异仅作线索，仍直接核查英语。",
+      "decision_focus": "与F02及TEaR比较净收益和额外成本；回译接近原诗不直接证明准确。",
+      "contrasts": [
+        {
+          "test": "G1-C08",
+          "control": "G1-C02",
+          "interpretation": "回译流程与Self-Refine"
+        }
+      ]
+    },
+    {
+      "id": "F08",
+      "group": "G1",
+      "name": "增加修订轮数／设置停止与回滚",
+      "source_method_ids": [
+        "M30"
+      ],
+      "ppt_and_references": "39、71；[S19]、[S03]",
+      "course_attitude": "停止和记录原则应保留；多轮本身无保证",
+      "course_evidence": "关键错误已解决、无独立收益或达到预算时可停止；允许不修改和回滚。迭代次数不能代替质量判断。",
+      "implementation": "固定同一TEaR轨迹的1／2／3轮前缀，另比较自适应最多3轮。每轮先校验反馈：仅成功解析且errors=[]时按“无问题反馈”正常停止；errors非空就交修订器，不确定项仍保留，不能视为已无问题。若修订后的translation与当前稿按Unicode字符串逐字完全相同则停止；否则更新当前稿，至多3轮。不依据最终裁判挑轮次。反馈解析失败、必填字段或定位校验失败不删项、不伪装为空列表，按共同技术异常规则终止并回退上一合法稿；不存在合法稿则记最终失败。所有反馈修订条件共用这一技术回退规则，保存失败阶段、fallback_reason及全部费用，不计作已确认无语义错误。",
+      "decision_focus": "逐轮报改对、改错与成本；自适应仅用流程内信号，不能宣称保证语义无误。共享轨迹只省研究支出，部署成本按实际执行步骤计算。",
+      "contrasts": [
+        {
+          "test": "G1-C09",
+          "control": "G1-C06",
+          "interpretation": "第2轮"
+        },
+        {
+          "test": "G1-C10",
+          "control": "G1-C09",
+          "interpretation": "第3轮"
+        },
+        {
+          "test": "G1-C12",
+          "control": "G1-C10",
+          "interpretation": "自适应停止对固定3轮"
+        }
+      ]
+    },
+    {
+      "id": "F09",
+      "group": "G2",
+      "name": "思维链示范／手工逐步提示",
+      "source_method_ids": [
+        "M19"
+      ],
+      "ppt_and_references": "29—31、74；[S13]、[S18]、[S01]",
+      "course_attitude": "历史收益明确；对部分推理模型降低默认优先级",
+      "course_evidence": "CoT 原论文在特定推理任务有效；课件引用的推理模型指南说明额外逐步口令可能无益甚至有害。不能改写成永远不要分步，也不能将算术增益直接用于翻译。",
+      "implementation": "非思考模式下，在B后加入逐句完成与检查顺序的任务提示；只输出完整最终译文，不请求或输出思考链，也不覆盖全局thinking=disabled。检验的是分步任务提示，不是开启推理模式。",
+      "decision_focus": "比较总分与完整计算成本；不能将此结果推广到所有思维链示范。",
+      "contrasts": [
+        {
+          "test": "G2-C01",
+          "control": "G2-C00",
+          "interpretation": "分步口令"
+        }
+      ]
+    },
+    {
+      "id": "F10",
+      "group": "G2",
+      "name": "先分析关系再翻译／任务分解",
+      "source_method_ids": [
+        "M20"
+      ],
+      "ppt_and_references": "33、65—66；[S18]、[S19]、[S03]",
+      "course_attitude": "有条件有效，针对具体困难检验",
+      "course_evidence": "可降低复杂依赖或审阅定位难度；错误分析也会锚定后续译文，应保留原文并与直接翻译比较。课件未保证分解必然提高质量。",
+      "implementation": "先调用分析器，仅凭完整源文列人物与逻辑、意象修辞、情绪推进、词义典故疑点、篇章结构五项简短分析，保留支持片段与不确定处；再将完整源文和整份分析交同一翻译器。五项是这一因子的内部实现，不做逐字段消融。分析可能有误，译者以原文为准。",
+      "decision_focus": "对直接翻译比较D1/D2、分析错误传播与两调用成本。所有分析只用合法输入，不读取gold。",
+      "contrasts": [
+        {
+          "test": "G2-C02",
+          "control": "G2-C00",
+          "interpretation": "先分析再译"
+        },
+        {
+          "test": "G2-C04",
+          "control": "G2-C03",
+          "interpretation": "有译后依据时的分析增量"
+        }
+      ]
+    },
+    {
+      "id": "F11",
+      "group": "G2",
+      "name": "输出可核查的简短说明或依据",
+      "source_method_ids": [
+        "M21"
+      ],
+      "ppt_and_references": "30、32、69；[S13]、[S20]、[S21]",
+      "course_attitude": "按审阅需要保留",
+      "course_evidence": "原文片段和简短依据比自称认真检查更可核查；解释流畅不证明解释忠实，也不证明译文正确，必须独立检查。",
+      "implementation": "要求在完成译文后，于notes给简短“原文片段—译文对应表达—依据或不确定”说明，按作品长度最多256／512／1024可见token。同一说明模块既测单独加入，也测在F10分析背景下加入。",
+      "decision_focus": "最终裁判只见translation；notes另审引用存在与支持关系。说明流畅不等于忠实，也不直接加翻译分。解释生成成本计入全流程。",
+      "contrasts": [
+        {
+          "test": "G2-C03",
+          "control": "G2-C00",
+          "interpretation": "附简短依据"
+        },
+        {
+          "test": "G2-C04",
+          "control": "G2-C02",
+          "interpretation": "有分析时附依据"
+        }
+      ]
+    },
+    {
+      "id": "F12",
+      "group": "G2",
+      "name": "调整推理预算",
+      "source_method_ids": [
+        "M22"
+      ],
+      "ppt_and_references": "30—31、63；[S13]、[S22]、[S02]",
+      "course_attitude": "按困难和成本选择，不是越大越好",
+      "course_evidence": "额外计算可能帮助复杂关系；缺资料、缺术语时增加推理通常不能替代补信息。应固定提示比较预算，再固定预算比较提示。",
+      "implementation": "本轮不执行。用户要求所有调用关闭thinking，取消低／高推理预算的四个条件。保留编号与课件出处以便追溯，不计入当前运行数和费用，也不记0分。",
+      "decision_focus": "分别比较预算和分析背景下的差异；不能用输出长度假装推理预算，4格为条件扩展且不影响其他条件的重复数。",
+      "contrasts": [],
+      "status": "disabled_by_user_all_thinking_off",
+      "excluded_contrasts": [
+        {
+          "test": "G2-C06",
+          "control": "G2-C05",
+          "interpretation": "无分析时高对低预算"
+        },
+        {
+          "test": "G2-C08",
+          "control": "G2-C07",
+          "interpretation": "有分析时高对低预算"
+        }
+      ]
+    },
+    {
+      "id": "F13",
+      "group": "G3",
+      "name": "加入专家角色",
+      "source_method_ids": [
+        "M15"
+      ],
+      "ppt_and_references": "27—28、66、68、74；[S16]",
+      "course_attitude": "用于提高事实准确性时降低优先级；文体用途按需",
+      "course_evidence": "所引研究在 162 种角色、2,410 道 MMLU 问题和多个模型设置中，多数角色没有显著准确率收益，部分下降。不能外推为所有角色、文体或诗词任务均无用。",
+      "implementation": "固定身份句：你是一位熟悉唐诗宋词和英语诗歌的专业译者。位置固定，不额外添知识、工作标准、多角色或调用；单独与B比较。",
+      "decision_focus": "分别看事实意义和文体变化；语气更专业不能直接记为理解更好。",
+      "contrasts": [
+        {
+          "test": "G3-C01",
+          "control": "G3-C00",
+          "interpretation": "角色本身"
+        },
+        {
+          "test": "G3-C03",
+          "control": "G3-C02",
+          "interpretation": "标准存在时角色增量"
+        }
+      ]
+    },
+    {
+      "id": "F14",
+      "group": "G3",
+      "name": "将专家角色改写成可检查工作标准",
+      "source_method_ids": [
+        "M16"
+      ],
+      "ppt_and_references": "28、66；[S01]、[S16]",
+      "course_attitude": "推荐起点",
+      "course_evidence": "课件倾向于明确术语、关系和歧义处理；收益更容易解释。角色是否额外有用，应比较无角色、仅角色、仅标准和组合，未预设组合最优。",
+      "implementation": "将专家身份句替换成明确工作标准，标准正文严格复用F20；比较“只有身份”与“只有工作标准”。另保留两者都无、两者都有的提示版本，用于检查头衔是否还有增量。F14是替换方法，不能与F20叠加成两份同文标准。",
+      "decision_focus": "这是同一标准在不同对照中的复用，不宣称F20与F14是独立信息。仅标准版本直接复用G5的相同请求和结果，不重复付费。",
+      "contrasts": [
+        {
+          "test": "G3-C02",
+          "control": "G3-C01",
+          "interpretation": "身份替换成工作标准"
+        },
+        {
+          "test": "G3-C03",
+          "control": "G3-C01",
+          "interpretation": "身份背景增加明确标准"
+        }
+      ]
+    },
+    {
+      "id": "F15",
+      "group": "G3",
+      "name": "多视角／多个人设审阅",
+      "source_method_ids": [
+        "M17"
+      ],
+      "ppt_and_references": "28、70、72；[S16]、[S17]、[S14]",
+      "course_attitude": "按需尝试，证据不足以默认优越",
+      "course_evidence": "可拓展问题清单，但同一模型的人设共享偏差，不是独立验证；需与同预算多次生成和清单检查比较。",
+      "implementation": "共享B初稿，用同一模型的一次反馈调用分别从语义文化、情绪修辞、英语表达三个视角审阅，再由同一修订器修改。对照为一次普通审阅后修订；两个流程调用数、完整问题记录、基础summary／修改方向的投影与序列化、总输出上限一致，不额外附人设名字。",
+      "decision_focus": "记录视角是否发现互补问题及正确改错；同模型三个角色不是三名独立专家。普通审阅背景预先固定，不能换成前组实验赢家。",
+      "contrasts": [
+        {
+          "test": "G3-C05",
+          "control": "G3-C06",
+          "interpretation": "同调用数多视角审阅"
+        }
+      ]
+    },
+    {
+      "id": "F16",
+      "group": "G3",
+      "name": "指定作家风格或文体样例",
+      "source_method_ids": [
+        "M18"
+      ],
+      "ppt_and_references": "86 及备注；[S03]作为评价背景",
+      "course_attitude": "文体目标下按需保留；不能代替原诗理解",
+      "course_evidence": "第 86 页备注认为文体样例可帮助表达，但莎士比亚等风格名称不会自动解决理解，也可能引入新意象。这是教学分析，非该引用论文对风格模仿的专门实验证明。",
+      "implementation": "固定增加一般文体要求：采用凝练的现代英语诗体，按原作的抒情或叙事需要组织停顿和节奏，不添加新意象。当前水平只测文体描述，不指定莎士比亚等作家，不把风格样例额外混入F17。",
+      "decision_focus": "检查D7及意义、情绪取舍；此水平不能代表所有作家风格或所有文体样例已测过。",
+      "contrasts": [
+        {
+          "test": "G3-C04",
+          "control": "G3-C00",
+          "interpretation": "文体描述"
+        }
+      ]
+    },
+    {
+      "id": "F17",
+      "group": "G4",
+      "name": "示例配置（数量×质量的五个水平）",
+      "source_method_ids": [
+        "M09",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14"
+      ],
+      "ppt_and_references": "21、24—26；22—25提供示例信息与质量的研究背景；[S10]、[S11]、[S12]、[S15]",
+      "course_attitude": "用户指定简化设计；结果待实测",
+      "course_evidence": "课件要求示例与测试隔离、分别控制数量和内容，并指出更多示例不保证更好。低／高质量×0／50%／100%的五水平设计来自用户最新要求，不是课件已验证的诗词结论。",
+      "implementation": "只设一个五水平因子：无示例、50%低质量、50%高质量、100%低质量、100%高质量。100%=冻结池8首，50%=同一有序池前4首。高低质量版的原文、数量、顺序、版式均相同，只换译文。高质量译文经过文学审校；低质量由同一高质量版作受控降质，每例设一个可核查的重要意义／修辞错误并记录表达弱点，错误类型与严重度事前均衡。高低版本token尽量相差≤10%，达不到则在看D输出前修订或如实说明；不删坏原文来凑长度。质量标签不传给生成器。",
+      "decision_focus": "四个非零水平分别对无示例；同数量比较高低质量、同质量比较50%与100%，并计算数量差异在两种质量下是否不同。数量与质量只是F17水平标签，不再各设因子。无示例不定义质量。",
+      "contrasts": [
+        {
+          "test": "G4-C01",
+          "control": "G4-C00",
+          "interpretation": "50%低质量对无示例"
+        },
+        {
+          "test": "G4-C02",
+          "control": "G4-C00",
+          "interpretation": "50%高质量对无示例"
+        },
+        {
+          "test": "G4-C03",
+          "control": "G4-C00",
+          "interpretation": "100%低质量对无示例"
+        },
+        {
+          "test": "G4-C04",
+          "control": "G4-C00",
+          "interpretation": "100%高质量对无示例"
+        },
+        {
+          "test": "G4-C02",
+          "control": "G4-C01",
+          "interpretation": "50%下的质量差异"
+        },
+        {
+          "test": "G4-C04",
+          "control": "G4-C03",
+          "interpretation": "100%下的质量差异"
+        },
+        {
+          "test": "G4-C03",
+          "control": "G4-C01",
+          "interpretation": "低质量下的数量差异"
+        },
+        {
+          "test": "G4-C04",
+          "control": "G4-C02",
+          "interpretation": "高质量下的数量差异"
+        }
+      ],
+      "levels": [
+        "0%无示例",
+        "50%低质量",
+        "50%高质量",
+        "100%低质量",
+        "100%高质量"
+      ],
+      "example_count_at_50_percent": 4,
+      "example_count_at_100_percent": 8
+    },
+    {
+      "id": "F18",
+      "group": "G5",
+      "name": "明确目标读者和用途",
+      "source_method_ids": [
+        "M01"
+      ],
+      "ppt_and_references": "9—10、86—88；[S01]、[S02]、[S03]",
+      "course_attitude": "基础原则",
+      "course_evidence": "用途决定解释深度和表达取舍；诗词候选不存在脱离用途的唯一排序。简单翻译可能只需原文和目标语言，不必机械增加栏目。",
+      "implementation": "独立提示段：面向不了解中文的成年英语读者，提供完整、可独立阅读的文学译介。只增加受众与用途，不同时加入其他标准。评价端的目标对所有条件始终相同，未提示受众的基线也按同一目标评价。",
+      "decision_focus": "观察自然度、文化可理解性及总分；不将换读者引起的评分目标变化当作收益。",
+      "contrasts": [
+        {
+          "test": "G5-C01",
+          "control": "G5-C00",
+          "interpretation": "单独加入的增量"
+        },
+        {
+          "test": "G5-C08",
+          "control": "G5-C09",
+          "interpretation": "完整组中保留该项的增量"
+        }
+      ]
+    },
+    {
+      "id": "F19",
+      "group": "G5",
+      "name": "明确忠实度和改写自由度",
+      "source_method_ids": [
+        "M02"
+      ],
+      "ppt_and_references": "19、86—87；[S03]、[S04]",
+      "course_attitude": "基础原则",
+      "course_evidence": "忠实译介与再创作允许不同程度的显化、重组和注释。主要是任务定义与专业评价原则，不是某条固定提示已获普遍增益的实验证明。",
+      "implementation": "独立提示段：采用忠实译介，允许自然英语句法、分行和必要语法补足，可重组相邻表达但不改变原作含义；不强制押韵，不作自由再创作。此处测试明确改写许可的作用，不另开自由创作任务。",
+      "decision_focus": "检查生硬直译是否减少、意义是否保持；忠实度与诗性一并报告。",
+      "contrasts": [
+        {
+          "test": "G5-C02",
+          "control": "G5-C00",
+          "interpretation": "单独加入的增量"
+        },
+        {
+          "test": "G5-C08",
+          "control": "G5-C10",
+          "interpretation": "完整组中保留该项的增量"
+        }
+      ]
+    },
+    {
+      "id": "F20",
+      "group": "G5",
+      "name": "加入可检查的质量标准",
+      "source_method_ids": [
+        "M03"
+      ],
+      "ppt_and_references": "8—10、17—19、28、65、86；[S01]、[S02]、[S03]、[S04]、[S05]",
+      "course_attitude": "推荐起点",
+      "course_evidence": "清晰要求便于核对和消融；格式合规不等于语义正确。复杂标准仍可能冗余，收益应在未见材料上检验。",
+      "implementation": "独立提示段：逐项检查关键含义与完整性、意象修辞、情绪语气、英语语法及自然度、节奏与整体诗性。整段是一项“质量标准”因子；其中七个质量方面不再拆成实验因子，也不提供逐首答案。",
+      "decision_focus": "以总分及其与本轨对照的差异为主，七维作为判分和人工诊断依据，不输出分项分数；整段标准整体加入／删除。",
+      "contrasts": [
+        {
+          "test": "G5-C03",
+          "control": "G5-C00",
+          "interpretation": "单独加入的增量"
+        },
+        {
+          "test": "G5-C08",
+          "control": "G5-C11",
+          "interpretation": "完整组中保留该项的增量"
+        }
+      ]
+    },
+    {
+      "id": "F21",
+      "group": "G5",
+      "name": "规定质量标准优先级",
+      "source_method_ids": [
+        "M04"
+      ],
+      "ppt_and_references": "19、86—88；[S03]、[S04]",
+      "course_attitude": "基础原则",
+      "course_evidence": "相互冲突的要求无法靠强调同时满足，应明确硬约束和可接受取舍。文学任务不默认语义、节奏、简洁等拥有相同排序。",
+      "implementation": "独立提示段：重大含义、重要内容和核心修辞关系优先；在保留这些内容的前提下改善英语自然度与诗歌节奏；不能靠华丽表达抵消重要误译。只改变是否显式告知取舍，不改评价权重。",
+      "decision_focus": "检查诗性提高是否伴随关键意义损失；删除本段时其余标准不变。",
+      "contrasts": [
+        {
+          "test": "G5-C04",
+          "control": "G5-C00",
+          "interpretation": "单独加入的增量"
+        },
+        {
+          "test": "G5-C08",
+          "control": "G5-C12",
+          "interpretation": "完整组中保留该项的增量"
+        }
+      ]
+    },
+    {
+      "id": "F22",
+      "group": "G5",
+      "name": "加入术语约定／术语表",
+      "source_method_ids": [
+        "M05"
+      ],
+      "ppt_and_references": "6—10、28；[S01]、[S02]",
+      "course_attitude": "按需保留，优先补充缺失信息",
+      "course_evidence": "术语属于模型无法预先知道的项目约定；第 10 页提出逐项加术语和关系的对照，未宣称所有文本必须附词表。",
+      "implementation": "提供独立来源审核的“文化词或专名→英语惯用／可接受表达”小表，不含整句或整首参考译文；每项注明来源及可接受变体。无合适词条的作品留空并记录。≤70／71—200／>200字原文的表分别不超过160／240／480汉字等效预算。",
+      "decision_focus": "最终裁判仍接受正确的其他译法，不因某条件没看到词表就额外扣指定拼写分；报告实际非空词表作品上的错误变化。",
+      "contrasts": [
+        {
+          "test": "G5-C05",
+          "control": "G5-C00",
+          "interpretation": "单独加入的增量"
+        },
+        {
+          "test": "G5-C08",
+          "control": "G5-C13",
+          "interpretation": "完整组中保留该项的增量"
+        }
+      ]
+    },
+    {
+      "id": "F23",
+      "group": "G5",
+      "name": "限制无依据的背景、因果和情节增补",
+      "source_method_ids": [
+        "M06"
+      ],
+      "ppt_and_references": "9—10、33；[S01]、[S03]",
+      "course_attitude": "忠实翻译的基础原则",
+      "course_evidence": "忠实任务不能把不确定关系写成事实；自由改写的许可另行定义。增加一句禁令是否有效仍需验证。",
+      "implementation": "独立提示段：不补原文没有的背景事实、人物动机、因果、情节或新意象；保留合法比喻、拟人、夸张，不把诗歌喻体机械当作新增事实。不得将这段偷偷写进其他条件的基础提示。",
+      "decision_focus": "检查增补等级、关键失败与诗性是否被压低；删此段只测试提醒增量，不改变忠实评价目标。",
+      "contrasts": [
+        {
+          "test": "G5-C06",
+          "control": "G5-C00",
+          "interpretation": "单独加入的增量"
+        },
+        {
+          "test": "G5-C08",
+          "control": "G5-C14",
+          "interpretation": "完整组中保留该项的增量"
+        }
+      ]
+    },
+    {
+      "id": "F24",
+      "group": "G5",
+      "name": "规定歧义、信息不足时的处理",
+      "source_method_ids": [
+        "M07"
+      ],
+      "ppt_and_references": "8、10、15—16、28、43；[S02]、[S06]、[S07]",
+      "course_attitude": "按需保留",
+      "course_evidence": "资料缺失应补资料或允许指出不足；反复强调准确不能填补事实缺口。也需检查过度拒答，不能统一要求更肯定或更保守。",
+      "implementation": "独立提示段：影响翻译的歧义保留合理不确定，不强行选无依据解释；必要时在notes中列原文片段及简短可选读法。正文仍完成全诗，不因一般诗意多解就拒译。",
+      "decision_focus": "只按translation给翻译成绩，另审notes是否有原文依据；检查过度拒译、含糊和擅自定论。",
+      "contrasts": [
+        {
+          "test": "G5-C07",
+          "control": "G5-C00",
+          "interpretation": "单独加入的增量"
+        },
+        {
+          "test": "G5-C08",
+          "control": "G5-C15",
+          "interpretation": "完整组中保留该项的增量"
+        }
+      ]
+    },
+    {
+      "id": "F25",
+      "group": "G6",
+      "name": "多次采样生成候选",
+      "source_method_ids": [
+        "M31"
+      ],
+      "ppt_and_references": "70；[S17]",
+      "course_attitude": "有条件有效，需计总预算",
+      "course_evidence": "Self-Consistency 在特定推理基准有效；候选可能共享错误。多次采样不保证当前诗词翻译更好，应与同预算策略比较。",
+      "implementation": "同一源文每run预生成8个独立新上下文候选，候选1复用B；k=2/4/8采用前k槽。模型和温度固定，重复译文不重抽。随机对照在读文本前冻结索引，不按最终分数择稿。",
+      "decision_focus": "候选数量是F25的水平，不另成因子；比较同一选择方式下的k曲线及完整成本，候选错误可能相关。",
+      "contrasts": [
+        {
+          "test": "G6-C04",
+          "control": "G6-C02",
+          "interpretation": "比较式选择下4对2候选"
+        },
+        {
+          "test": "G6-C06",
+          "control": "G6-C04",
+          "interpretation": "比较式选择下8对4候选"
+        }
+      ]
+    },
+    {
+      "id": "F26",
+      "group": "G6",
+      "name": "聚合／筛选候选",
+      "source_method_ids": [
+        "M32"
+      ],
+      "ppt_and_references": "70、87—88；[S17]、[S03]",
+      "course_attitude": "语义与用途筛选按需；直接字面投票不适合开放翻译",
+      "course_evidence": "正确译法可能有多种措辞，出现最多不等于最好；课件建议先查语义再比较表达，允许平局和多版本。",
+      "implementation": "在相同池中比较预定随机选择、模型比较式选择、逐份独立打分后取最高；模型只看原文、固定任务和匿名候选，不用gold，只返回ID不改写。四候选另做展示顺序反转，ID随稿移动。逐份评分七维等权，平局按文本SHA-256及固定ID。",
+      "decision_focus": "逐份评分与比较式选择的取舍规则和调用数不同，视为完整流程对照；选中关键错稿不能因诗性均分高而获推荐。事后池内最高裁判分只作诊断，不回流选择。",
+      "contrasts": [
+        {
+          "test": "G6-C02",
+          "control": "G6-C01",
+          "interpretation": "2候选中模型对随机"
+        },
+        {
+          "test": "G6-C04",
+          "control": "G6-C03",
+          "interpretation": "4候选中模型对随机"
+        },
+        {
+          "test": "G6-C06",
+          "control": "G6-C05",
+          "interpretation": "8候选中模型对随机"
+        },
+        {
+          "test": "G6-C07",
+          "control": "G6-C04",
+          "interpretation": "展示顺序敏感性"
+        },
+        {
+          "test": "G6-C08",
+          "control": "G6-C04",
+          "interpretation": "逐份评分对比较式完整流程"
+        }
+      ]
+    },
+    {
+      "id": "F27",
+      "group": "G6",
+      "name": "树搜索",
+      "source_method_ids": [
+        "M33"
+      ],
+      "ppt_and_references": "72；[S14]",
+      "course_attitude": "边界介绍，针对存在可比较分支的瓶颈",
+      "course_evidence": "增加候选搜索与评价成本；课件未提供唐诗翻译有效性实验，也未要求本题采用。",
+      "implementation": "项目化的小型树：独立提出2份简短译前方案→评价器只据源文选1方案→沿该方案独立生成2份英译→选择器选1，共6次模型调用。与5份平铺候选+一次选择的6调用对照比较；每次评价不使用最终gold。",
+      "decision_focus": "深度、宽度和保留分支数是F27内部参数；同调用数不等于同token。课件第72页只有边界介绍，此具体树为项目设计，检查错误分析锚定及总成本。",
+      "contrasts": [
+        {
+          "test": "G6-C09",
+          "control": "G6-C10",
+          "interpretation": "树与平铺同6调用数"
+        }
+      ]
+    },
+    {
+      "id": "F28",
+      "group": "G6",
+      "name": "工具行动循环",
+      "source_method_ids": [
+        "M34"
+      ],
+      "ppt_and_references": "72；[S14]",
+      "course_attitude": "边界介绍，确需新外部信息时有用途",
+      "course_evidence": "若工具提供可靠新观察，收益可能来自新增证据；不应仅凭流程名称判断更强。",
+      "implementation": "使用独立公开来源构建的冻结词义／典故库，工具仅允许本地查询。控制器最多提出2轮查询，按同一资料预算保留结果，再生成译文；同时设静态资料对照，使用同一库预先整理的固定注释，和无资料B共同比较。正文与库均不来自D的评分gold。",
+      "decision_focus": "工具循环与静态资料可能取回不同内容，比较的是完整检索流程，分报新增信息、选择能力与工具成本；参考资料只是此因子的必要对照背景，不恢复第4组独立资料实验。",
+      "contrasts": [
+        {
+          "test": "G6-C11",
+          "control": "G6-C12",
+          "interpretation": "工具循环与静态资料"
+        },
+        {
+          "test": "G6-C11",
+          "control": "G6-C00",
+          "interpretation": "工具完整流程对无资料"
+        }
+      ]
+    },
+    {
+      "id": "F29",
+      "group": "G6",
+      "name": "多模型协作",
+      "source_method_ids": [
+        "M35"
+      ],
+      "ppt_and_references": "72；[S14]、[S17]",
+      "course_attitude": "按瓶颈选择，证据不足以默认更可靠",
+      "course_evidence": "应说明分工、信息和选择机制，检验错误互补性；多个模型也可能共享误解。课件未证明协作普遍胜过单模型。",
+      "implementation": "固定总计4份候选与同一选择器A，比较A模型4份、B模型4份、A/B各2份；混合池复用各自前2槽。提示、源文和输出限制相同，匿名候选不含模型身份；B须在运行前冻结。 A为当前主轨MiMo或云端Qwen Flash，B为另一实验生成模型；切换主轨后对换A/B，选择器始终用主轨。",
+      "decision_focus": "分别对全A、全B比较，避免把更强B的收益全归于协作。统计模型间共同错误与选择结果；不做额外辩论或多角色轮次。",
+      "contrasts": [
+        {
+          "test": "G6-C13",
+          "control": "G6-C04",
+          "interpretation": "混合对全A"
+        },
+        {
+          "test": "G6-C13",
+          "control": "G6-C14",
+          "interpretation": "混合对全B"
+        }
+      ]
+    }
+  ],
+  "removed_standalone_method_ids": [
+    "M08"
+  ],
+  "data": {
+    "development_corpus": "../data/benchmark/poems.json",
+    "development_annotations": "../data/benchmark/gold_annotations.json",
+    "usage": "existing_16_as_development_evaluation_for_selection",
+    "example_pool_candidate_count": 8,
+    "example_quality_versions_per_poem": 2,
+    "example_assets_status": "prepared_authored_draft_pending_independent_human_review",
+    "future_validation_poems": 16,
+    "future_validation_matrix": "deferred_until_within_group_results"
+  },
+  "generation_model": {
+    "mode": "two_separate_full_tracks",
+    "track_ids": [
+      "mimo_v26_flash",
+      "qwen_flash"
+    ]
+  },
+  "feedback_or_generator_B": "other experimental cloud Flash track; final judge excluded",
+  "repeats": 5,
+  "counts": {
+    "scope": "both_generator_tracks_unless_explicitly_per_track",
+    "active_groups": 6,
+    "active_factors": 28,
+    "generator_tracks": 2,
+    "group_condition_entries_per_track": 61,
+    "base_unique_conditions_per_track": 51,
+    "gated_conditions_per_track": 3,
+    "all_unique_conditions_per_track_upper_bound": 54,
+    "base_model_condition_pairs": 102,
+    "all_model_condition_pairs_upper_bound": 108,
+    "development_poems": 16,
+    "runs_per_poem_per_track": 5,
+    "base_output_records": 8160,
+    "all_output_records_upper_bound": 8640,
+    "judge_models": 1,
+    "absolute_repeats_per_output": 1,
+    "absolute_judge_calls_base_upper_bound": 8160,
+    "absolute_judge_calls_all_upper_bound": 8640,
+    "pairwise_orders": 0,
+    "pairwise_judge_calls": 0,
+    "judge_calls_base_upper_bound": 8160,
+    "judge_calls_all_upper_bound": 8640,
+    "generation_call_estimate_base_before_cross_track_reuse": 11520,
+    "generation_call_estimate_all_before_cross_track_reuse": 12800,
+    "score_contrasts_per_track": 12,
+    "score_contrasts_both_tracks": 24,
+    "catalogued_factors": 29,
+    "disabled_factors": 1
+  },
+  "ready_to_run": false,
+  "pending": [
+    "独立人工文学审校：D原文与gold、E高低示例、术语与冻结资料库",
+    "集合外C人工锚点与裁判校准、长篇输出空间及两家真实接口预检",
+    "正式记录实际模型版本与usage，确认Batch服务参数与费用上限",
+    "完整条件已配齐且离线图通过；尚未执行付费模型实验"
+  ],
+  "cross_group_ablation": "deferred_until_within_group_results",
+  "final_validation": "deferred_until_within_group_results",
+  "factorial_coverage_claim": "G5 addition and leave-one-out; selected G2/G1 local 2x2; not a complete factorial of all methods",
+  "group_order_source": [
+    5,
+    4,
+    3,
+    2,
+    1,
+    6
+  ],
+  "example_factor_replaces_original_method_rows": [
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M12",
+    "M13",
+    "M14"
+  ],
+  "model_configuration": "models.json",
+  "evaluation_model": "deepseek-flash",
+  "judge_model_count": 1,
+  "judge_repeats": 1,
+  "run_identity": [
+    "generator_track",
+    "condition_id",
+    "poem_id",
+    "run_id"
+  ],
+  "alias_scope": "within_generator_track",
+  "evaluation_output": "one 0-100 score only; no reasoning or explanation",
+  "pairwise_evaluation_enabled": false,
+  "evaluation_effort": {
+    "thinking": "disabled",
+    "reasoning_effort_sent": false
+  },
+  "global_thinking_policy": "generation_enabled_lowest_available_qwen_budget1_mimo_switch_only; judge_disabled; requirements_section22",
+  "disabled_conditions": [
+    {
+      "id": "G2-C05",
+      "name": "low推理预算；无译前分析",
+      "factor_levels": {
+        "F12": "low"
+      },
+      "alias_of": null,
+      "gate": "explicit_reasoning_budget_supported",
+      "fixed_background": null,
+      "status": "disabled_by_user_all_thinking_off",
+      "execute": false
+    },
+    {
+      "id": "G2-C06",
+      "name": "high推理预算；无译前分析",
+      "factor_levels": {
+        "F12": "high"
+      },
+      "alias_of": null,
+      "gate": "explicit_reasoning_budget_supported",
+      "fixed_background": null,
+      "status": "disabled_by_user_all_thinking_off",
+      "execute": false
+    },
+    {
+      "id": "G2-C07",
+      "name": "low推理预算；有译前分析",
+      "factor_levels": {
+        "F12": "low",
+        "F10": "on"
+      },
+      "alias_of": null,
+      "gate": "explicit_reasoning_budget_supported",
+      "fixed_background": null,
+      "status": "disabled_by_user_all_thinking_off",
+      "execute": false
+    },
+    {
+      "id": "G2-C08",
+      "name": "high推理预算；有译前分析",
+      "factor_levels": {
+        "F12": "high",
+        "F10": "on"
+      },
+      "alias_of": null,
+      "gate": "explicit_reasoning_budget_supported",
+      "fixed_background": null,
+      "status": "disabled_by_user_all_thinking_off",
+      "execute": false
+    }
+  ],
+  "output_protocol": "natural_conversation_final_translation_tag_v1",
+  "runtime_override": "requirements section26 supersedes historical JSON/notes/structured-feedback implementation; factors and condition counts unchanged"
+}

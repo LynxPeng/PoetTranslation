@@ -1,0 +1,378 @@
+{
+  "metadata": {
+    "status": "source_checked_pending_independent_human_review",
+    "source": "源词只来自data/benchmark/poems.json的title/text；英文映射另见sources。未读取gold_annotations或manifest。",
+    "policy": "仅提取短词／名称对应，不采用外部整句或整首参考译文，不传入历史身份或典故解释。sources为审核台账，生成器只接收poems中对应作品的小表。所有表达为可接受候选，不规定唯一正确答案。 小表不要求逐字照搬；符合原作的其他正确表达同样可接受，屈折与单复数按句法选择。",
+    "sourced_reading": true,
+    "sources": {
+      "S01": {
+        "title": "Yangguan Pass",
+        "publisher": "ChinaCulture / China.org.cn",
+        "url": "https://en.chinaculture.org/2017-09/18/content_1073149.htm",
+        "checked_excerpt": "Yangguan Pass",
+        "supports": "阳关的英语名称；正文亦使用Yangguan。不引入该页诗句译文或历史解释。",
+        "verification": "opened_page_content",
+        "verified_on": "2026-11-01"
+      },
+      "S02": {
+        "title": "用英语介绍湖北（1）",
+        "publisher": "湖北省委外办翻译中心",
+        "url": "https://www.fohb.gov.cn/info/2024-06/20240615211000_5261.html",
+        "checked_excerpt": "黄鹤楼Yellow Crane Tower",
+        "supports": "双语标题直接对应名称。",
+        "verification": "opened_page_content",
+        "verified_on": "2026-11-01"
+      },
+      "S03": {
+        "title": "揚州 — Chinese proper noun",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/揚州",
+        "checked_excerpt": "Yangzhou",
+        "supports": "Chinese proper noun第1义直接给出Yangzhou；简体栏有扬州。众包双语词典，尚待人工复核。",
+        "verification": "opened_page_content",
+        "verified_on": "2026-11-01"
+      },
+      "S04": {
+        "title": "長江 — Chinese proper noun",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/長江",
+        "checked_excerpt": "Yangtze River",
+        "supports": "Chinese proper noun第1义直接给出Yangtze River；仅提取词头释义，不使用例句参考译文。众包词典待复核。",
+        "verification": "opened_page_content",
+        "verified_on": "2026-11-01"
+      },
+      "S05": {
+        "title": "Listening to Chinese Music",
+        "publisher": "香港教育局网站／香港中文大学中国音乐资料馆",
+        "url": "https://www.edb.gov.hk/attachment/en/curriculum-development/kla/arts-edu/resources/mus-curri/listening-to-chinese-music-e.pdf",
+        "checked_excerpt": "Pipa (琵琶) Music",
+        "supports": "PDF实际第3页目录Section3及第2页版权说明，直接对应pipa与琵琶。仅用乐器译名。",
+        "verification": "opened_pdf_content",
+        "verified_on": "2026-11-01"
+      },
+      "S06": {
+        "title": "pipa — English noun",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/pipa",
+        "checked_excerpt": "Chinese lute",
+        "supports": "English词条的Translations栏有Chinese lute，Mandarin为琵琶。作为可接受概括称谓，不主张唯一精确名称。",
+        "verification": "opened_page_content",
+        "verified_on": "2026-11-01"
+      },
+      "S07": {
+        "title": "Chibi Ancient Battlefield",
+        "publisher": "湖北省人民政府外事办公室",
+        "url": "https://www.fohb.gov.cn/info/2015-09/20150907102400_744.html",
+        "checked_excerpt": "Chibi, meaning red cliff in Chinese",
+        "supports": "仅支持赤壁的Chibi／red cliff词名对应；不认定词作写景位置与该战场遗址完全相同。",
+        "verification": "opened_page_content",
+        "verified_on": "2026-11-01"
+      },
+      "S08": {
+        "title": "廉頗",
+        "publisher": "教育部《重編國語辭典修訂本》",
+        "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=64152",
+        "checked_excerpt": "lián pō",
+        "supports": "原词头与汉语拼音；Lian Po去声调、分词及大写是项目音译排版选择，不是该页直接英文译名。",
+        "verification": "opened_page_content",
+        "verified_on": "2026-11-01"
+      },
+      "S09": {
+        "title": "故鄉 — Chinese dictionary entry",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/故鄉",
+        "checked_excerpt": "native land; hometown",
+        "supports": "Chinese Noun：只提取词义，不限定具体故乡地点。 众包双语词典，尚待独立人工复核。",
+        "verification": "opened_page_content_and_checked_definition",
+        "verified_on": "2026-11-01"
+      },
+      "S10": {
+        "title": "青苔 — Chinese dictionary entry",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/青苔",
+        "checked_excerpt": "moss",
+        "supports": "Chinese Noun：仅词名对应；颜色仍依原文组织。 众包双语词典，尚待独立人工复核。",
+        "verification": "opened_page_content_and_checked_definition",
+        "verified_on": "2026-11-01"
+      },
+      "S11": {
+        "title": "烽火 — Chinese dictionary entry",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/烽火",
+        "checked_excerpt": "signal-fire; war; conflict",
+        "supports": "Chinese Noun：本义及figurative义；不提取诗句例译或确定历史事件。 众包双语词典，尚待独立人工复核。",
+        "verification": "opened_page_content_and_checked_definition",
+        "verified_on": "2026-11-01"
+      },
+      "S12": {
+        "title": "浣 — Chinese dictionary entry",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/浣",
+        "checked_excerpt": "to wash; to rinse",
+        "supports": "Chinese Definitions：只提供洗涤词义，不传例句译文或人物关系分析。 众包双语词典，尚待独立人工复核。",
+        "verification": "opened_page_content_and_checked_definition",
+        "verified_on": "2026-11-01"
+      },
+      "S13": {
+        "title": "藕花 — Chinese dictionary entry",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/藕花",
+        "checked_excerpt": "lotus",
+        "supports": "Chinese Noun：植物词名对应，不限定英语单复数。 众包双语词典，尚待独立人工复核。",
+        "verification": "opened_page_content_and_checked_definition",
+        "verified_on": "2026-11-01"
+      },
+      "S14": {
+        "title": "燕 — Chinese dictionary entry",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/燕",
+        "checked_excerpt": "swallow",
+        "supports": "Chinese Etymology1 Definitions第1义的鸟名；不限定单复数。 众包双语词典，尚待独立人工复核。",
+        "verification": "opened_page_content_and_checked_definition",
+        "verified_on": "2026-11-01"
+      },
+      "S15": {
+        "title": "舴艋 — Chinese dictionary entry",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/舴艋",
+        "checked_excerpt": "small boat",
+        "supports": "Chinese Noun文学义：仅短词义，不提取该页诗句例译。 众包双语词典，尚待独立人工复核。",
+        "verification": "opened_page_content_and_checked_definition",
+        "verified_on": "2026-11-01"
+      },
+      "S16": {
+        "title": "危樓 — Chinese dictionary entry",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/危樓",
+        "checked_excerpt": "tall building",
+        "supports": "Chinese Noun第1义标literary；仅词义，不引入建筑损毁的另一义。 众包双语词典，尚待独立人工复核。",
+        "verification": "opened_page_content_and_checked_definition",
+        "verified_on": "2026-11-01"
+      },
+      "S17": {
+        "title": "霜 — Chinese dictionary entry",
+        "publisher": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/霜",
+        "checked_excerpt": "frost",
+        "supports": "Chinese Definitions第1义：仅意象词义，不说明诗句比喻如何解释。 众包双语词典，尚待独立人工复核。",
+        "verification": "opened_page_content_and_checked_definition",
+        "verified_on": "2026-11-01"
+      }
+    },
+    "review_required": "已逐页核对网页内容／PDF词名，不等于独立人工语言、文学或来源审核完成；正式冻结前仍须人工审核。",
+    "withheld_unsourced_candidates": [
+      "安西",
+      "渭城",
+      "浔阳",
+      "浮梁",
+      "江州",
+      "双溪",
+      "公瑾",
+      "小乔",
+      "孙仲谋",
+      "寄奴",
+      "元嘉"
+    ],
+    "source_supported_unique_mappings": 16,
+    "direct_english_unique_mappings": 15,
+    "pinyin_derived_project_choices": 1,
+    "source_supported_entry_instances": 18,
+    "nonempty_poems": 16,
+    "empty_poems": 0,
+    "limitations": "覆盖全部16首，各诗1—3词；词表只提供有限词义或名称帮助，不能代表完整背景资料。16个独立词条中15个有直接英语对照、廉颇一项依据官方汉语拼音作明确标注的项目音译；众包词典不等于独立文学审校。"
+  },
+  "poems": {
+    "T01": [
+      {
+        "source": "故乡",
+        "target": "native land",
+        "variants": [
+          "hometown"
+        ],
+        "source_ids": [
+          "S09"
+        ]
+      }
+    ],
+    "T02": [
+      {
+        "source": "青苔",
+        "target": "moss",
+        "variants": [],
+        "source_ids": [
+          "S10"
+        ]
+      }
+    ],
+    "T03": [
+      {
+        "source": "阳关",
+        "target": "Yangguan Pass",
+        "variants": [
+          "Yangguan"
+        ],
+        "source_ids": [
+          "S01"
+        ]
+      }
+    ],
+    "T04": [
+      {
+        "source": "黄鹤楼",
+        "target": "Yellow Crane Tower",
+        "variants": [],
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "source": "扬州",
+        "target": "Yangzhou",
+        "variants": [],
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "source": "长江",
+        "target": "Yangtze River",
+        "variants": [],
+        "source_ids": [
+          "S04"
+        ]
+      }
+    ],
+    "T05": [
+      {
+        "source": "烽火",
+        "target": "signal-fire",
+        "variants": [
+          "war",
+          "conflict"
+        ],
+        "source_ids": [
+          "S11"
+        ]
+      }
+    ],
+    "T06": [
+      {
+        "source": "浣",
+        "target": "wash",
+        "variants": [
+          "rinse"
+        ],
+        "source_ids": [
+          "S12"
+        ]
+      }
+    ],
+    "T07": [
+      {
+        "source": "长江",
+        "target": "Yangtze River",
+        "variants": [],
+        "source_ids": [
+          "S04"
+        ]
+      }
+    ],
+    "T08": [
+      {
+        "source": "琵琶",
+        "target": "pipa",
+        "variants": [
+          "Chinese lute"
+        ],
+        "source_ids": [
+          "S05",
+          "S06"
+        ]
+      }
+    ],
+    "S01": [
+      {
+        "source": "藕花",
+        "target": "lotus",
+        "variants": [],
+        "source_ids": [
+          "S13"
+        ]
+      }
+    ],
+    "S02": [
+      {
+        "source": "燕",
+        "target": "swallow",
+        "variants": [],
+        "source_ids": [
+          "S14"
+        ]
+      }
+    ],
+    "S03": [
+      {
+        "source": "长江",
+        "target": "Yangtze River",
+        "variants": [],
+        "source_ids": [
+          "S04"
+        ]
+      }
+    ],
+    "S04": [
+      {
+        "source": "舴艋",
+        "target": "small boat",
+        "variants": [],
+        "source_ids": [
+          "S15"
+        ]
+      }
+    ],
+    "S05": [
+      {
+        "source": "危楼",
+        "target": "tall building",
+        "variants": [],
+        "source_ids": [
+          "S16"
+        ]
+      }
+    ],
+    "S06": [
+      {
+        "source": "霜",
+        "target": "frost",
+        "variants": [],
+        "source_ids": [
+          "S17"
+        ]
+      }
+    ],
+    "S07": [
+      {
+        "source": "赤壁",
+        "target": "Chibi",
+        "variants": [
+          "Red Cliff"
+        ],
+        "source_ids": [
+          "S07"
+        ],
+        "project_choice": "Red Cliff的首字母大写仅作专名排版"
+      }
+    ],
+    "S08": [
+      {
+        "source": "廉颇",
+        "target": "Lian Po",
+        "variants": [],
+        "source_ids": [
+          "S08"
+        ],
+        "project_choice": "据lián pō去声调并按姓名大写，非来源直引英文译名"
+      }
+    ]
+  }
+}

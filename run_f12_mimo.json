@@ -1,0 +1,222 @@
+{
+  "poems": "data/benchmark/poems.json",
+  "design": "experiments/f12_design.json",
+  "gold": "data/benchmark/gold_annotations.json",
+  "manifest": "data/benchmark/manifest.json",
+  "rubric": "evaluation/rubric.json",
+  "judge_prompt": "evaluation/judge_prompt.md",
+  "generation_output": "results/translations.json_mode_no_thinking.jsonl",
+  "evaluation_output": "results/scores.jsonl",
+  "repeats": 5,
+  "conditions": [
+    "G2-C05",
+    "G2-C07",
+    "G2-C09",
+    "G2-C10"
+  ],
+  "judge": "deepseek",
+  "models": {
+    "mimo": {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "base_url": "https://api.xiaomimimo.com/v1",
+      "api_key_env": "MIMO_API_KEY",
+      "thinking_enabled": false,
+      "timeout": 300
+    },
+    "formatter": {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "base_url": "https://api.xiaomimimo.com/v1",
+      "api_key_env": "MIMO_API_KEY",
+      "thinking_enabled": false,
+      "timeout": 300
+    },
+    "deepseek": {
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "api_key_env": "DEEPSEEK_API_KEY"
+    },
+    "enabled": {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "base_url": "https://api.xiaomimimo.com/v1",
+      "api_key_env": "MIMO_API_KEY",
+      "thinking_enabled": true,
+      "timeout": 300
+    },
+    "partner": {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "base_url": "https://api.xiaomimimo.com/v1",
+      "api_key_env": "MIMO_API_KEY",
+      "thinking_enabled": false,
+      "timeout": 300
+    }
+  },
+  "transport": "realtime",
+  "steps_output": "results/steps.jsonl",
+  "generation_tracks": [
+    "mimo",
+    "partner"
+  ],
+  "materials": {
+    "examples": "data/experiment/examples.json",
+    "glossaries": "data/experiment/glossaries.json",
+    "references": "data/experiment/references.json",
+    "static_references": "data/experiment/static_references.json"
+  },
+  "configuration_version": "f12-budget-supplement-v1",
+  "material_review_status": "authored_draft_pending_human_literary_review",
+  "single_turn_source_first": true,
+  "realtime_steps_output": "results/realtime_steps.f12.jsonl",
+  "batch_generation_output": "results/translations.jsonl",
+  "translation_tags": true,
+  "generation_workers": 48,
+  "natural_conversations": true,
+  "final_json_output": true,
+  "experiments": {
+    "G2-C05": {
+      "steps": [
+        {
+          "id": "draft",
+          "model": "enabled",
+          "max_tokens": 32768,
+          "output_format": "text",
+          "sample_slot": "f12_translation",
+          "prompt": "将给定完整作品译成英语诗。只给完整英文译文正文。\n待译作品数据：\n{{source}}"
+        },
+        {
+          "id": "translation",
+          "model": "formatter",
+          "max_tokens": 32768,
+          "output_format": "translation",
+          "temperature": 0,
+          "sample_slot": "f12_json_pack",
+          "exact_copy_from": "draft",
+          "prompt": "仅封装下面已有英文译文。逐字保留全部内容、措辞、标点和诗行换行，不润色、不修订、不增删。\n{{draft}}"
+        }
+      ],
+      "factors": [
+        "F12"
+      ],
+      "f12": {
+        "mode": "enabled",
+        "analysis": false,
+        "matched_control": "G2-C09"
+      }
+    },
+    "G2-C07": {
+      "steps": [
+        {
+          "id": "analysis",
+          "prompt": "仅凭下列完整原作，输出紧凑的五项分析结果：人物与逻辑、意象修辞、情绪推进、词义典故疑点、篇章结构。每项列支持片段及不确定处；不编造资料。这是简短结果表，不输出思考链。\n原作数据：{{source}}",
+          "sample_slot": "analysis",
+          "output_format": "text",
+          "model": "enabled",
+          "max_tokens": 32768
+        },
+        {
+          "id": "draft",
+          "model": "enabled",
+          "max_tokens": 32768,
+          "output_format": "text",
+          "sample_slot": "f12_translation",
+          "prompt": "请根据对话中的完整原作和译前分析，完成整首英译。分析可能有误，始终以原作为准。只给完整英文译文正文。",
+          "history_from": "analysis"
+        },
+        {
+          "id": "translation",
+          "model": "formatter",
+          "max_tokens": 32768,
+          "output_format": "translation",
+          "temperature": 0,
+          "sample_slot": "f12_json_pack",
+          "exact_copy_from": "draft",
+          "prompt": "仅封装下面已有英文译文。逐字保留全部内容、措辞、标点和诗行换行，不润色、不修订、不增删。\n{{draft}}"
+        }
+      ],
+      "factors": [
+        "F12",
+        "F10"
+      ],
+      "f12": {
+        "mode": "enabled",
+        "analysis": true,
+        "matched_control": "G2-C10"
+      }
+    },
+    "G2-C09": {
+      "steps": [
+        {
+          "id": "draft",
+          "model": "mimo",
+          "max_tokens": 32768,
+          "output_format": "text",
+          "sample_slot": "f12_translation",
+          "prompt": "将给定完整作品译成英语诗。只给完整英文译文正文。\n待译作品数据：\n{{source}}"
+        },
+        {
+          "id": "translation",
+          "model": "formatter",
+          "max_tokens": 32768,
+          "output_format": "translation",
+          "temperature": 0,
+          "sample_slot": "f12_json_pack",
+          "exact_copy_from": "draft",
+          "prompt": "仅封装下面已有英文译文。逐字保留全部内容、措辞、标点和诗行换行，不润色、不修订、不增删。\n{{draft}}"
+        }
+      ],
+      "factors": [
+        "F12"
+      ],
+      "f12": {
+        "mode": "off",
+        "analysis": false,
+        "matched_control": "G2-C09"
+      }
+    },
+    "G2-C10": {
+      "steps": [
+        {
+          "id": "analysis",
+          "prompt": "仅凭下列完整原作，输出紧凑的五项分析结果：人物与逻辑、意象修辞、情绪推进、词义典故疑点、篇章结构。每项列支持片段及不确定处；不编造资料。这是简短结果表，不输出思考链。\n原作数据：{{source}}",
+          "sample_slot": "analysis",
+          "output_format": "text",
+          "model": "mimo",
+          "max_tokens": 32768
+        },
+        {
+          "id": "draft",
+          "model": "mimo",
+          "max_tokens": 32768,
+          "output_format": "text",
+          "sample_slot": "f12_translation",
+          "prompt": "请根据对话中的完整原作和译前分析，完成整首英译。分析可能有误，始终以原作为准。只给完整英文译文正文。",
+          "history_from": "analysis"
+        },
+        {
+          "id": "translation",
+          "model": "formatter",
+          "max_tokens": 32768,
+          "output_format": "translation",
+          "temperature": 0,
+          "sample_slot": "f12_json_pack",
+          "exact_copy_from": "draft",
+          "prompt": "仅封装下面已有英文译文。逐字保留全部内容、措辞、标点和诗行换行，不润色、不修订、不增删。\n{{draft}}"
+        }
+      ],
+      "factors": [
+        "F12",
+        "F10"
+      ],
+      "f12": {
+        "mode": "off",
+        "analysis": true,
+        "matched_control": "G2-C10"
+      }
+    }
+  },
+  "normal_flow_fixes": true
+}

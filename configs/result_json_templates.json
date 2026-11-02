@@ -1,0 +1,27 @@
+{
+  "translation": {
+    "translation": "",
+    "notes": []
+  },
+  "feedback": {
+    "errors": [
+      {
+        "summary": "",
+        "direction": "",
+        "source_span": {"quote": "", "start": 0, "end": 0},
+        "target_span": {"quote": "", "start": 0, "end": 0},
+        "category": "",
+        "severity": "",
+        "uncertain": false,
+        "evidence": {"standard": "", "quote": "", "reason": ""}
+      }
+    ]
+  },
+  "analysis": {"analysis": ""},
+  "back_translation": {"back_translation": ""},
+  "plan": {"plan": ""},
+  "query": {"query": ""},
+  "candidate_id": {"candidate_id": 1},
+  "score": {"score": 0},
+  "result": {"result": ""}
+}

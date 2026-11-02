@@ -1,0 +1,451 @@
+{
+  "metadata": {
+    "version": "1.0-draft",
+    "frozen_at": "2026-11-01",
+    "status": "public_source_checked_human_literary_review_pending",
+    "construction": "依据公开教育部辞典和公版史记独立编写简短词义背景；未读取评分标注或其覆盖清单，非标准译文，非评分答案。每首2条。",
+    "scope": "只提供词汇可能义项与保守背景，不列评分点、不指定全诗唯一解释。每条保留公开原作来源及词义资料来源。",
+    "retrieval": "按该诗的terms检索，只返回命中条目；空检索或未命中返回无结果，不回退整库。两轮各最多600字符，累计1200；第二轮排除已见条目。",
+    "static": "同库全部2条简短注释及来源，最多1200字符。"
+  },
+  "poems": {
+    "T01": [
+      {
+        "id": "T01-R1",
+        "terms": [
+          "故乡",
+          "故鄉"
+        ],
+        "text": "故乡：家乡。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=71513&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/靜夜思",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "T01-R2",
+        "terms": [
+          "霜"
+        ],
+        "text": "霜：近地面的水汽遇冷形成的白色晶体；字也可形容白色。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=9186&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/靜夜思",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "T02": [
+      {
+        "id": "T02-R1",
+        "terms": [
+          "返景",
+          "景"
+        ],
+        "text": "景有日光义；教育部异体字字典景条引《鹿柴》的返景入深林作为用例。",
+        "source_url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=19996&la=1&powerMode=2",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/鹿柴_(王維)",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "T02-R2",
+        "terms": [
+          "青苔",
+          "苔"
+        ],
+        "text": "青苔：青色的苔藓。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=101961&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/鹿柴_(王維)",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "T03": [
+      {
+        "id": "T03-R1",
+        "terms": [
+          "浥"
+        ],
+        "text": "浥：使之润湿、沾湿，辞典以渭城朝雨浥轻尘为例。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=10628&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/送元二使安西",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "T03-R2",
+        "terms": [
+          "故人"
+        ],
+        "text": "故人有老友义，也有其他义项，须依据上下文确定。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=71541&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/送元二使安西",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "T04": [
+      {
+        "id": "T04-R1",
+        "terms": [
+          "烟花",
+          "煙花"
+        ],
+        "text": "烟花可指春花盛开、如烟似雾之景，辞典以本诗首联为例。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=154884&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://cd.edb.gov.hk/chi/resource/ncs/download/js_list/JS_huanghelousongmenghaoran.pdf",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "T04-R2",
+        "terms": [
+          "孤帆"
+        ],
+        "text": "孤帆可借指孤舟。仅取词义，不采用词典引诗中的碧山异文。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=70783&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://cd.edb.gov.hk/chi/resource/ncs/download/js_list/JS_huanghelousongmenghaoran.pdf",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "T05": [
+      {
+        "id": "T05-R1",
+        "terms": [
+          "烽火"
+        ],
+        "text": "烽火原指边防报警烟火，也用来代指战争。",
+        "source_url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1228&webMd=1",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/春望",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "T05-R2",
+        "terms": [
+          "簪"
+        ],
+        "text": "簪：古代固定头发或头冠的饰物。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=9555&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/春望",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "T06": [
+      {
+        "id": "T06-R1",
+        "terms": [
+          "王孙",
+          "王孫"
+        ],
+        "text": "王孙既可指贵族后裔，也可作对人的尊称。词典多义项不能单独决定本诗所指。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=162671&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/山居秋暝",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "T06-R2",
+        "terms": [
+          "浣女",
+          "浣"
+        ],
+        "text": "浣的动词义包括洗涤、洗濯。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=11497&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/山居秋暝",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "T07": [
+      {
+        "id": "T07-R1",
+        "terms": [
+          "潦倒"
+        ],
+        "text": "潦倒有失意、不得志义，亦有其他用法；辞典在失意义项引本诗末联。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=63041&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/登高",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "T07-R2",
+        "terms": [
+          "霜鬓",
+          "霜鬢"
+        ],
+        "text": "霜鬓指白色的鬓发。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=134792&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/登高",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "T08": [
+      {
+        "id": "T08-R1",
+        "terms": [
+          "琵琶"
+        ],
+        "text": "琵琶是一类弹拨弦乐器；古今形制有演变。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=24672&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/琵琶行",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "T08-R2",
+        "terms": [
+          "谪",
+          "谪居",
+          "謫"
+        ],
+        "text": "谪可指古代官吏降职调任。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7686&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/琵琶行",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "S01": [
+      {
+        "id": "S01-R1",
+        "terms": [
+          "藕花"
+        ],
+        "text": "藕花就是荷花。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=147671&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/如夢令_(李清照)/如夢令_(常記溪亭日暮)",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "S01-R2",
+        "terms": [
+          "鸥鹭",
+          "鹭",
+          "鷺"
+        ],
+        "text": "鹭为水边栖息、长颈长腿的鸟类，不能据此限定诗中的具体生物物种。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=3792&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/如夢令_(李清照)/如夢令_(常記溪亭日暮)",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "S02": [
+      {
+        "id": "S02-R1",
+        "terms": [
+          "徘徊"
+        ],
+        "text": "徘徊有来回走动、流连等义。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=22965&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.gushiwen.cn/shiwenv_eda29e11ff49.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "S02-R2",
+        "terms": [
+          "似曾相识",
+          "似曾相識"
+        ],
+        "text": "似曾相识表示仿佛以前见过而感到熟悉。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=143780&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.gushiwen.cn/shiwenv_eda29e11ff49.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "S03": [
+      {
+        "id": "S03-R1",
+        "terms": [
+          "相思"
+        ],
+        "text": "相思：思念，常用于对所爱之人的思慕。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=109651&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.gushiwen.cn/shiwenv_d096804a25ff.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "S03-R2",
+        "terms": [
+          "恨"
+        ],
+        "text": "恨既可指遗憾、悔恨之事，也可作怨恨、仇视的动词；应结合篇章语境取义。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=4913&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.gushiwen.cn/shiwenv_d096804a25ff.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "S04": [
+      {
+        "id": "S04-R1",
+        "terms": [
+          "舴艋",
+          "舴艋舟"
+        ],
+        "text": "舴艋：小船，辞典列李清照本词为用例。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=138190&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.gushiwen.cn/shiwenv_cd236de1e210.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "S04-R2",
+        "terms": [
+          "泛",
+          "泛轻舟"
+        ],
+        "text": "泛有漂浮义；泛舟可指乘船游于水上。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1748&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.gushiwen.cn/shiwenv_cd236de1e210.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "S05": [
+      {
+        "id": "S05-R1",
+        "terms": [
+          "危楼",
+          "危樓"
+        ],
+        "text": "危楼在古诗文中可指高楼；该词也有危险建筑的现代常见义。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=160717&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.gushiwen.cn/shiwenv_3264b4f8f750.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "S05-R2",
+        "terms": [
+          "憔悴"
+        ],
+        "text": "憔悴可形容枯槁、瘦病的样子；辞典引本词末句。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=99875&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.gushiwen.cn/shiwenv_3264b4f8f750.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "S06": [
+      {
+        "id": "S06-R1",
+        "terms": [
+          "鬓如霜",
+          "鬓",
+          "霜",
+          "鬢"
+        ],
+        "text": "霜鬓是白色鬓发的说法，提供霜与白发相关的词汇背景。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=134792&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.gushiwen.cn/shiwenv_567fcf6ffefb.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "S06-R2",
+        "terms": [
+          "肠断",
+          "腸斷"
+        ],
+        "text": "肠断用来形容极度悲伤。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=123935&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.gushiwen.cn/shiwenv_567fcf6ffefb.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "S07": [
+      {
+        "id": "S07-R1",
+        "terms": [
+          "酹"
+        ],
+        "text": "酹：将酒洒地祭奠。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=3263&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/念奴嬌_(蘇軾)",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "S07-R2",
+        "terms": [
+          "纶巾",
+          "綸巾"
+        ],
+        "text": "纶巾是一种以青丝带做成的头巾；不采用词典引诗的其他异文。",
+        "source_url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=73738&la=0&powerMode=0",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://zh.wikisource.org/wiki/念奴嬌_(蘇軾)",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ],
+    "S08": [
+      {
+        "id": "S08-R1",
+        "terms": [
+          "廉颇",
+          "廉頗",
+          "尚能饭否"
+        ],
+        "text": "《史记·廉颇蔺相如列传》记赵王派使者看廉颇是否尚可用；廉颇吃饭、披甲上马展示能力，使者却作不利回报。",
+        "source_url": "https://zh.wikisource.org/wiki/史記/卷081",
+        "source_title": "史记·卷081",
+        "poem_source_url": "https://www.guwendao.net/shiwenv_12e69f000057.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      },
+      {
+        "id": "S08-R2",
+        "terms": [
+          "烽火"
+        ],
+        "text": "烽火原指边防报警烟火，也用来代指战争。",
+        "source_url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1228&webMd=1",
+        "source_title": "教育部官方辞典",
+        "poem_source_url": "https://www.guwendao.net/shiwenv_12e69f000057.aspx",
+        "checked_on": "2026-11-01",
+        "note_type": "independent_lexical_background_not_translation_answer"
+      }
+    ]
+  }
+}

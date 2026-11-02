@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "status": "design_draft_not_model_results",
+    "source": "docs/within_group_experiment_plan.md §6",
+    "pages": {
+      "F13": [
+        27,
+        28,
+        66,
+        68,
+        74
+      ],
+      "F14": [
+        28,
+        66
+      ],
+      "F15": [
+        28,
+        70,
+        72
+      ],
+      "F16": [
+        86
+      ]
+    },
+    "quality_standard_text": "逐项检查关键含义与完整性、意象修辞、情绪语气、英语语法及自然度、节奏与整体诗性。"
+  },
+  "experiments": {
+    "G3-C00": {
+      "alias_of": "G1-C00"
+    },
+    "G3-C01": {
+      "steps": [
+        {
+          "id": "translation",
+          "prompt": "将给定完整作品译成英语诗。\n你是一位熟悉唐诗宋词和英语诗歌的专业译者。\n待译作品数据：\n{{source}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        }
+      ],
+      "factors": [
+        "F13"
+      ]
+    },
+    "G3-C02": {
+      "alias_of": "G5-C03"
+    },
+    "G3-C03": {
+      "steps": [
+        {
+          "id": "translation",
+          "prompt": "将给定完整作品译成英语诗。\n你是一位熟悉唐诗宋词和英语诗歌的专业译者。\n逐项检查关键含义与完整性、意象修辞、情绪语气、英语语法及自然度、节奏与整体诗性。\n待译作品数据：\n{{source}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        }
+      ],
+      "factors": [
+        "F13",
+        "F14"
+      ]
+    },
+    "G3-C04": {
+      "steps": [
+        {
+          "id": "translation",
+          "prompt": "将给定完整作品译成英语诗。\n采用凝练的现代英语诗体，按原作的抒情或叙事需要组织停顿和节奏，不添加新意象。\n待译作品数据：\n{{source}}",
+          "output_format": "translation",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          }
+        }
+      ],
+      "factors": [
+        "F16"
+      ]
+    },
+    "G3-C05": {
+      "steps": [
+        {
+          "id": "draft",
+          "prompt": "将给定完整作品译成英语诗。\n待译作品数据：\n{{source}}\n只给英文译文正文。",
+          "sample_slot": "initial",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation"
+        },
+        {
+          "id": "critic_full",
+          "prompt": "分别从语义文化、情绪修辞、英语表达三个视角审阅，并合成一份检查意见。请检查刚才的英译，说明真正影响含义或表达的问题及修改建议。只给问题概述和建议，不引用具体原文或译文片段，也不给字词位置。反馈也可能出错，不要因措辞不同就报错。确实没有需要修改的问题时，只回答“无需修改”；否则用自然语言说明。",
+          "sample_slot": "self_refine_feedback",
+          "max_tokens_by_hanzi": {
+            "70": 1024,
+            "200": 2048,
+            "default": 4096
+          },
+          "history_from": "draft",
+          "output_format": "feedback_text"
+        },
+        {
+          "id": "feedback",
+          "op": "identity",
+          "input": "critic_full"
+        },
+        {
+          "id": "translation",
+          "prompt": "请对照原作核实上面的检查意见，只修正确实存在的问题，允许保留原稿。给出完整英文译文。",
+          "sample_slot": "self_refine_revision",
+          "max_tokens_by_hanzi": {
+            "70": 2304,
+            "200": 4608,
+            "default": 9216
+          },
+          "output_format": "translation",
+          "history_from": "feedback"
+        }
+      ],
+      "technical_fallback": true,
+      "factors": [
+        "F15"
+      ]
+    },
+    "G3-C06": {
+      "alias_of": "G1-C02"
+    }
+  }
+}

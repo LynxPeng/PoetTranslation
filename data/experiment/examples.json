@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "version": "1.0-draft",
+    "frozen_at": "2026-11-01",
+    "status": "source_checked_translation_human_review_pending",
+    "authorship": "项目内由Codex起草的示例译文及受控降质版本，非出版译文，非本项目实验模型API实测输出；high/low是设计标签，并非已校准评分。",
+    "policy": "生成器只能接收source与被选translation；不得接收quality、error_ledger、word_counts或metadata。顺序冻结，不按开发评测结果调整。",
+    "fixed_order": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E08"
+    ],
+    "selection": "50%=E01—E04；100%=E01—E08；前4及全部8均唐宋各半。",
+    "source_verification": "2026-11-01逐首核对维基文库，E06采桑子页面已通过检索完整正文核对。英文需独立人工文学审校。"
+  },
+  "examples": [
+    {
+      "id": "E01",
+      "source": {
+        "id": "E01",
+        "title": "夜雨寄北",
+        "author": "李商隐",
+        "text": "君问归期未有期，巴山夜雨涨秋池。\n何当共剪西窗烛，却话巴山夜雨时。"
+      },
+      "period": "唐",
+      "source_url": "https://zh.wikisource.org/wiki/夜雨寄北",
+      "source_frozen_sha256": "984a8511395aeaeaef8b4f7a46ffafe2673c522c7f0fc9b24690a59fc8353180",
+      "source_note": "维基文库公版原文；转简体、统一标点。E05采用不尽异文，其他不混入异文。",
+      "high": {
+        "translation": "You ask when I return; no day is set.\nNight rain in Ba swells the autumn pool.\nWhen shall we trim a candle at the western window,\nAnd speak again of this rain in Ba at night?"
+      },
+      "low": {
+        "translation": "You ask when I return; the day is set.\nNight rain in Ba drains the autumn pool.\nWhen shall we trim a candle at the western window,\nAnd speak again of this rain in Ba at night?"
+      },
+      "word_counts": {
+        "high": 37,
+        "low": 37
+      },
+      "error_ledger": [
+        {
+          "high_span": "no day is set",
+          "low_span": "the day is set",
+          "severity": "major",
+          "description": "把归期未定变成已定"
+        },
+        {
+          "high_span": "swells the autumn pool",
+          "low_span": "drains the autumn pool",
+          "severity": "major",
+          "description": "涨水反转为退水"
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "source": {
+        "id": "E02",
+        "title": "丑奴儿·书博山道中壁",
+        "author": "辛弃疾",
+        "text": "少年不识愁滋味，爱上层楼。爱上层楼，为赋新词强说愁。\n而今识尽愁滋味，欲说还休。欲说还休，却道天凉好个秋！"
+      },
+      "period": "宋",
+      "source_url": "https://zh.wikisource.org/wiki/醜奴兒·書博山道中壁",
+      "source_frozen_sha256": "970b26e35ed731b648d34a20a5b6a77f051829ce9e9fe2098d896b1d65ce81cb",
+      "source_note": "维基文库公版原文；转简体、统一标点。E05采用不尽异文，其他不混入异文。",
+      "high": {
+        "translation": "In youth I did not know the taste of sorrow;\nI loved to climb the tower,\nI loved to climb the tower,\nAnd forced out grief to make a fresh song.\nNow I have tasted sorrow to the full;\nI would speak, then stop,\nI would speak, then stop,\nAnd only say: How cool, how fine the autumn!"
+      },
+      "low": {
+        "translation": "In youth I knew quite well the taste of sorrow;\nI loved to climb the tower,\nI loved to climb the tower,\nAnd forced out grief to make a fresh song.\nNow I have tasted sorrow to the full;\nI speak freely, without stopping,\nI speak freely, without stopping,\nAnd only say: How cool, how fine the autumn!"
+      },
+      "word_counts": {
+        "high": 58,
+        "low": 58
+      },
+      "error_ledger": [
+        {
+          "high_span": "did not know",
+          "low_span": "knew quite well",
+          "severity": "major",
+          "description": "少年不识反转为深知"
+        },
+        {
+          "high_span": "I would speak, then stop",
+          "low_span": "I speak freely, without stopping",
+          "severity": "major",
+          "description": "欲说还休的反复克制变成畅言"
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "source": {
+        "id": "E03",
+        "title": "芙蓉楼送辛渐",
+        "author": "王昌龄",
+        "text": "寒雨连江夜入吴，平明送客楚山孤。\n洛阳亲友如相问，一片冰心在玉壶。"
+      },
+      "period": "唐",
+      "source_url": "https://zh.wikisource.org/wiki/芙蓉樓送辛漸_(寒雨連江夜入吳)",
+      "source_frozen_sha256": "f435e93ff1d6672663903e51c7bf5ffecb2f7418e1da000414ed9fe83fac4d65",
+      "source_note": "维基文库公版原文；转简体、统一标点。E05采用不尽异文，其他不混入异文。",
+      "high": {
+        "translation": "Cold rain joins the river, entering Wu by night;\nAt dawn I see you off: the Chu hills stand alone.\nIf friends and kin in Luoyang ask of me,\nAn icy heart lies in a vessel of jade."
+      },
+      "low": {
+        "translation": "Cold rain joins the river, entering Wu at noon;\nAt dawn I see you off: the Chu hills stand alone.\nIf friends and kin in Luoyang ask of me,\nA burning heart lies in a vessel of jade."
+      },
+      "word_counts": {
+        "high": 38,
+        "low": 38
+      },
+      "error_ledger": [
+        {
+          "high_span": "by night",
+          "low_span": "at noon",
+          "severity": "major",
+          "description": "夜改为中午"
+        },
+        {
+          "high_span": "An icy heart",
+          "low_span": "A burning heart",
+          "severity": "major",
+          "description": "冰心核心意象反转"
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "source": {
+        "id": "E04",
+        "title": "踏莎行·雾失楼台",
+        "author": "秦观",
+        "text": "雾失楼台，月迷津渡，桃源望断无寻处。\n可堪孤馆闭春寒，杜鹃声里斜阳暮。\n驿寄梅花，鱼传尺素，砌成此恨无重数。\n郴江幸自绕郴山，为谁流下潇湘去？"
+      },
+      "period": "宋",
+      "source_url": "https://zh.wikisource.org/wiki/踏莎行_(秦觀)",
+      "source_frozen_sha256": "cea4f59bf8769cc5cd8e8e9d9407dc6979081d96034bc6c54d323b4394d672b7",
+      "source_note": "维基文库公版原文；转简体、统一标点。E05采用不尽异文，其他不混入异文。",
+      "high": {
+        "translation": "Mist hides the towers; moonlight blurs the ferry.\nI gaze toward Peach Blossom Spring, nowhere to be found.\nHow bear this lonely lodging, shut in springtime cold,\nThe setting sun, the cuckoo calling into dusk?\nPlum blossoms sent by post, silk letters borne by fish,\nBuild layer upon layer of this sorrow.\nThe Chen River had its own hills to wind around;\nFor whom does it flow down toward Xiao and Xiang?"
+      },
+      "low": {
+        "translation": "Mist reveals the towers; moonlight blurs the ferry.\nI gaze toward Peach Blossom Spring, clearly to be found.\nHow bear this lonely lodging, shut in springtime cold,\nThe setting sun, the cuckoo calling into dusk?\nPlum blossoms sent by post, silk letters borne by fish,\nBuild layer upon layer of this sorrow.\nThe Chen River had its own hills to wind around;\nFor whom does it flow down toward Xiao and Xiang?"
+      },
+      "word_counts": {
+        "high": 72,
+        "low": 72
+      },
+      "error_ledger": [
+        {
+          "high_span": "Mist hides the towers",
+          "low_span": "Mist reveals the towers",
+          "severity": "major",
+          "description": "雾失反转为显露"
+        },
+        {
+          "high_span": "nowhere to be found",
+          "low_span": "clearly to be found",
+          "severity": "major",
+          "description": "无寻处反转为寻得"
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "source": {
+        "id": "E05",
+        "title": "早发白帝城",
+        "author": "李白",
+        "text": "朝辞白帝彩云间，千里江陵一日还。\n两岸猿声啼不尽，轻舟已过万重山。"
+      },
+      "period": "唐",
+      "source_url": "https://zh.wikisource.org/wiki/早發白帝城",
+      "source_frozen_sha256": "f9e1a38481aae2caa811fc8bf27f9662c20532de19c4cb1a97ef9e093e16dfaf",
+      "source_note": "维基文库公版原文；转简体、统一标点。E05采用不尽异文，其他不混入异文。",
+      "high": {
+        "translation": "At dawn I leave White Emperor amid bright clouds;\nA thousand li to Jiangling, home within a day.\nThe gibbons on both banks are calling without end;\nMy light boat has already passed ten thousand hills."
+      },
+      "low": {
+        "translation": "At dusk I leave White Emperor amid bright clouds;\nA thousand li to Jiangling, home within a year.\nThe gibbons on both banks are calling without end;\nMy light boat has already passed ten thousand hills."
+      },
+      "word_counts": {
+        "high": 36,
+        "low": 36
+      },
+      "error_ledger": [
+        {
+          "high_span": "At dawn",
+          "low_span": "At dusk",
+          "severity": "major",
+          "description": "朝改为暮"
+        },
+        {
+          "high_span": "within a day",
+          "low_span": "within a year",
+          "severity": "major",
+          "description": "一日改为一年"
+        }
+      ]
+    },
+    {
+      "id": "E06",
+      "source": {
+        "id": "E06",
+        "title": "采桑子·轻舟短棹西湖好",
+        "author": "欧阳修",
+        "text": "轻舟短棹西湖好，绿水逶迤，芳草长堤，隐隐笙歌处处随。\n无风水面琉璃滑，不觉船移，微动涟漪，惊起沙禽掠岸飞。"
+      },
+      "period": "宋",
+      "source_url": "https://zh.wikisource.org/wiki/采桑子_(歐陽修)",
+      "source_frozen_sha256": "edb1b5717427a4fc4852c8b9daa5db74a46e6d840516ae05f6cb3395a915a6b7",
+      "source_note": "维基文库公版原文；转简体、统一标点。E05采用不尽异文，其他不混入异文。",
+      "high": {
+        "translation": "West Lake is lovely: a light boat, short oars,\nGreen water winding,\nA long bank of fragrant grass,\nFaint pipes and singing follow everywhere.\nNo wind; the water lies as smooth as glass.\nI hardly feel the boat move;\nSmall ripples stir,\nStartling the shorebirds into flight along the bank."
+      },
+      "low": {
+        "translation": "West Lake is lovely: a light boat, short oars,\nGreen water winding,\nA long bank of fragrant grass,\nFaint pipes and singing follow everywhere.\nStrong wind; the water lies as smooth as glass.\nI hardly feel the boat move;\nSmall ripples stir,\nStartling the shorebirds into sleep along the bank."
+      },
+      "word_counts": {
+        "high": 50,
+        "low": 50
+      },
+      "error_ledger": [
+        {
+          "high_span": "No wind",
+          "low_span": "Strong wind",
+          "severity": "major",
+          "description": "无风变成强风"
+        },
+        {
+          "high_span": "into flight",
+          "low_span": "into sleep",
+          "severity": "major",
+          "description": "惊起飞行变成入睡"
+        }
+      ]
+    },
+    {
+      "id": "E07",
+      "source": {
+        "id": "E07",
+        "title": "竹里馆",
+        "author": "王维",
+        "text": "独坐幽篁里，弹琴复长啸。\n深林人不知，明月来相照。"
+      },
+      "period": "唐",
+      "source_url": "https://zh.wikisource.org/wiki/輞川集_(王維)/竹里館",
+      "source_frozen_sha256": "d49ec6da58a828c0992923233a8f74492fbac7dadb20b9ca6b05807cf1d6d22a",
+      "source_note": "维基文库公版原文；转简体、统一标点。E05采用不尽异文，其他不混入异文。",
+      "high": {
+        "translation": "Alone I sit among secluded bamboo,\nPlaying the qin, then giving a long clear cry.\nDeep in the woods, unknown to other people,\nI have the bright moon shining here with me."
+      },
+      "low": {
+        "translation": "With friends sitting among secluded bamboo,\nPlaying the qin, then giving a long clear cry.\nDeep in the woods, well-known to other people,\nI have the bright moon shining here with me."
+      },
+      "word_counts": {
+        "high": 32,
+        "low": 32
+      },
+      "error_ledger": [
+        {
+          "high_span": "Alone I sit",
+          "low_span": "With friends sitting",
+          "severity": "major",
+          "description": "独坐变成与朋友同坐，故意保留生硬句法"
+        },
+        {
+          "high_span": "unknown to other people",
+          "low_span": "well-known to other people",
+          "severity": "major",
+          "description": "人不知变成众人熟知"
+        }
+      ]
+    },
+    {
+      "id": "E08",
+      "source": {
+        "id": "E08",
+        "title": "清平乐·红笺小字",
+        "author": "晏殊",
+        "text": "红笺小字，说尽平生意。鸿雁在云鱼在水，惆怅此情难寄。\n斜阳独倚西楼，遥山恰对帘钩。人面不知何处，绿波依旧东流。"
+      },
+      "period": "宋",
+      "source_url": "https://zh.wikisource.org/wiki/清平樂_(晏殊)",
+      "source_frozen_sha256": "dc4cc9d956912d623fb34f1d1fe121aec89a4de2dc5186ab5cd5752101877f4c",
+      "source_note": "维基文库公版原文；转简体、统一标点。E05采用不尽异文，其他不混入异文。",
+      "high": {
+        "translation": "Small writing on red paper\nTells all the feelings of my life.\nGeese are among the clouds, fish in the water;\nSadly, this love is hard to send.\nAlone I lean in the west tower at sunset;\nDistant hills face the curtain hooks.\nWhere is that face? I do not know.\nThe green waves still flow east."
+      },
+      "low": {
+        "translation": "Small writing on red paper\nTells all the feelings of my life.\nGeese are among the clouds, fish in the water;\nSadly, this love is easy to send.\nAlone I lean in the west tower at sunset;\nDistant hills face the curtain hooks.\nWhere is that face? I do not know.\nThe green waves still flow west."
+      },
+      "word_counts": {
+        "high": 57,
+        "low": 57
+      },
+      "error_ledger": [
+        {
+          "high_span": "hard to send",
+          "low_span": "easy to send",
+          "severity": "major",
+          "description": "难寄变成易寄"
+        },
+        {
+          "high_span": "still flow east",
+          "low_span": "still flow west",
+          "severity": "major",
+          "description": "东流反转为西流"
+        }
+      ]
+    }
+  ]
+}

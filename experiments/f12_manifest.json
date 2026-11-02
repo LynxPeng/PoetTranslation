@@ -1,0 +1,5605 @@
+{
+  "protocol": "f12-budget-supplement-v1",
+  "tasks": [
+    {
+      "id": "ab429614be04e3231864c914c35a2111826f8f2c111d31fbc1dbed46b76d1819",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T01",
+      "run_id": 1
+    },
+    {
+      "id": "e0a2888fe46cd546341a44d7f22c7184643d21b4ceaba42a282ffdcfc93620c5",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T01",
+      "run_id": 2
+    },
+    {
+      "id": "3ca76399f14e101d6a8b29d9816868a68b57d3f9015c48d73b56a6fb38d068a7",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T01",
+      "run_id": 3
+    },
+    {
+      "id": "84845653f716c741f5e2e2300e90be3a30764c9fd60e000464a6f5e0bfbdae54",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T01",
+      "run_id": 4
+    },
+    {
+      "id": "663f3970d7a14efab8f6d72c4d29daa98df651b55be078677f6acedf1ba0fe03",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T01",
+      "run_id": 5
+    },
+    {
+      "id": "a10ea308fa40c037cecaecdbbf84f33fa58b36650141d826457bb38aaf30a50d",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T02",
+      "run_id": 1
+    },
+    {
+      "id": "25f30feb7f7be08d6478867b882e08aa0a5bdcc5b2ece773f04097c6c113fc3e",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T02",
+      "run_id": 2
+    },
+    {
+      "id": "8f18d3d7c3267d4e37831e5f394f58ff34e48d7633626875fb685ec268df6765",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T02",
+      "run_id": 3
+    },
+    {
+      "id": "dc2764e5b39d24d7f1ca0cf3256c5225d58605a9673877ab6e9d3330e9fa9705",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T02",
+      "run_id": 4
+    },
+    {
+      "id": "6e419e83c0979884d27ea504207d16dffaf72db3a12386fcec161877b4c9e1f8",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T02",
+      "run_id": 5
+    },
+    {
+      "id": "a28dd3acbddab6a7919f437b983c60a859d11a4757ea9c70d47f3c5d6bf3b6c7",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T03",
+      "run_id": 1
+    },
+    {
+      "id": "789a9900535f41913dc88e7004171af787dde28e53846e253d4754ecc05d434a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T03",
+      "run_id": 2
+    },
+    {
+      "id": "38e70848d9392dc9f9485f4512a856bc472f6bb46b00234b57ee6d7617dad3be",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T03",
+      "run_id": 3
+    },
+    {
+      "id": "ebb10ea816d5aae1e63f9bd095217052243c760820d0ce0d93f9263fd863b586",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T03",
+      "run_id": 4
+    },
+    {
+      "id": "0ddee8b6ea8eecc2bcfb474c71c5851054a848813c140297e2d5f3ce1b4829a1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T03",
+      "run_id": 5
+    },
+    {
+      "id": "498971cba0be7e51701a805dc121d134efba27985ec36631fa3cd538b15c3401",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T04",
+      "run_id": 1
+    },
+    {
+      "id": "fd1c0ce4397a9626d6c88213526fdd7ac412821af81fe179b20597b029680f2e",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T04",
+      "run_id": 2
+    },
+    {
+      "id": "a9adaca1a8a000a33b052f8c4e12a82d95cd3f9f5e0ed450761fafac898addee",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T04",
+      "run_id": 3
+    },
+    {
+      "id": "b647c20c1cec4370677a383d19404af6cf984d47490917bfd96e0d195fc4bef9",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T04",
+      "run_id": 4
+    },
+    {
+      "id": "51846e8b2ce156af8a53d9b896d669bcd2f583eb25c80895b7fad99f037ec73d",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T04",
+      "run_id": 5
+    },
+    {
+      "id": "4adfcb5651971ee97e414428acfbf8357eeb62db3d7ea3da6be2d0e553fa04e7",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T05",
+      "run_id": 1
+    },
+    {
+      "id": "f8b98a6371621cfdd72b421a27d3f896d3bb8db576675c37b7d9843c6249735f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T05",
+      "run_id": 2
+    },
+    {
+      "id": "bab416c7cae07fc2be87fcef919c19c3dd5f59d5868b1d86f24b98493a2663df",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T05",
+      "run_id": 3
+    },
+    {
+      "id": "055213d38d4c71d2c83efb5f698f1c71e36df763d0ec9e13bbba660a5d99db65",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T05",
+      "run_id": 4
+    },
+    {
+      "id": "6de28ba42889968e128a01c76fb1fd3b1a824b453c99357f2f3361c97a5fc7f7",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T05",
+      "run_id": 5
+    },
+    {
+      "id": "634d0444dd614887fd852c495a1312f9791a4688991ce504488c2c1ce7ebe3f0",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T06",
+      "run_id": 1
+    },
+    {
+      "id": "1dbed4f1ef8f33a38d5c1a6e3607bff90ec44783b41c6f485bcd91952ab8acb5",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T06",
+      "run_id": 2
+    },
+    {
+      "id": "faf076cb95b9156739222fc9e9fd2d7e5e692e178610b2fe8f2309cc95a7d38a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T06",
+      "run_id": 3
+    },
+    {
+      "id": "23ffe7a319fa78c47ef543f03732f03d54b76bae4ebb277d019bebbae3810151",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T06",
+      "run_id": 4
+    },
+    {
+      "id": "dc36cef5110957bbe2de50adac979b7f6fdf60b0d6a104c6875814e5aa537249",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T06",
+      "run_id": 5
+    },
+    {
+      "id": "d86f4d2d9e65ae5321c896ad034c3cb9faca543d0d32602dfa0dee110ddd9335",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T07",
+      "run_id": 1
+    },
+    {
+      "id": "c73bcaff3d751bec915801efb4479c9441c61a950328dd9275bf3a2c5b180bd7",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T07",
+      "run_id": 2
+    },
+    {
+      "id": "ecf5645cdabe326c37fd0594ab4bfe449a05809dc2c65c943a8d8f20dfa602ec",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T07",
+      "run_id": 3
+    },
+    {
+      "id": "616f72b50fbd5535f6e50fe2aa35ae92898ff1fd6907017f39f25481fd9a0fcb",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T07",
+      "run_id": 4
+    },
+    {
+      "id": "b87dc49d4b8c3a80f6376cc9744d5bdbc9755370584c9821c986661b58ad03c8",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T07",
+      "run_id": 5
+    },
+    {
+      "id": "caab587b210fb8a839d87ed6e36ee135ac63d8eef8d0d778a0434dd0bb9341fc",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T08",
+      "run_id": 1
+    },
+    {
+      "id": "b2c53a231a9718480f82bd0e5c7263111e435d2f4f9f44d663067aad1072125d",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T08",
+      "run_id": 2
+    },
+    {
+      "id": "b271fe695c342384ca1a3be9cc815e1466d8debf9d3af056e49a356625560e26",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T08",
+      "run_id": 3
+    },
+    {
+      "id": "b525190ad3b4014fa4d182f228420a297cef4fa22d3c0e2e9bc55c330f3ad3ef",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T08",
+      "run_id": 4
+    },
+    {
+      "id": "e5a612994571e5078b7944d1c1be758008229d4ee32e4045f0cbef9574e7f716",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "T08",
+      "run_id": 5
+    },
+    {
+      "id": "0e0aaa6a8a60f9212e05d55d01f5e8a027f9427254ee0ad9a7f03d781aa7b7e0",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S01",
+      "run_id": 1
+    },
+    {
+      "id": "9ef516ea7050a850a2096c88938d6e2ff7a488e3a1abd2b3146e9abc05e0c7e8",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S01",
+      "run_id": 2
+    },
+    {
+      "id": "6d7a1ad0ab3040adfc75d7f8fab4a395430645eadff1e79a0c75e0dcc94b4b45",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S01",
+      "run_id": 3
+    },
+    {
+      "id": "7888b82a8a20b7d891a5c21714daacf20b54da3bd1f325d45de706d8184f02e3",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S01",
+      "run_id": 4
+    },
+    {
+      "id": "8ce4ef92419802f8840b2f843ee517e4fb5159d0c4acc1732e811d9ac5b0dce9",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S01",
+      "run_id": 5
+    },
+    {
+      "id": "4fe336857d83d0e4c7fc6c0a23b259b8407c529723213fee794b6bb6af3af732",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S02",
+      "run_id": 1
+    },
+    {
+      "id": "a2234d91894f21cd1ee2e5929d8486e37e89f42e54e69e1642da119bd8f0e8c8",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S02",
+      "run_id": 2
+    },
+    {
+      "id": "2b3da75ce67575b70e484edf36dc9f4d8bc72dadc00acc3bb300c243b6de0ee5",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S02",
+      "run_id": 3
+    },
+    {
+      "id": "7d7071a9ec34e3aff218d69ea80c72e7205ae03e3440b50a80c998bfca462f2c",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S02",
+      "run_id": 4
+    },
+    {
+      "id": "cac39bc19d46605d8a86ed77ac1f60ef73f93ffba4a0314665be86174e8df282",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S02",
+      "run_id": 5
+    },
+    {
+      "id": "e42370ab4fe3880db0e21cc02291c0bfc73d4736dbe89c8d9770a40a071ee152",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S03",
+      "run_id": 1
+    },
+    {
+      "id": "e5d31a862da85cc3c5e1861e048985d30b5236c1b707171b97190f6f12e70748",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S03",
+      "run_id": 2
+    },
+    {
+      "id": "5d6f70efc54475e71db54085d3e229c6e97ff31855e8a28922284ac09ffce5e4",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S03",
+      "run_id": 3
+    },
+    {
+      "id": "d9090ed66b20dfe159144a1587c040055d7ae49aa85abe914ae57f9b042c8111",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S03",
+      "run_id": 4
+    },
+    {
+      "id": "318ee3bd48c0afbe55042950c13e7ae9aa82f55176dc8df19b71f9a273825207",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S03",
+      "run_id": 5
+    },
+    {
+      "id": "8bf98af002f2382bade9fa7c13a0715398afcf57766f1c4d111615576b14e2e2",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S04",
+      "run_id": 1
+    },
+    {
+      "id": "9ece3bd7dd2b62dc969df76936e172fa7ed17954cf6f223e98e4f838d14ed881",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S04",
+      "run_id": 2
+    },
+    {
+      "id": "dd2026ed609063ff6b0d010ea2162afd28d48867979297faa1ccc3b6d9be29c6",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S04",
+      "run_id": 3
+    },
+    {
+      "id": "64a81d010c4a688e257bbbd238325cd1b0b7f3cff3ffdadba85e452a0cf1b7cc",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S04",
+      "run_id": 4
+    },
+    {
+      "id": "0f7b692e38d248872ba0595d494fc95390d8abd5cfbdf70baba6c6cbab6eac72",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S04",
+      "run_id": 5
+    },
+    {
+      "id": "3b7b82756ae6a2e3feb748d4b23f522ddabd6811d46f30c48897f9a8e9fb9e80",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S05",
+      "run_id": 1
+    },
+    {
+      "id": "9270c6002de7983f046eb02c1188f829c665c11ee7864c82d628b526d2841e57",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S05",
+      "run_id": 2
+    },
+    {
+      "id": "29b5ccf07948d67bbddf10f0405e6203d432e4aaa396e8870b971423d6b9cbf8",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S05",
+      "run_id": 3
+    },
+    {
+      "id": "24e1efd9987e67906cc1e39e8a5a5f2c5e7bc93a21bff973d5173a28f74faee3",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S05",
+      "run_id": 4
+    },
+    {
+      "id": "9481d4d48af44f74430709f52a396d4632383680c3d205627c9b8b93c1fc3a05",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S05",
+      "run_id": 5
+    },
+    {
+      "id": "c6866bbe540877a2143270c05136381ce3960bdea6fdcb733ea110a96357f5f2",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S06",
+      "run_id": 1
+    },
+    {
+      "id": "9b8e105a5dd0be0815c8e1cd1d7a0e789f27fb648b9d6c7fa45197b6088c1bb4",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S06",
+      "run_id": 2
+    },
+    {
+      "id": "68ddc2ccbe76b3c970a1dd51bdf19a3bcdd833657e9c9ebbed5cb9d014005501",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S06",
+      "run_id": 3
+    },
+    {
+      "id": "6048bca859439c66a6fa238c4a8b7a70ae558a63f4fde5daf491460a24b1edc9",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S06",
+      "run_id": 4
+    },
+    {
+      "id": "685130cd1e84beb8e97e82acbc0d9cb404350156737d2db0b0dc9f512229883e",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S06",
+      "run_id": 5
+    },
+    {
+      "id": "6264fa1cf57ece3e728a2181411cef0550484f239708a45e0bbe0b2b291e579a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S07",
+      "run_id": 1
+    },
+    {
+      "id": "c5df071b268bda4ba22e27ef7db43d1244c443fe238757439366e6aeacf75b35",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S07",
+      "run_id": 2
+    },
+    {
+      "id": "4e0abc7a1287d6ec9760a86a21519f800f167e6094befd7d9131d92ee3d7f7a8",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S07",
+      "run_id": 3
+    },
+    {
+      "id": "50fae939191452e16c87cb82a506eb235e1783870f3e87e2b51d41503a0fd495",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S07",
+      "run_id": 4
+    },
+    {
+      "id": "5fd730d490f250cb5da785edd266a836994b5f607078298f4f733f0dc280eca4",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S07",
+      "run_id": 5
+    },
+    {
+      "id": "d1bf59dc1d1e71d3814fc3382685aea1b6a4b09f08dae3f5468d4bdea9a70eb1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S08",
+      "run_id": 1
+    },
+    {
+      "id": "3024d70bf051969a53b832410f9b23a3edbdc5def65d9f8de0ab2705e3dd0ea5",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S08",
+      "run_id": 2
+    },
+    {
+      "id": "d6547c28355365a37d2c3ba127949724c26f81fc700b549eb110139f38e7dcb7",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S08",
+      "run_id": 3
+    },
+    {
+      "id": "07b0591e94d590ef853e472e145827a1b00980bb9f4bec764fa66e054c2600f6",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S08",
+      "run_id": 4
+    },
+    {
+      "id": "106e6d450749486ddd0453d55ba016ac1b1610ecbcfd04e2c9a6c625de547f02",
+      "generator_track": "mimo",
+      "condition_id": "G2-C05",
+      "poem_id": "S08",
+      "run_id": 5
+    },
+    {
+      "id": "94b7f65593cd70372eda1be5353ae30432da67b7e468422972c64a7d51653fce",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T01",
+      "run_id": 1
+    },
+    {
+      "id": "60dfe4ca76431c8378b0cd120f15a8679c105d5747c53f6acaf9a6230a119230",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T01",
+      "run_id": 2
+    },
+    {
+      "id": "988b68e872d9e9251a2fe6602109f2538592e86af429b08c3e13695d91d243ec",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T01",
+      "run_id": 3
+    },
+    {
+      "id": "1382d8159fd33ed6437de265309c672e4807f6873f5921e873e2f035b1e80278",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T01",
+      "run_id": 4
+    },
+    {
+      "id": "0d63f8e2e1962ad42e3ce619af8f494089f9d0d84f141dd7a1ab1c0a7c6f2ff3",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T01",
+      "run_id": 5
+    },
+    {
+      "id": "e36a6bdcccf7965a1dc552d568804a7bb24844dbc6faa504ce78cd8f25088c52",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T02",
+      "run_id": 1
+    },
+    {
+      "id": "22662d5d33a1b7a968f9d1268b2bd3ab6d8a569112f19eb25963da07b3c7b01d",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T02",
+      "run_id": 2
+    },
+    {
+      "id": "ffa15b61d4871e151001bbdba113bfd8d9d7ed40fa4898705a7add6e46e5225d",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T02",
+      "run_id": 3
+    },
+    {
+      "id": "5a53db87b2ad8a765c83f3d37871c7c212056e8acc9fb556ac4af4ec2c2aac95",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T02",
+      "run_id": 4
+    },
+    {
+      "id": "29dcef0dcca9b32e3ac646d522a0effa8e370659b2b11544a11079ac3ac892bc",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T02",
+      "run_id": 5
+    },
+    {
+      "id": "311d6209ca9b23229fda9148e92be59905811490931dc2523a4e5304b117d498",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T03",
+      "run_id": 1
+    },
+    {
+      "id": "ea3ad193bded860d96900871a4e7e2ebfea1ceb0929d6fcf641ede659e3fb9f9",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T03",
+      "run_id": 2
+    },
+    {
+      "id": "1e3a8620ab95244ae2805424678516438a5e4c122613267416dec6917b76a2b3",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T03",
+      "run_id": 3
+    },
+    {
+      "id": "7d9522eb467abd502cd757f87b975c1980a22dab12203cffda7b98f4e9c742ce",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T03",
+      "run_id": 4
+    },
+    {
+      "id": "b06800b81ad61cbbfe814851f70dbcccda2aae303692b3e7ea3411d846020792",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T03",
+      "run_id": 5
+    },
+    {
+      "id": "c7375034bba185558da19b57c2177e6f5d28a3c477625166c10542a9db5ed303",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T04",
+      "run_id": 1
+    },
+    {
+      "id": "202fab709deea38e503f52be6d8e5b4fd2e308a410f3199b5c786e7d6c747a8a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T04",
+      "run_id": 2
+    },
+    {
+      "id": "f3aaac341dd179c2b861522985410c060aac2d8c75458da19dec3efdaf93b79d",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T04",
+      "run_id": 3
+    },
+    {
+      "id": "b96559853c0d814f4ff3059f8612f6306adb7569e42aa94e7ed5cd32c8122f9b",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T04",
+      "run_id": 4
+    },
+    {
+      "id": "d46040b99747e182b9b033ab0ce323ec91c88c7808b995169c93c1802a3a7037",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T04",
+      "run_id": 5
+    },
+    {
+      "id": "9d823cc39edcfa604eef006b47a4c2820504412a5d9c6c5316982637be894997",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T05",
+      "run_id": 1
+    },
+    {
+      "id": "3d1f8b502a20fca4acaab66f779df75ebb9dc9e87a8805b614f1845ea156425f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T05",
+      "run_id": 2
+    },
+    {
+      "id": "1ba723f791622435dba66c83174066c5bdf47b99484012a4566090a8c6077797",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T05",
+      "run_id": 3
+    },
+    {
+      "id": "0bcbec66ef71fb818ba02cc3a1b20420f57367aef9a391cb527331217aeb1698",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T05",
+      "run_id": 4
+    },
+    {
+      "id": "77b870ae1e0f52573401659510f7dd63b9d7727345314c1ace2c7ea88d66a2dc",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T05",
+      "run_id": 5
+    },
+    {
+      "id": "66eb1ba61fe90a17e00acc26afbaa1da69fe7f11e5df70c1dd0522920d73dd83",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T06",
+      "run_id": 1
+    },
+    {
+      "id": "557d769cecf729233720abea08a64baf597eeb6ebf0941a7783388a65af35fdb",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T06",
+      "run_id": 2
+    },
+    {
+      "id": "0a2d495fa4485eaca6db6513444be9b449be7491d201cbafb4fe927f70dd5f5f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T06",
+      "run_id": 3
+    },
+    {
+      "id": "3a201802409845f3e0ae8a428ce84e30d1280ccf00a1bb386916ebd8b7a6dde5",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T06",
+      "run_id": 4
+    },
+    {
+      "id": "69d098db606b0cf742b90c24356a28a18529b563c99725a3cae3f1c6ffc571f0",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T06",
+      "run_id": 5
+    },
+    {
+      "id": "6365bea15c2bcaaf41a66b42a53f0535c03f4770e9f3c72fc9fd7d62e3eeeb86",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T07",
+      "run_id": 1
+    },
+    {
+      "id": "fb59e118b18668f559872ca3b74d0b1ef9f9faba1e1ef1ccd5a9515710db2948",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T07",
+      "run_id": 2
+    },
+    {
+      "id": "4af3aed338d4a781d2cddc337ac805704a8860a376a30a98c74009689a1c3bb7",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T07",
+      "run_id": 3
+    },
+    {
+      "id": "2537f31b9ebf98883827e66fd7da683656c931af2c278e554671755f79f444a5",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T07",
+      "run_id": 4
+    },
+    {
+      "id": "a5f51adc3d694ff560cbee196b5a75c9720c5a08d33696bd8641ac15ca2aa57f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T07",
+      "run_id": 5
+    },
+    {
+      "id": "bf0f5ea6fc51a8273bf7f5229c94f3e795dae8876ee82f0634405a1af923eeab",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T08",
+      "run_id": 1
+    },
+    {
+      "id": "7f2b6e5c8a2a68e2a330cbe813818f79841b8c4580b8e6dfad1f78483bab646b",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T08",
+      "run_id": 2
+    },
+    {
+      "id": "cdf9e289c73af50b04af4f3178cb0034aaa5e7380864153cb54614940961591f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T08",
+      "run_id": 3
+    },
+    {
+      "id": "6b7844926b049b860127f9dab70b2f85261d8c1e1aca2018d9f0c4e9c8fb9724",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T08",
+      "run_id": 4
+    },
+    {
+      "id": "2dd34a1270d08a309cb80de83f6b8d930c1ee01f7dbef079c5d45796d8fd261e",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "T08",
+      "run_id": 5
+    },
+    {
+      "id": "63cfcf978f8911bd760348e49557f9b32179ad04c88e4d725b6c080c9113d12e",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S01",
+      "run_id": 1
+    },
+    {
+      "id": "d0c130000596a36b6cd3252e12ee47f4929582d5d140cdb94ba16728c0bb009a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S01",
+      "run_id": 2
+    },
+    {
+      "id": "b78cd928ea5479c0d55e142762eb9ca49822b03357f4ef17484d511c32d4d3ac",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S01",
+      "run_id": 3
+    },
+    {
+      "id": "1ccdc34e7ec0e5c2e6284a86618b6f4e58b4da27db8e6c4b8586522bbb38888b",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S01",
+      "run_id": 4
+    },
+    {
+      "id": "0ea02a07572ae69d357b4680a13f96fc48db4382d433a69e1e4f8c197663da88",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S01",
+      "run_id": 5
+    },
+    {
+      "id": "02c9b8ad5b37910fb650b5c9ca1706251585c7ca57b38dd13fd8cb6e551fe650",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S02",
+      "run_id": 1
+    },
+    {
+      "id": "1a2645cfc99703865444ca8312282581e123bb44208927d7b8cb84e308256a29",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S02",
+      "run_id": 2
+    },
+    {
+      "id": "99d49a989343a8acccf1a7c6a5224c976b0a981ef9382988da5ccfe61f32cd93",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S02",
+      "run_id": 3
+    },
+    {
+      "id": "16c266ab9a127c18572233f4d9f01527bdf4fd65bcad3239694e0f2f27979e6b",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S02",
+      "run_id": 4
+    },
+    {
+      "id": "8c40c097bf9040e110bbb95fdfefbc1fbf2f96e447522c07aa1069aecc490351",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S02",
+      "run_id": 5
+    },
+    {
+      "id": "d945943cb7e5b24fd3275c2b8de38023dc6dfaeeba6cfabc8e1af9d5143b2a39",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S03",
+      "run_id": 1
+    },
+    {
+      "id": "5ea344430f45dd2db562a39b54a806a22c0f14600ad1011517afdf16cc5ec359",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S03",
+      "run_id": 2
+    },
+    {
+      "id": "0d22a709690de913e3f635eab54c0f21bc5a34056dd29dd0ca7f0c18d1e52988",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S03",
+      "run_id": 3
+    },
+    {
+      "id": "b950dac3a6e82d54acc99f75626d2c4751e8f08b557ff63358f41ffe099ee7de",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S03",
+      "run_id": 4
+    },
+    {
+      "id": "f4cac15c9f49c5ae2b483164e178aa82c6b13dd60c7a258f9557931f4569af93",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S03",
+      "run_id": 5
+    },
+    {
+      "id": "3823a94bdedfcacc0e4f36ac57afacbb9b85f5b4e807dd7e6a94661b7fb43bdc",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S04",
+      "run_id": 1
+    },
+    {
+      "id": "eafee217a4f435bf1c15eea57546418376390315de9e0a499ff4bc3492143d2f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S04",
+      "run_id": 2
+    },
+    {
+      "id": "e2c93e88a03ae57ef49abae060b2775108a67b73a5370a204a86b6073b9a1063",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S04",
+      "run_id": 3
+    },
+    {
+      "id": "c53cd434e4a18d9459011efc7b8c317fd08fc7e442f0559b07db55d4a6d96a10",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S04",
+      "run_id": 4
+    },
+    {
+      "id": "118ba10ef9cd9b5be6f4ea2ad63b26fc12f509910951475f9cbd8c7bfdea71f0",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S04",
+      "run_id": 5
+    },
+    {
+      "id": "4dc0a8d2f1409760d96804dc16ce7c2f1db6f704f02a8f6ae396642775cb8340",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S05",
+      "run_id": 1
+    },
+    {
+      "id": "bf78f2f3435540df86c4ba6288d078ec6057af7cfc653a25d537c5e8d8edd95c",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S05",
+      "run_id": 2
+    },
+    {
+      "id": "09769b05f10c0fa7e6be320e699a2e80991961a78f9fdbeebdbd322f159f2ae6",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S05",
+      "run_id": 3
+    },
+    {
+      "id": "4e5c27ff2385833da2e71382a1850062451304c59e89d8ff3954ac0b44258e7f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S05",
+      "run_id": 4
+    },
+    {
+      "id": "0b1b769f3344db01146b7ea35eb256c624536e9ff117f17d4fb723d027b2c02e",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S05",
+      "run_id": 5
+    },
+    {
+      "id": "e684ceb2cb5a4b568db479a8dc3c12fde208a774174a4a7d3ab22d589b239fdf",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S06",
+      "run_id": 1
+    },
+    {
+      "id": "f01afee4896113b4fdef911f63c8fac1ef10f27d6cd768833028561c5608efe9",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S06",
+      "run_id": 2
+    },
+    {
+      "id": "aa354743215c5fcb134618aa3fb0cf0a415d530e85490c7d75c93c6511beaf1e",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S06",
+      "run_id": 3
+    },
+    {
+      "id": "bce4554bc227fa6c2cd0579431355330824a4e713e64d142828334d7930b2e25",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S06",
+      "run_id": 4
+    },
+    {
+      "id": "d99d3c9fe360c06edff4b3bf6814066f4eb675045cd4a148cb331e57fbe70694",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S06",
+      "run_id": 5
+    },
+    {
+      "id": "2c823d01397b533ce079927484d6fd5ba246a521cbed8159fb50d31a399243ec",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S07",
+      "run_id": 1
+    },
+    {
+      "id": "f20fe0457573ba16b7dc4bd430b5a05f4fb99d42b5cbe761032d4594b4cdc84f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S07",
+      "run_id": 2
+    },
+    {
+      "id": "99b9b9a8ee2c1c9ca33c8d73572e70edace3a7f647059f972aa9d20a848e334c",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S07",
+      "run_id": 3
+    },
+    {
+      "id": "3bcb608c11eaa8ab0f659108cdba63d2279dc6712283e5b3c81f673efcef2e54",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S07",
+      "run_id": 4
+    },
+    {
+      "id": "6e6ef980578181738a8efa8da340c235c2ec30f0add76a66b21f63ec1782d578",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S07",
+      "run_id": 5
+    },
+    {
+      "id": "6a6715b7fea4a4c4de402422b4ce709c57bdd760365501b71381d37500678882",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S08",
+      "run_id": 1
+    },
+    {
+      "id": "662cbd8e4fc1ecbca395589ca7f30ee2ae0e4abe3101c1ddea26fa3e7a160e86",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S08",
+      "run_id": 2
+    },
+    {
+      "id": "83d7426ccf719e8d281af119228f91b9d5208be2bb2d0b0f71e276e1cb709b50",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S08",
+      "run_id": 3
+    },
+    {
+      "id": "299a754f5b2699fc75811308ce5cb9595e3bda21ea93ee22ad9de108c43082c6",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S08",
+      "run_id": 4
+    },
+    {
+      "id": "5a9292cb375697bd100ead7453e45e245d682393287340417c6ec578a40b521d",
+      "generator_track": "mimo",
+      "condition_id": "G2-C07",
+      "poem_id": "S08",
+      "run_id": 5
+    },
+    {
+      "id": "84002eb0872b22404c6c3932db350bff5304a3e78f00f72ad6a8d796642e8331",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T01",
+      "run_id": 1
+    },
+    {
+      "id": "945de4931faa4b721f59ae928d797c6994aba05b3ed02e36149cc336ba07e579",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T01",
+      "run_id": 2
+    },
+    {
+      "id": "6c3d5abf06346fd6231cb0c446e15e6554c49fa32b2bf11919975f89cd3ac859",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T01",
+      "run_id": 3
+    },
+    {
+      "id": "3c1cd22d778e2cd44d20c260738a0810c35d264172735766e1a71c8596bd57cc",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T01",
+      "run_id": 4
+    },
+    {
+      "id": "4c5b82c95a0fc02e888794871db88c7fb76d6b24e5965e721fa2fc48d85a7dde",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T01",
+      "run_id": 5
+    },
+    {
+      "id": "60b0aa9cd1d39369349bc1a33e7204d315128e4b79688097dd44c62e5c8777f2",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T02",
+      "run_id": 1
+    },
+    {
+      "id": "67b6c170a71295281fdb938f9c4d4284bcfa322b911865c5d8746a3c3d094032",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T02",
+      "run_id": 2
+    },
+    {
+      "id": "ff6bc97a07faad823bae45fc10a939583519e43eb1643d0c570abbb7120af651",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T02",
+      "run_id": 3
+    },
+    {
+      "id": "5096ef9d2c3aec602d40d116c835355afceda3dec57dc42564e7d990fef9d5bd",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T02",
+      "run_id": 4
+    },
+    {
+      "id": "962980ef4d8b20468c01ee599f9899a4d740932a3b8d588854cfd6aad2ffee6f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T02",
+      "run_id": 5
+    },
+    {
+      "id": "18d5b508a0bb0af02a1c73981b5e077cc2ce4e0170121e78b2fd7c022da63e46",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T03",
+      "run_id": 1
+    },
+    {
+      "id": "db6084dd4e93f3740a48cb3b75531d4377a02ebeee5faa0721ce411ebb47a549",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T03",
+      "run_id": 2
+    },
+    {
+      "id": "010cd46cdd88b1cc2587539e766b420def16479d10c3325667942c8f184b2912",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T03",
+      "run_id": 3
+    },
+    {
+      "id": "d9cd532ad11c5e12b02e4353cdf8a2eff26744a0c258a6af6b2847490188c84a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T03",
+      "run_id": 4
+    },
+    {
+      "id": "bdc5e0dc8a5436d6d0d03a46595f0610016fe109268960273cd45d8559e9a42b",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T03",
+      "run_id": 5
+    },
+    {
+      "id": "e3b37e6d0a2cb3d852bb75d236ee4f03e6818679f220e1042574c77a3d43755a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T04",
+      "run_id": 1
+    },
+    {
+      "id": "640aca4c2a98e042b5ad76be9f309e21f6c9cf1ff8bdfee2eda130adb2bf229c",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T04",
+      "run_id": 2
+    },
+    {
+      "id": "f4fc8b277f478587d4ef7e4682f61bfca81ec1cc11f2e7859bd945cf180fe98a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T04",
+      "run_id": 3
+    },
+    {
+      "id": "33d5c3b30e2b8d8e1e055799b8c613cdfe7d34e171f709e3e7aeab7c2b88ad25",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T04",
+      "run_id": 4
+    },
+    {
+      "id": "a683f0cd477524b179004f34a2e226ddc78579702cfbfd1a46ebfa3704cfb21e",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T04",
+      "run_id": 5
+    },
+    {
+      "id": "ec434449e3929c158c5a1a7bc6003e94e0040247d03730e2d33e68647817098a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T05",
+      "run_id": 1
+    },
+    {
+      "id": "bb2b467e8c61bf94e61030b519c835322c0d143e45ecd19c1eb73820739e8bd4",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T05",
+      "run_id": 2
+    },
+    {
+      "id": "542d0286aa103c6b3fb776e775fa876585861bac034bb1c6c66a634ccfe96112",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T05",
+      "run_id": 3
+    },
+    {
+      "id": "68cf97c934ce38bf6ab5f5a751a8743bce2a8fdcc8944c0575866caa59fa6682",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T05",
+      "run_id": 4
+    },
+    {
+      "id": "46c3455b5ad7b9215fe8cb8913e29c3186b372d39e1e6a905205c8663125ee69",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T05",
+      "run_id": 5
+    },
+    {
+      "id": "878e044b03c8711b0acf30def75eec4e6416930e5f10ab5ecdf8a6620e9b1152",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T06",
+      "run_id": 1
+    },
+    {
+      "id": "4fe0f7581b2ea66dae98ae488010efbc79b57e0413bd26ce7de40c60394a0d24",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T06",
+      "run_id": 2
+    },
+    {
+      "id": "3a57cac5369c079c799fc308e514e21ee8b9fd9e98e46015a3e17f6d5bb59cfd",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T06",
+      "run_id": 3
+    },
+    {
+      "id": "0da503865f610977f370c2168775bb19f25716ce278b1721a48e5f5dbb256fa1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T06",
+      "run_id": 4
+    },
+    {
+      "id": "f443f2155a0bdc661d64bdfa7468ec547f2a67d8474c28997f1cb6f39ea43874",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T06",
+      "run_id": 5
+    },
+    {
+      "id": "f5cd55a76612c558739c2ff49a1e0fbde3d78fe45e5f145db1e8d0ecdd37b3db",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T07",
+      "run_id": 1
+    },
+    {
+      "id": "28b5a52b54f96ae26c0caa6df287e2ad4302593b2dc1f75280b9847467ac3c07",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T07",
+      "run_id": 2
+    },
+    {
+      "id": "4c5e41745f2d28ab090eacb5b320a3a10ac7baf4c82c1c770953cb1c166e9c59",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T07",
+      "run_id": 3
+    },
+    {
+      "id": "bfcb0021375ed1eaf968aeb14cf31f1111fc7d5288700cd400c4bb9376fb92af",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T07",
+      "run_id": 4
+    },
+    {
+      "id": "808b4c89b16dc35f50bc91c88b589c64e25a64a8d11c2d8af735be39965f585d",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T07",
+      "run_id": 5
+    },
+    {
+      "id": "381358301487ec5743ce3c32c345664d01d1946ba32138f31dbbe24bd54e1b6f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T08",
+      "run_id": 1
+    },
+    {
+      "id": "49127ad28a6a0af38df60e852c530b2acae6c64247d130e1c346f3b4514b7268",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T08",
+      "run_id": 2
+    },
+    {
+      "id": "7eb944b53270a4830313894040287488aaf8ad480d9337c48ec31842ac3e321f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T08",
+      "run_id": 3
+    },
+    {
+      "id": "4eac18fb11a99f619fd9cf3f1ad4b7d08b4e7122e28fb2fe878b4dd0873067af",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T08",
+      "run_id": 4
+    },
+    {
+      "id": "50677cf547f360bc0cdd1f5d8abb0159e2159abef321d9c474f951b653d8a7ae",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "T08",
+      "run_id": 5
+    },
+    {
+      "id": "180ed1819121a3aff3ba28048752fccd4ece521da82303284c801baa55e716ea",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S01",
+      "run_id": 1
+    },
+    {
+      "id": "188d45a01a8b69e4f86388c7bbc88c0555fdaa231141dbd7617bcb987957670c",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S01",
+      "run_id": 2
+    },
+    {
+      "id": "c81cb408bb3ec04ab9621979945beefafb6a2c995c5e3893a4f2ae8224d4bbaf",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S01",
+      "run_id": 3
+    },
+    {
+      "id": "a33375b473b8180f6d7b5741c887ddc2145ba9b7af58c4d6a470d9cf9c7493cb",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S01",
+      "run_id": 4
+    },
+    {
+      "id": "68bad9a590608b4d28863991ec295f51670256f1d1d430ec769e18b1bab3435a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S01",
+      "run_id": 5
+    },
+    {
+      "id": "99cb2e384dd779a965b5f5887bda0024db8b4ce83420d3c84bb5318835100b1f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S02",
+      "run_id": 1
+    },
+    {
+      "id": "92814aecac8fdc91edcba1bb5348696178362ed80130998d8a7d841b6398c480",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S02",
+      "run_id": 2
+    },
+    {
+      "id": "ecc09e0f911d786f7a267d752c30dc60870bb79ed5289c49c72e698ff5a763c5",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S02",
+      "run_id": 3
+    },
+    {
+      "id": "d81d29f50ba0c7c42c7689eb3200f87e8b8849565f8f77ad3eb98d29ac2fcc56",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S02",
+      "run_id": 4
+    },
+    {
+      "id": "32688ac87ccfa96b0ad2a1bfab1f846a1d6a80bfe26db4c0e366835c84f5772a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S02",
+      "run_id": 5
+    },
+    {
+      "id": "fe63239467edaa46e5351d1c6eb1c149abb2913bd1622a57964b071c6ce0f8f6",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S03",
+      "run_id": 1
+    },
+    {
+      "id": "d5d3ac3c2a84a24fdfc5d5880b7a625e6f66607293e99aa466ea9e6d2fa57165",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S03",
+      "run_id": 2
+    },
+    {
+      "id": "94de345f41566c779996ee8f9d03693ff2158b8f17e1ed9624a2bd5d9043a76b",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S03",
+      "run_id": 3
+    },
+    {
+      "id": "84e04966a659fa72b3151688a4f6250d39655fc913ccb184cf6ea8def3ca9da2",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S03",
+      "run_id": 4
+    },
+    {
+      "id": "5532f01dd1cd785a28b6dc7abc3f5e89f18a97f376fda0fb020c2335434f826c",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S03",
+      "run_id": 5
+    },
+    {
+      "id": "0ae2ee635d115cc2ae86f9a52439bcaeb3de5242a648c13d2bbdadffeb421df2",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S04",
+      "run_id": 1
+    },
+    {
+      "id": "f2517ab8526a9444b1552f16cb0c508146da915fd2dcb35c174fe22a10fa8312",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S04",
+      "run_id": 2
+    },
+    {
+      "id": "9f1f8e47eb0770a3a4ae93450eaee92d0dee808f65f05709730a11969439bca7",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S04",
+      "run_id": 3
+    },
+    {
+      "id": "94994f778fad3c71b602f610219fa8f948bbc5005b19cbb327dad44df839b0d1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S04",
+      "run_id": 4
+    },
+    {
+      "id": "59728ab519fac844da1c597a38228deffa42c1a41c20068c21e493dc15eee026",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S04",
+      "run_id": 5
+    },
+    {
+      "id": "b9e25c6d53797e4a69f13375839ad6c213da935ab12d7c186ba6bd1c4764c225",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S05",
+      "run_id": 1
+    },
+    {
+      "id": "72987eb661f6f8a8b3838942b08d0c4900088eec80e6d28860d23ea02678d7a8",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S05",
+      "run_id": 2
+    },
+    {
+      "id": "e55736adcab0566bf67d9fcfc6a104735b10195f099be64051ae71325f53f7de",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S05",
+      "run_id": 3
+    },
+    {
+      "id": "4afa0c0281a6fc73aaab84492d5b64f342916e8b5e2dbd798ae0ce218d054aad",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S05",
+      "run_id": 4
+    },
+    {
+      "id": "f3a546bf753d6e3fd993711233d871c6447e6615c6778311dea261a33ad288d1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S05",
+      "run_id": 5
+    },
+    {
+      "id": "bad8bce1192b370386512b0db958446bd0b4c23d13f408a20b9e519985c52fbd",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S06",
+      "run_id": 1
+    },
+    {
+      "id": "1c5321fbf8051e93ea4197861e4f3a6b1443e75e0e98e89c45dc6d41e33805c9",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S06",
+      "run_id": 2
+    },
+    {
+      "id": "833da1ad4e3c2dae683134e60bc413afcc5d9ef8933373c870a3dd2b608db034",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S06",
+      "run_id": 3
+    },
+    {
+      "id": "e93c1df36c012d71f02728e61401dd89c4aec105f8062d8f591d70367300b407",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S06",
+      "run_id": 4
+    },
+    {
+      "id": "6e13b19dafed88d6b3ae0ceb37170f4d2b8e70aaf0d4c635f941c7c6f41cc94b",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S06",
+      "run_id": 5
+    },
+    {
+      "id": "920b93ebcd7b669191ba8102e7b7d5c0d03724b3bf33705a365d97e3c17814a1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S07",
+      "run_id": 1
+    },
+    {
+      "id": "94279cf3bc1d680cb20ac19ae624c51910788817568219b16371e7caf2ebca86",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S07",
+      "run_id": 2
+    },
+    {
+      "id": "84793f5ae98d6b8b4f716810428ad80b5bf86345579166e934a37dfabcaaa09f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S07",
+      "run_id": 3
+    },
+    {
+      "id": "1eb5ab52f24b331261358d87a19caa0cde1682565140b8a9e502ec079df982b9",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S07",
+      "run_id": 4
+    },
+    {
+      "id": "915da63e75bff1fb9f33b733e22352b87dec7564143b462919bd8fab77fa6dea",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S07",
+      "run_id": 5
+    },
+    {
+      "id": "01893443b664c3eb460d52a3ed8ffdacd970edcb9ea2191534d0b46e894c3290",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S08",
+      "run_id": 1
+    },
+    {
+      "id": "34612ec9889b7d2df7ffcc19845054bc617547778a523b14a273cd9c3bb9adb1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S08",
+      "run_id": 2
+    },
+    {
+      "id": "5caf1b350eb5bea5bc76d9559da3275361063bb92d191184002c3035b856ee14",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S08",
+      "run_id": 3
+    },
+    {
+      "id": "38c72c667706dc9054e1fad5917070e8b3fbcce396c4d208774034c4c2740382",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S08",
+      "run_id": 4
+    },
+    {
+      "id": "988f51e53b1fa758b0bc4db82fd64631a2c50708fef6d2d1406669fe98bca4e1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C09",
+      "poem_id": "S08",
+      "run_id": 5
+    },
+    {
+      "id": "9fdd5c0c5fba97456b276325ff23184f898c8597fe08194c75676fbcb384b41c",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T01",
+      "run_id": 1
+    },
+    {
+      "id": "92a7a4f80100c944ea12936826e8031cb152910a3d8528203c9e64425ff47516",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T01",
+      "run_id": 2
+    },
+    {
+      "id": "925d234ca9547208627aee8e6f59efb035d0072e861af4119df73b27a85b3013",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T01",
+      "run_id": 3
+    },
+    {
+      "id": "613b78c73bc37aac2c9f5f0306db2287c6ca8cde6be2f96b3d9d79a61a51e698",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T01",
+      "run_id": 4
+    },
+    {
+      "id": "8a8df50a58559e0da252da36ba268c1c6ceb69bd09a5cfad87fc4022a4ae27fe",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T01",
+      "run_id": 5
+    },
+    {
+      "id": "7205854045f5f82b46b7d9c2c4bdb797ec7fdb4d1d0b42e258ee3d50210aadcf",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T02",
+      "run_id": 1
+    },
+    {
+      "id": "186341efeb4f138c4ed43f7f37eadde7a6690f8214eb4e8f6f73192df5fa47ac",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T02",
+      "run_id": 2
+    },
+    {
+      "id": "78f960ce6574b1a729d3e8cbb1531e3066a3a348cde7a7c338376310aadba5e5",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T02",
+      "run_id": 3
+    },
+    {
+      "id": "7ef853b850c8c8977772a5f2344cfcbc00fbeb5814ca4aaced56e7e94183a4db",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T02",
+      "run_id": 4
+    },
+    {
+      "id": "b343531c8c5e6ce9514b4c6ff4492d7a1f18bd4ed8b4940a4bd1b1d6799122e9",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T02",
+      "run_id": 5
+    },
+    {
+      "id": "754edc10d78e655c1fb80953efd5a1ae0abca580116b736f134cc0f85822da8c",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T03",
+      "run_id": 1
+    },
+    {
+      "id": "5b7c5731c09dc36dbad2fe15eb37840815804ece0dca82c07e5ac80f7e90d21d",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T03",
+      "run_id": 2
+    },
+    {
+      "id": "798984b99d8d1c2284c1be923886bedd87568b0a45f8dbce42a3bca4b977009f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T03",
+      "run_id": 3
+    },
+    {
+      "id": "1f860794f2a4f669ed73f2608996ead34a3d0bed294aed7f0e76a843d3b3a385",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T03",
+      "run_id": 4
+    },
+    {
+      "id": "996a96d9a0e1aef57eae2623ac46045ad7c2cf1fc411d65218fa3acb4ea67827",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T03",
+      "run_id": 5
+    },
+    {
+      "id": "cc730f2ffa9cc69ef34cb4f9c8161bbecf40bf325b84c4d494fffe9eda4e117d",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T04",
+      "run_id": 1
+    },
+    {
+      "id": "b822371a7ce23932c0405a255c4ca7ef3d1425d815d31ecf601f096a4e9038fd",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T04",
+      "run_id": 2
+    },
+    {
+      "id": "81baf068aa307ee4ea764f562c40593311c95cd9467815deac1bd7e5bbfabeb8",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T04",
+      "run_id": 3
+    },
+    {
+      "id": "17b5aeaa502520fc69e1d6f95aa6b3cc511146614e48c17a91f76ae8de438fe3",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T04",
+      "run_id": 4
+    },
+    {
+      "id": "641bdd025df20646879b17c6770254c85639dc57337eb22ec30c59d9181b9acd",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T04",
+      "run_id": 5
+    },
+    {
+      "id": "a45271f137622c5878af8e36f57e2af472079719ef3855eee8289a7d60faae73",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T05",
+      "run_id": 1
+    },
+    {
+      "id": "575c5ce39d2099fe99827ea9e24a8744c4c016daeabafe338c6668eca7bd4fd6",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T05",
+      "run_id": 2
+    },
+    {
+      "id": "ea5075f259e698004616c603cd2ff2258b3440b332b68eb6169a9e9c37630e05",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T05",
+      "run_id": 3
+    },
+    {
+      "id": "c26663b2e335dd2b9fb1a1ea8c1b0068be7f5e629cc0fe8b6f3b5475c8698478",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T05",
+      "run_id": 4
+    },
+    {
+      "id": "175ca639a7456634da930a05131cd4f3ee9f93e1bc2a366c76f51f1c49106978",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T05",
+      "run_id": 5
+    },
+    {
+      "id": "44424e0d20aee017469818257e314631e45b8dec515764016455042f156027ea",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T06",
+      "run_id": 1
+    },
+    {
+      "id": "75425c2b8940ffed07c9fc90991be0b32a979688697113d69acd2b0e573afdde",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T06",
+      "run_id": 2
+    },
+    {
+      "id": "a3acccf76c6de4b23101cbb22c7efdc9594826676b35804c64131d50762dd395",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T06",
+      "run_id": 3
+    },
+    {
+      "id": "86dff11514d68f76a4b5bf95c6663dbe6b3600e90d2f594ee05b723c38e0de1e",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T06",
+      "run_id": 4
+    },
+    {
+      "id": "694b4a5160c55052eaf79adb24612ad7f277c62fea4d6d4766bbd37366a89580",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T06",
+      "run_id": 5
+    },
+    {
+      "id": "178cb7bb37a02dc4dc5c5e67a09b099685c53c605c81a0529b72f40eb35012f4",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T07",
+      "run_id": 1
+    },
+    {
+      "id": "1b2ee89778a5e570ece4ae2993d31f5cd8b73285da366d6e35cfee397ab64ac5",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T07",
+      "run_id": 2
+    },
+    {
+      "id": "f31f4385617d58f63f4bb8e4e16772cec191c7d2a6caac17781cde48041877df",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T07",
+      "run_id": 3
+    },
+    {
+      "id": "713685a4afefbacc9b6323a2dc0926e57f690f2bfd02eec92dd97639a86a1bee",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T07",
+      "run_id": 4
+    },
+    {
+      "id": "59868614ca5831ea18324e9220924c5b144d10aba882daf7297338eab1a1a84f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T07",
+      "run_id": 5
+    },
+    {
+      "id": "4ff61d59e7d6ef94aab50596f5936c5583f7b3c673344642392c8014832daa4c",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T08",
+      "run_id": 1
+    },
+    {
+      "id": "9cf7db335156be96cae2362084bef085a4463b5c5b48b81979c26009d1299be1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T08",
+      "run_id": 2
+    },
+    {
+      "id": "936f5c92dbaac9ada7b8186829d40773067f51a419d720be41f0d8ddb0418d7a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T08",
+      "run_id": 3
+    },
+    {
+      "id": "2b919668c038851a7ec84aa5953b4c47f9a7c51ee0df1a1b55f2b13f449efd13",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T08",
+      "run_id": 4
+    },
+    {
+      "id": "d02e584f5eaa823669145fa9b653b9c16ca999dca87a0b3f1a4d943cfac6b4ec",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "T08",
+      "run_id": 5
+    },
+    {
+      "id": "29c7b9ba533683662b24a93be3944c534f3b059c3230bc3db6febdce77203adb",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S01",
+      "run_id": 1
+    },
+    {
+      "id": "033d812dbbcdc6e809f0ac6a9df9f983bbeef971dbccf0b9e577e732f4c0de46",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S01",
+      "run_id": 2
+    },
+    {
+      "id": "1be481fb9c80b4e1dad453e994684b7e279ec0d34069993c14417f9f2cad9490",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S01",
+      "run_id": 3
+    },
+    {
+      "id": "4520a7e9ac3a9667c788ddc6ad0f5b5013aa1c05a61fffe0bd7af2d05999a707",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S01",
+      "run_id": 4
+    },
+    {
+      "id": "57167c377a33c6b7de2ab2fa8b8945767c492c056da986a4f94c9ae1f3bd822a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S01",
+      "run_id": 5
+    },
+    {
+      "id": "f3d75993e4c86b5461cb9a6bc2aabf92d3e7279d94bef9984fa973b0617e981a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S02",
+      "run_id": 1
+    },
+    {
+      "id": "f7d13adc1318b1daabccf6a9a49185ef6eaf1a1227cdaf5e55b9832d2a255422",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S02",
+      "run_id": 2
+    },
+    {
+      "id": "aff0706eecfa548044c681065bce3aca6c42c1adf794b54b8ad62e532cb1ee1f",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S02",
+      "run_id": 3
+    },
+    {
+      "id": "b720f36867fb82936ece4a44ae8ddedb8faa3097ce66b0e244516d18f85d47d0",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S02",
+      "run_id": 4
+    },
+    {
+      "id": "950cebc708b524ad744650d981323c5b7f6ee3aab5718e033544e23f8345e8c5",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S02",
+      "run_id": 5
+    },
+    {
+      "id": "8bc8a60ab975dc40cce1b0001553d8e78b1f21b2ea13e28d3030621d93de1897",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S03",
+      "run_id": 1
+    },
+    {
+      "id": "473d97af8a8e5ab317525470b23a7cb85d43d13a423ca1c6a3e3a16184cc2a27",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S03",
+      "run_id": 2
+    },
+    {
+      "id": "fbe3af01d0831f72573e3fe7c787b5088118e3d06ffb10e5881f3004d7400f3a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S03",
+      "run_id": 3
+    },
+    {
+      "id": "d7cb2c0806a7cd3e28096518c1f2daf516ab62859601685818357a106d33249a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S03",
+      "run_id": 4
+    },
+    {
+      "id": "d1bee22acbc704c3167e937de27504e87ef027803dc141d0700b207c25d48551",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S03",
+      "run_id": 5
+    },
+    {
+      "id": "5fbecf9bc27aa1892cc01d16b6f04f6d2af36c8c47a9b404f127665ac99c2ba4",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S04",
+      "run_id": 1
+    },
+    {
+      "id": "e724fef747597ecf404e22e5beee79e1cf9abb7590c5c38344d8412ce99b7b04",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S04",
+      "run_id": 2
+    },
+    {
+      "id": "a8bbd56ba0605a9a34d7000f65c1450d03548a7eda501892887aa3addbcde306",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S04",
+      "run_id": 3
+    },
+    {
+      "id": "25ce477f5790ac988392de97b7f556c01bfcfdcc1e8ed16d087d060ae4cd289c",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S04",
+      "run_id": 4
+    },
+    {
+      "id": "6cfa14b41d4a2dee0c42b0fbf8d42fddebb6a938e1a489f7cc7426ce82ef8d88",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S04",
+      "run_id": 5
+    },
+    {
+      "id": "189217d1f8fc929f5f28d0c021f7fc91e136d7679ecb898a2e3ce215c6451721",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S05",
+      "run_id": 1
+    },
+    {
+      "id": "624e1e6d42a4e364040342bfbe82fe93efbdc11ed8eeab11b9fdad513c0af656",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S05",
+      "run_id": 2
+    },
+    {
+      "id": "0b4e7a199b2725a5191eea2e0e5e4a5c1fe640b5ac95c8e34d59c0bc7a18cfba",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S05",
+      "run_id": 3
+    },
+    {
+      "id": "83d0383a83db181667d3b25b7d71cd4f33def21702545f01835aa609d933a1d1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S05",
+      "run_id": 4
+    },
+    {
+      "id": "904b2394aec516a09cc7c22efb53820fa3508c5bcdf8dcdde631ccba1cb41f25",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S05",
+      "run_id": 5
+    },
+    {
+      "id": "2fe8113f899b7dc6cfd7ae1fa78025804c2343643556963dabdcb44dbc2ce6ec",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S06",
+      "run_id": 1
+    },
+    {
+      "id": "ce3c6d80cbd3d4738eb5e6838e64d8ee63d286cebfbd9b6fd94312ec895bd0ed",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S06",
+      "run_id": 2
+    },
+    {
+      "id": "6e7f8eca3c5c349a620712ac9abd0ae7f1db937a6cf89741626089423cab03f2",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S06",
+      "run_id": 3
+    },
+    {
+      "id": "a1621d0c5ec388b85b637f114e2dc5db3e18d052fded1dfd69b5c311d19443b1",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S06",
+      "run_id": 4
+    },
+    {
+      "id": "992263843f65f1f212cbeab2ea7afb11760bc88fc9611200e10579a2c73291a0",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S06",
+      "run_id": 5
+    },
+    {
+      "id": "2802464a419c32b32e61c68c09897581ae3652f7169e2b1992a03c839adfec27",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S07",
+      "run_id": 1
+    },
+    {
+      "id": "3de12da3daa4378f627b13272d84beb3ecdced2c3dbb40d9b16eb0777df4b030",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S07",
+      "run_id": 2
+    },
+    {
+      "id": "2046c1110c0c7845f7ffb6fa4a6c86ba2c301186706f3045b792979f95f9cccb",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S07",
+      "run_id": 3
+    },
+    {
+      "id": "6a50f4e94d7e91a4054ff906d73ca113d83df3962047354f1a64092e2ff2188a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S07",
+      "run_id": 4
+    },
+    {
+      "id": "648cb3e734c1cf3116d90384946f5938926dfe1550845d55f0d4b110c2e82253",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S07",
+      "run_id": 5
+    },
+    {
+      "id": "d0f2efa8dea72929aa45a9a544cadae3acd5fd7f6be8a4134a4727d3012f67e3",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S08",
+      "run_id": 1
+    },
+    {
+      "id": "af62aaecde89bff8eb03c7f52af38e5e1397e2a7122ea6772533a54e50a56a98",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S08",
+      "run_id": 2
+    },
+    {
+      "id": "80432f3fbd5b907fddb2a983a0c2eff5f3513eae7e0fba0fc555beabd57afe22",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S08",
+      "run_id": 3
+    },
+    {
+      "id": "f1cf2a9e88d21163f055c4bca1ceeb9ec2898b9a87b0660616561f7708ec146a",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S08",
+      "run_id": 4
+    },
+    {
+      "id": "ce31e0142d0635215fb8aef09097755f26f1f85ec63d0360dd0891d678710c31",
+      "generator_track": "mimo",
+      "condition_id": "G2-C10",
+      "poem_id": "S08",
+      "run_id": 5
+    },
+    {
+      "id": "7c3770279336f17b072722e0ab2c1d2e4d5d8b93594de563cad641b5ab17b06e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T01",
+      "run_id": 1
+    },
+    {
+      "id": "9de19edb30ee399e4de627bed98785f8a6eac02871dda58a92960ac890a16872",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T01",
+      "run_id": 2
+    },
+    {
+      "id": "aa6117e36946b7c46e4467677713a6a0788d5c8d0b410eec59f8e7debe6819e2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T01",
+      "run_id": 3
+    },
+    {
+      "id": "5b98b2978d071b6be4f2dc59895c25bce5b7c00ef40078abab1909ed1c03f312",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T01",
+      "run_id": 4
+    },
+    {
+      "id": "9246c735e6e9b08eae6735bc4dc37ec3479842698cde1eee9d67e4a883abccce",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T01",
+      "run_id": 5
+    },
+    {
+      "id": "f8c9b925ee14366caef45c5c303942ef5bacc78de9c906e19a13fa61be726092",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T02",
+      "run_id": 1
+    },
+    {
+      "id": "8f4896b0ed68b3dbe8a3a56cedca0548e3cbdb1ad01c1aa42ddc90d2df773973",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T02",
+      "run_id": 2
+    },
+    {
+      "id": "0152abc7be84a5429ddf400085bb5bbbe718c16da97fa0ec5ec6d7681df95782",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T02",
+      "run_id": 3
+    },
+    {
+      "id": "8cebbc50bbf6c46e5587c083289cbe7778d143d8b215096e2824cb46ebc99dde",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T02",
+      "run_id": 4
+    },
+    {
+      "id": "b256b69f14754584cfd2c38575662894cf82e85735ac1ff652f08b1b2200d02f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T02",
+      "run_id": 5
+    },
+    {
+      "id": "d73a04fd6b60866616724f7e08e33914d56951a16c1bd0291b3164dae192ca7e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T03",
+      "run_id": 1
+    },
+    {
+      "id": "6e833e32e51eb9c3364fe85f7512e963127eeb92157d5808ddd16b254a4d71f5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T03",
+      "run_id": 2
+    },
+    {
+      "id": "9b89b70a2bbdbd487b40f2f7cfee6a6bfb54ff6ffc5191aa9dfdda7ae589d2a9",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T03",
+      "run_id": 3
+    },
+    {
+      "id": "8c5ae9d455df72445ff4686ead7adcf260bff2edbea7d7dc1e5c3ce431207af4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T03",
+      "run_id": 4
+    },
+    {
+      "id": "3e9c089774e44c49e340021d6ced7b96baec64fafdfc72d201b96b9f5250cbba",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T03",
+      "run_id": 5
+    },
+    {
+      "id": "08c2e46bdb62e3f453a944c5802a6464f67a6d969fbfc828c91827333799685c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T04",
+      "run_id": 1
+    },
+    {
+      "id": "e0d742f58d58942823c3dd18f4c624646e37840e032e1ee258f87731d4e6847b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T04",
+      "run_id": 2
+    },
+    {
+      "id": "79d701b5e707572a91064e1b19f83a27ecd56a8919f953132d5db7b5c9c8359d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T04",
+      "run_id": 3
+    },
+    {
+      "id": "6584551826d1eec93478e95c6436a49b1bc651344628862c9dd9dd2054b655cd",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T04",
+      "run_id": 4
+    },
+    {
+      "id": "87130a97192e9764fdd507d1a8aaf9c22314e3f905b3615321d115a86d7be681",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T04",
+      "run_id": 5
+    },
+    {
+      "id": "e1adc1f5dce5b184e9da605d61c27428f90a8a8d79f9fb4895f08e3e29e695e3",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T05",
+      "run_id": 1
+    },
+    {
+      "id": "5e93511322049569dc1a89d4cfc0006a76b84d26cf5640400489e4e3bd5358c2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T05",
+      "run_id": 2
+    },
+    {
+      "id": "ebcb0c4030dd287ac35674e4f2cfa929acf6e7e35ab905a22edd57f766a939d5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T05",
+      "run_id": 3
+    },
+    {
+      "id": "141ef5ca18943f79ba9b05594472227d8a892e1767457d51f8d1b8c4768d93d8",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T05",
+      "run_id": 4
+    },
+    {
+      "id": "2d069ae38a5f0d6bd67ebb274ead4910dbf81dcf7d26f5b5bfed3a930e648df5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T05",
+      "run_id": 5
+    },
+    {
+      "id": "8fa4ad39b498371db718547a3fa648e7dabec72266ea8552446cb0967b98d718",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T06",
+      "run_id": 1
+    },
+    {
+      "id": "83b3b39d2b8517b13035cb01338e065c4b61570ba069a9253e674314f1950ff4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T06",
+      "run_id": 2
+    },
+    {
+      "id": "9e5e7d9999d53fd773f14ef43b268c68aa31e9b8f003b92eb4ef07f99aa9659a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T06",
+      "run_id": 3
+    },
+    {
+      "id": "90d76feeba6f906a9ba788d8efcfbf0bde7a0e875ca011453ccef840065aedaf",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T06",
+      "run_id": 4
+    },
+    {
+      "id": "97142ecce5386fa32a0e53e9763cf4a511efea34a0133f27d7f9fa6ac2f6fdc4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T06",
+      "run_id": 5
+    },
+    {
+      "id": "837e3c97e72fe1c911f879849b676aaee66c7bdb10ac43abc057db8fe0fb3309",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T07",
+      "run_id": 1
+    },
+    {
+      "id": "d1fbf5ddf101c5a73bed5888e6de2fca54eeb14e381397eb206575d5f9010ec7",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T07",
+      "run_id": 2
+    },
+    {
+      "id": "4f1ae39cbf4ff092f3cd7234415f2ea81a1c5accaca016528b97a414143bc685",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T07",
+      "run_id": 3
+    },
+    {
+      "id": "30fc2ffbbe0718dff9b31b482e12d24ca4b61c19819fec3dc2f90d9121047049",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T07",
+      "run_id": 4
+    },
+    {
+      "id": "2890fbb6d263b44c0fd46f8a9d30566c0ea5946f4e3a4051d13d5d9cfc7ab11f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T07",
+      "run_id": 5
+    },
+    {
+      "id": "93d589da7e91534e3e6763804d74bd53363aa35507dda032c7140d32710714c4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T08",
+      "run_id": 1
+    },
+    {
+      "id": "61203bf897212643b683e58a893b055927e680b6991401c0958ae32b9deb403c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T08",
+      "run_id": 2
+    },
+    {
+      "id": "e6a595120dbb42404d702e61a0dec79a26171c260eb7b5be608ebe7f91282e9f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T08",
+      "run_id": 3
+    },
+    {
+      "id": "5aa0b4419eb6a53c9b0ed2eecf4543e4568db72a8bf817f5e5ad022cf02550b1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T08",
+      "run_id": 4
+    },
+    {
+      "id": "d0b3e6da3838c26f16815d40153d7595cfad23f3caf78de554269b1f9af73b3d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "T08",
+      "run_id": 5
+    },
+    {
+      "id": "620c1a456df7dc9c09352aac6a9f4ca77b6a5600638a869fd78d6911def212f2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S01",
+      "run_id": 1
+    },
+    {
+      "id": "733d79eec77e85ea9143cc113c162a1b29e84170f196b563289a1fa87b8e76b6",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S01",
+      "run_id": 2
+    },
+    {
+      "id": "c650830a30e99d411f7956913163579ded0b27d93a6f8dd9f0af9aa2f499369c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S01",
+      "run_id": 3
+    },
+    {
+      "id": "7579a79398537f3a55792af4addca41a3f84a3cf327d26d46aa8b5ec96a27d75",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S01",
+      "run_id": 4
+    },
+    {
+      "id": "74e5a46ccd691841d600643b7e9dd892609aca56f10c14d849866ef85fb68f82",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S01",
+      "run_id": 5
+    },
+    {
+      "id": "139bf6a99ca2f7f5f2ff4bce36e855d9d02f017c129c51816da2bd7d08f8b546",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S02",
+      "run_id": 1
+    },
+    {
+      "id": "1297c08fb676a69e2bfe36cef6d8ae73c2118842f4851ae5d8591b98152c8fce",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S02",
+      "run_id": 2
+    },
+    {
+      "id": "14e222fda02c1ccdc48706b0eb574fb7d9a867b3fa0dbefb7dc10f78fd74c505",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S02",
+      "run_id": 3
+    },
+    {
+      "id": "861ff68f9f3aeb174698b234168ab121ebcb0aa5c94b6f6d64e9063ac944e3c2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S02",
+      "run_id": 4
+    },
+    {
+      "id": "3c83a96b468181962521c62ad26429c6f2d14fe6015ff9e06bb25c190703e29e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S02",
+      "run_id": 5
+    },
+    {
+      "id": "f7614beb19e5c3db760e8ae423132d5de0208e8620878d977d053128660436ff",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S03",
+      "run_id": 1
+    },
+    {
+      "id": "1f007bd3a2cfeb4cb60ae3ae6bf05463c5d1245b28da58723f1e461b4389659d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S03",
+      "run_id": 2
+    },
+    {
+      "id": "076f49dbd3f0d55a24fb7672e8f4ae8f9a4eed6daa98d84472567beb9036465d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S03",
+      "run_id": 3
+    },
+    {
+      "id": "7fa39c06cd1896b2ffca4fe11c4169bde967b98340115b2273f93aa802e57c11",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S03",
+      "run_id": 4
+    },
+    {
+      "id": "e711ae06cf3b92d454af10afc66ade94278b905bf34832349c2ea911e63838e3",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S03",
+      "run_id": 5
+    },
+    {
+      "id": "dbf9e2818d86cc6e12d9abc6c9cd71298151232f01f3df397414bb38d8e575b3",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S04",
+      "run_id": 1
+    },
+    {
+      "id": "048ce60527f2667626bebe40d3644ef38cd7e6ea18e96920823a3e3b0d49174f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S04",
+      "run_id": 2
+    },
+    {
+      "id": "446bba082b60ea5e6be99776290ced89b727f5055af598dfd4ce0ed043b3acf5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S04",
+      "run_id": 3
+    },
+    {
+      "id": "c90ecee39b21c2c16fa618600ee74070774a0bc4cff061a2cb357df661ce0939",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S04",
+      "run_id": 4
+    },
+    {
+      "id": "50b1b31127fe2ff5c8c27688f99d378950a1439abb8c180d1c7da23064906886",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S04",
+      "run_id": 5
+    },
+    {
+      "id": "ca1a5b6415ffbfd338925c4343807931a61eca4e3539c38e8035bb541a5c29fb",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S05",
+      "run_id": 1
+    },
+    {
+      "id": "a5173b51e65fee354bfc17c5d526d7b8ff0cdd98879ef8ce690d7bf8349c29be",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S05",
+      "run_id": 2
+    },
+    {
+      "id": "55e21808cd4f161a4bc76449f05d3e3191799e1d858e88476873c24fb4bb0492",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S05",
+      "run_id": 3
+    },
+    {
+      "id": "3f1241957ca1ea68b99f3dc0172c212ed45953553d8e55f58b0c285db2b5d8a2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S05",
+      "run_id": 4
+    },
+    {
+      "id": "89337cfc4e255ea43381d77a79f4b684cbb6a69dd1d5e511d7d4a03b49f56e58",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S05",
+      "run_id": 5
+    },
+    {
+      "id": "14e0b311b246646b95750009fdf754b4517376775918ba62b7b879612ec7af81",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S06",
+      "run_id": 1
+    },
+    {
+      "id": "e430811d86e1d4eafed5ad0c1426bf44569de50564f4d790333d6618c1abf473",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S06",
+      "run_id": 2
+    },
+    {
+      "id": "4cc0a666ebd2913d973694c2c190e75b9272f46e05818ce643640e05e1a4868b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S06",
+      "run_id": 3
+    },
+    {
+      "id": "28acd989d3664cd2a111827eccdfbb5458178aed949549bbb0606fe77a963559",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S06",
+      "run_id": 4
+    },
+    {
+      "id": "979cc525279b32b0f973e28802d2da1e3ae73109444d9a6a654a1323df49d5b3",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S06",
+      "run_id": 5
+    },
+    {
+      "id": "1ec1994ef7dfdf23fb5187d960e5e6f4a69d5835e11f901857760b72d0bd5295",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S07",
+      "run_id": 1
+    },
+    {
+      "id": "9ca5c4dfedf8ec165d34ceda130ab3be4e2677d4c68bd7d9372c17655c4619d2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S07",
+      "run_id": 2
+    },
+    {
+      "id": "a9b47caac4af4af2fe4e478c71fda24ba5796fee058a7f166e46e87b3c39f708",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S07",
+      "run_id": 3
+    },
+    {
+      "id": "659962ee6ff03837d16b99bd9419bb5b983a0eb5873bb639b10ac5c2ab289597",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S07",
+      "run_id": 4
+    },
+    {
+      "id": "d3dc6e7bba3351cf4eadd7e847ed9459d177462fcce9c38be1342e7b19eb70d8",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S07",
+      "run_id": 5
+    },
+    {
+      "id": "b9f27ecb20c7038deaa5b1fb29b3e764da3478eb6df914d1e00f5adf74f8bcba",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S08",
+      "run_id": 1
+    },
+    {
+      "id": "04ba17cff94970a0d9170597c4337cf21532ed3e90df6e79e56bf2af7430634e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S08",
+      "run_id": 2
+    },
+    {
+      "id": "48a02db383cb828734b3b5088d54fac96e287537b3835f6d5a6ebba67c4b42d4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S08",
+      "run_id": 3
+    },
+    {
+      "id": "e6f5ca90e0bc9a3b4d64cc492828b5b244d711979b3d0b3f41696f998e620633",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S08",
+      "run_id": 4
+    },
+    {
+      "id": "a2ac46031226da29d82c34fdcf0c267b82ecc47d95006b7d1c23adf92acd62fe",
+      "generator_track": "qwen",
+      "condition_id": "G2-C05",
+      "poem_id": "S08",
+      "run_id": 5
+    },
+    {
+      "id": "310c870cf01ee1c6c5d4e66bdef6326a6d43cd68e40e8b95ff26f41794fa830b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T01",
+      "run_id": 1
+    },
+    {
+      "id": "b05c1340fbaeccf1064a317cca41a5b516d01ac70e1fd4fcb8d3f245ac98f129",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T01",
+      "run_id": 2
+    },
+    {
+      "id": "f5b8e3b30d734c9734c4f1ae7dfd863452bcc397b723cef81ded16e91457f441",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T01",
+      "run_id": 3
+    },
+    {
+      "id": "0c29ef9f30270066a0787fa5cb6a17d27fd8fbe0e29d63a486b49b63af35147f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T01",
+      "run_id": 4
+    },
+    {
+      "id": "f6d42bc3617f6f2ae7083e8e0486924e7aff0c78ca37078bf42b6cb3607bd41d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T01",
+      "run_id": 5
+    },
+    {
+      "id": "3a06f36513b9a4fbb5a4976d1680c03ad87adfd8304ab744b41e3d1cf80a9e1b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T02",
+      "run_id": 1
+    },
+    {
+      "id": "b8e5fd4f851cca4bb0ddcfeeff6c2eaed889e8a0f02567e4aaebac857c299a80",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T02",
+      "run_id": 2
+    },
+    {
+      "id": "06e8cd77f4c526ce11f98e5be582cc88496e0925b5f3a587234c14d26530e7e9",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T02",
+      "run_id": 3
+    },
+    {
+      "id": "cc5cfaabd98b477415c27cc50dd1e1160ab4cf3d77f9957dcc7b2a17735f1ace",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T02",
+      "run_id": 4
+    },
+    {
+      "id": "c61a7f36f2924f96094d5dbe9af560333f814e1ba3632017d0ce1ef55b1e2a08",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T02",
+      "run_id": 5
+    },
+    {
+      "id": "10acf0b58a977c00cc010310259b901ce856371ee793ea3da44ee7166de517cc",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T03",
+      "run_id": 1
+    },
+    {
+      "id": "6856e056d92da23f58e6ecdc259320e1af7c8cb91ef7a98d8aaac0027ae7c901",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T03",
+      "run_id": 2
+    },
+    {
+      "id": "240decf0d8c1a0ad7b9fbe172786efa19f7e64227e81624adbe36d375617b8ef",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T03",
+      "run_id": 3
+    },
+    {
+      "id": "76d518d2e249c173536f06240b522da4c3171364258b8eb8af07957627b4fce5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T03",
+      "run_id": 4
+    },
+    {
+      "id": "f3da9d2bcfa88137619614e591d87855211a5040b4086193c8fd65bac162c63b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T03",
+      "run_id": 5
+    },
+    {
+      "id": "a492f45dde0d7407585c35f5c52d1b084812f99aca1b980028ecf7d2e0f9311a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T04",
+      "run_id": 1
+    },
+    {
+      "id": "3c3403274f2938506e5a2eed28cd23e4b6e67ab351a3ed825ab422f61e9f1821",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T04",
+      "run_id": 2
+    },
+    {
+      "id": "1dfcef44ba9b983e1464f41b9c710666c1930e9a171a48faaa5b76db1b13a655",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T04",
+      "run_id": 3
+    },
+    {
+      "id": "c753101a784842dc0eaf75523b0a19d15f0fcf421117021289582d7e02ee96d6",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T04",
+      "run_id": 4
+    },
+    {
+      "id": "005cfe88ed4e8bb7c032030776e4ceec6275b6ddcddd8fb57be3fa7632e33afd",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T04",
+      "run_id": 5
+    },
+    {
+      "id": "14beb560a0b1070293db31169a0df3d357ae0a6781d71b707fef3f48a092b7d1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T05",
+      "run_id": 1
+    },
+    {
+      "id": "c637dc52c87cf33371453d76beb0f2d3100b2b4a1d00538f16c821c324893c19",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T05",
+      "run_id": 2
+    },
+    {
+      "id": "86f3cabbfd77f4ef0b1c8a3503ce7b4ef13f71da64353ea7703763f788f6825a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T05",
+      "run_id": 3
+    },
+    {
+      "id": "ec8c2c7cc36f5cb247e4b4601693e402e2a0bdb2077d916713578f1693fb9830",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T05",
+      "run_id": 4
+    },
+    {
+      "id": "989f7910f8b28d16c001391389e8917dbc47965e37eb3cd08f0a2b0854fefc0d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T05",
+      "run_id": 5
+    },
+    {
+      "id": "b7ef84a37647ab4cb65ed56adac68fe455200cac222db698249f1933d598989b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T06",
+      "run_id": 1
+    },
+    {
+      "id": "fd18b8a1137661a6044e0c3d44fd2405113586896a12665db05735822352c899",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T06",
+      "run_id": 2
+    },
+    {
+      "id": "4a5854dc7103ff90860fc410bb5fb6bc274c7150d20c67c4a826814d9bedd96a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T06",
+      "run_id": 3
+    },
+    {
+      "id": "3072046785b3e96dac451e277af8c98f1089d738195045f42225ab3b23741689",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T06",
+      "run_id": 4
+    },
+    {
+      "id": "43a80388cf39f6482c468be27dd7641c2002b02496422da79b78c2e1e4cdab00",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T06",
+      "run_id": 5
+    },
+    {
+      "id": "2ad8480ed25417d4e8c4909504af0de1d1560a4e7584470cedf06a103f90f737",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T07",
+      "run_id": 1
+    },
+    {
+      "id": "a4dd2e755697613b787ae6659d34365f5d345a4898e64c2b949ca2195a4fcd6a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T07",
+      "run_id": 2
+    },
+    {
+      "id": "07808affaa8a7522919019c18ca0014f3c5492c28662acbfe4f578c825dc3f90",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T07",
+      "run_id": 3
+    },
+    {
+      "id": "3f593138797c5219820e8e0fc427da25b1fd11f7f92a6f5937d019ca969c0522",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T07",
+      "run_id": 4
+    },
+    {
+      "id": "6c72f2f4f1eec6009b9fd3d1dfb2dd31672a9d6c3c95d130a8dcdb50de88efad",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T07",
+      "run_id": 5
+    },
+    {
+      "id": "d66ff4d412601aeca2d727224dc3f7dc20029a798a4e7c620ccb31d724359b78",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T08",
+      "run_id": 1
+    },
+    {
+      "id": "9f43c391f31a58945d9f0ce68924e2a8845e3e970d4a56ef39af9248ae199550",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T08",
+      "run_id": 2
+    },
+    {
+      "id": "85eac5ae0490dddac22fbfe9ba4de7ad4bf2d4c1e384b06bdc7e95935943034b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T08",
+      "run_id": 3
+    },
+    {
+      "id": "a10bf7386acd87a5b87865ff5994aae331352172d423afc41b22ada60caed10f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T08",
+      "run_id": 4
+    },
+    {
+      "id": "b295a11f82a09d3f3958d84c30c71328446682f552f692d35885571095eaf280",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "T08",
+      "run_id": 5
+    },
+    {
+      "id": "8d47bd9ffd6432b72bd61c8a489662fb34b6adbb0594b58d479348a404b7d364",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S01",
+      "run_id": 1
+    },
+    {
+      "id": "4d8cf9a77e9b319f5cf8dcade8a009242e968f93f73bb8070e4e641815765516",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S01",
+      "run_id": 2
+    },
+    {
+      "id": "58a8839014f5465cda613a1850abb082f71776acfba71ba6c311510208cbcdbb",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S01",
+      "run_id": 3
+    },
+    {
+      "id": "402c76e0be5b5b1ff610576888f8e08bc1ced7568103f557785704063de60ecb",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S01",
+      "run_id": 4
+    },
+    {
+      "id": "0ec532edcb962e3675376249be16df6ca16fff64278750de29a3bf6020732594",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S01",
+      "run_id": 5
+    },
+    {
+      "id": "57e48168ceeccd2ed287b311ffa3fad3eaede3de07147f0dafc098f70146f23f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S02",
+      "run_id": 1
+    },
+    {
+      "id": "eb5bda979c3f8f6962ebf3873ef49c240df57a0c06f2be03c1e4d17de2658fbc",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S02",
+      "run_id": 2
+    },
+    {
+      "id": "b61fa3585758a393749771a89de20512f7dc54650272c0fc6971ecffd1bddfc0",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S02",
+      "run_id": 3
+    },
+    {
+      "id": "500678b9f98917908223e232462865843c33fda20a47b0a74b9ea60ca67f752c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S02",
+      "run_id": 4
+    },
+    {
+      "id": "4d3c8816640ef18f2b676cfa08f63602844acca2aeb996a50d49aab1ead9b534",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S02",
+      "run_id": 5
+    },
+    {
+      "id": "8af0e5f7c6c35f3b6cc4cbd4d5e23a6f9a279c348d4550d6a9f1e96c6afb7594",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S03",
+      "run_id": 1
+    },
+    {
+      "id": "b9ad3f099ec8c61843564ff984811ceae242ef7c529c1b5f281441c470232e7a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S03",
+      "run_id": 2
+    },
+    {
+      "id": "05ec68ecb83d1cdacc1ea53a7cba569dbfcf35832fb65ec6bea1f5905e6bd3e1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S03",
+      "run_id": 3
+    },
+    {
+      "id": "d36f47ec1716ecfd33e55b824bb02552d35c37d52ec98a0ea35f72d68c83bf13",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S03",
+      "run_id": 4
+    },
+    {
+      "id": "d451bc376b9725a434b8f89b9a5cb7434acac03a6eec85fb0a58c7be6aeb1b0d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S03",
+      "run_id": 5
+    },
+    {
+      "id": "505212fd23bb193b4cfc4d16c30ca1639cb4c57b60c61e9ecb317dcdabc10815",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S04",
+      "run_id": 1
+    },
+    {
+      "id": "18ea831615a3cf6e82f4a3fd83666a437b9fb12713389ad7f061599e4750fb9c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S04",
+      "run_id": 2
+    },
+    {
+      "id": "4125491d9481760768c26cde1248ad737c021cce095caca564232a9bf8d6a134",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S04",
+      "run_id": 3
+    },
+    {
+      "id": "0cbfcd625b4581f94261d26cd0adb40eef90200f194b3a54eb1f54b3dd13c099",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S04",
+      "run_id": 4
+    },
+    {
+      "id": "931d89ad0f21749243325c1474ce70dbfc35e9e2ee8dd11020983a820dae8dfe",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S04",
+      "run_id": 5
+    },
+    {
+      "id": "d67ed8beaf94189c7309e4b5b33dbd1d974f6c786b736b8bed126afc3eb6cc56",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S05",
+      "run_id": 1
+    },
+    {
+      "id": "11fa157d5fff4ec5ea234d370c26396340005f8502de16a11febf8e227447ca0",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S05",
+      "run_id": 2
+    },
+    {
+      "id": "487ef76c37bb8a5ac6d7637c8231d0f28a54a2dd820aebd3a6bcba197e651a30",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S05",
+      "run_id": 3
+    },
+    {
+      "id": "50081f1f32867bd42f3527dae4182617b3302493989dd8649dac7781658c0578",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S05",
+      "run_id": 4
+    },
+    {
+      "id": "c8e80a09b73d29120df51d875f739f87ff5d30e796b74e449cc3ab2b533b7b20",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S05",
+      "run_id": 5
+    },
+    {
+      "id": "d8826abbdacdbc15572fb9dbeca1686cab2b575714960a92ddd423923e2a5d0b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S06",
+      "run_id": 1
+    },
+    {
+      "id": "a6064162d4b58389d1725fb9fa9b8cdf68550c0cb2a2470821ab78043ab524fb",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S06",
+      "run_id": 2
+    },
+    {
+      "id": "6b0c6d3cc847a062c5cdf0e6d009879e8cc742b1bd1c309c99e650aaf64a7a6d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S06",
+      "run_id": 3
+    },
+    {
+      "id": "74fd586623c0a3f971d8f80d01fc8cc6982a31b4879327c09b10f5937a3cbabd",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S06",
+      "run_id": 4
+    },
+    {
+      "id": "78894b918d7c2451abfe49e0705b5d72dc08ac6c367bb35362bef4678f04c118",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S06",
+      "run_id": 5
+    },
+    {
+      "id": "073e35cdc7d24bd874543e5e0e010840566efd8ae61bce270273ba69d843b634",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S07",
+      "run_id": 1
+    },
+    {
+      "id": "d8a772680c29766c21e5d9fdb4dbcb3f04502b209afb4f0afcee19f5089015b2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S07",
+      "run_id": 2
+    },
+    {
+      "id": "647110c67e7a08a88f1ed7b3b6f61589f9f5bcfc3f53e7559ab71db59fceb4a7",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S07",
+      "run_id": 3
+    },
+    {
+      "id": "f1b1f1dbb90f8c9840376fc4ae141c0c9b6917db8d54d0df0e175fd465e99647",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S07",
+      "run_id": 4
+    },
+    {
+      "id": "ab5247417288eaacac4e847f5b7d810c46eb24ec92f334771a6d872a839d6d7c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S07",
+      "run_id": 5
+    },
+    {
+      "id": "990e008437f5d0fc865be1777f74c2caae2e67bcae3b4a2971e1a2d0d0f09236",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S08",
+      "run_id": 1
+    },
+    {
+      "id": "03b500eaa3afd6776f58fadcc6cd728a90c0e6c13dccee71c8e0f17285600e12",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S08",
+      "run_id": 2
+    },
+    {
+      "id": "58348c0d7126baa8cb44fb92d98c8fefb178bd7518324b6dbbce4641038c053a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S08",
+      "run_id": 3
+    },
+    {
+      "id": "b74c452c6d8ecce65c97b877fe8908f32876d30edcf2bf121cc04a494f607095",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S08",
+      "run_id": 4
+    },
+    {
+      "id": "6dce8807a669062afc1385e05fc24e12151e3b43c735b8401c1b56ffeaf75574",
+      "generator_track": "qwen",
+      "condition_id": "G2-C06",
+      "poem_id": "S08",
+      "run_id": 5
+    },
+    {
+      "id": "8b2f31b3e702d6d59679720340ffd2987394a555e9360518fb0acff517f4c599",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T01",
+      "run_id": 1
+    },
+    {
+      "id": "073d05e522aa8f72665d99edc099d2219324489c4a689b4a2c5b4fb2eb900950",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T01",
+      "run_id": 2
+    },
+    {
+      "id": "6caff8cdb05379315dd7c0be61378722234b5968bc8a486c78fff5a0104ddae2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T01",
+      "run_id": 3
+    },
+    {
+      "id": "4690795d8b8d1c60f0ea0f1ce2f5e23bd07fc3c40dc2019d4f656b16e5dfd48d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T01",
+      "run_id": 4
+    },
+    {
+      "id": "973a8264e7dd93881ec71851f0193297d893aa4d5f678994b7b9808f83b3956d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T01",
+      "run_id": 5
+    },
+    {
+      "id": "8ff4800b46a682822d678ce9e2d9b79f0c2ec23c69940657b0c193c9c809f4be",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T02",
+      "run_id": 1
+    },
+    {
+      "id": "06b10b1ef1036538e3a3ca6765380de1f119514e20bfaafe021bc2cbfc0e3fc1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T02",
+      "run_id": 2
+    },
+    {
+      "id": "2c27bac4af9d6d9197b6529409d7af6cb0972f9090972989f33504462428c407",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T02",
+      "run_id": 3
+    },
+    {
+      "id": "ec28305f3d78929cc83b31dfa39879029a28f9cc4a56565e8e38254372c917a5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T02",
+      "run_id": 4
+    },
+    {
+      "id": "3c6384bfff4f6128400aac17111a8cefdcdb52bb49dd31c400ce5e2dcbcbf6a1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T02",
+      "run_id": 5
+    },
+    {
+      "id": "9174c64353a17ce8249b3736b2a8fa2f632e7bee99e3e1b824669d3c563d4682",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T03",
+      "run_id": 1
+    },
+    {
+      "id": "edde4d1c111af31e67c380cd20d59c8f48387b5508cbffab8ad0186e7acee5d9",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T03",
+      "run_id": 2
+    },
+    {
+      "id": "0209e2aa67827e4f99a9f30de0ddc7efc33868c5ab7bc5e69e6a40ee52cd6a34",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T03",
+      "run_id": 3
+    },
+    {
+      "id": "2eec51b34f8f7da67cf6ad3fea7bcb6f67140998d8876242c13fbf1b2bb2aacc",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T03",
+      "run_id": 4
+    },
+    {
+      "id": "2d1266407907d6b2c1e01a27cb8150cf8fceb062572698cd9263dccc35e7facd",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T03",
+      "run_id": 5
+    },
+    {
+      "id": "86c6ca32265254ee01b1dfbeaff1f14f851870a7a7cff6c084b983cddb40ee09",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T04",
+      "run_id": 1
+    },
+    {
+      "id": "aaed92c02d1e0cf1bc2b5e37c6afab65365cc893c0660b49d40eb8b6d56c4a25",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T04",
+      "run_id": 2
+    },
+    {
+      "id": "1dd37b15552fa2be467a55dbb2fde0f3b351e8e62979b62d9d1c87d5d41e2074",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T04",
+      "run_id": 3
+    },
+    {
+      "id": "95305a2aa64c872588a791adbb342714b4db822a94ab9f69fc251595881a7d08",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T04",
+      "run_id": 4
+    },
+    {
+      "id": "1950d2573f32b86eae78805b22932ef208e4998f0ef82a4e005e8e2b77660ca3",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T04",
+      "run_id": 5
+    },
+    {
+      "id": "2f0e77c3f411e74cf44c1957756346a3bb5680c3ef4ab885534dfc31a94929ad",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T05",
+      "run_id": 1
+    },
+    {
+      "id": "869b8cd6ba2a8452b3525c7f6145847f1b8a8ca1ef7970fa8e336961b76a8264",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T05",
+      "run_id": 2
+    },
+    {
+      "id": "f397dced1937923aecd35a0ab5ddaa39fb9df6d2baab2646cb45945635dfd703",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T05",
+      "run_id": 3
+    },
+    {
+      "id": "dddfd06b0b4258cab3ae866b7518db1ea83c1c18258ada96a6f00ac49ee88c45",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T05",
+      "run_id": 4
+    },
+    {
+      "id": "f342382b951563f43d5b2e0c3e4f977d35f77f26ce5535d30562c99b9e6953c4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T05",
+      "run_id": 5
+    },
+    {
+      "id": "b5a9685443886e88aff35cf9181bb54f80fe30653c05aeee1273cab5cbdacc5c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T06",
+      "run_id": 1
+    },
+    {
+      "id": "c8d3be28b8a3aa924bcbc70a83dc350f2f50b09abd3b7a0a7dd242ca9dd1236b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T06",
+      "run_id": 2
+    },
+    {
+      "id": "51c13eef97a59ec27d43a573c7229d9f8f13e0a6361cafa119f2a0a41d9988cc",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T06",
+      "run_id": 3
+    },
+    {
+      "id": "17faaf415bdf5aef4102bfa72af820ed5352d37b00cde093ca0de0b30fb82805",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T06",
+      "run_id": 4
+    },
+    {
+      "id": "9e44936b5b4a63eec8cde4a01888ce04cd04177fe88c3a0e5ecf4055b0d32469",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T06",
+      "run_id": 5
+    },
+    {
+      "id": "a60e36e4c424f2c627ca57ae79e2524f798418be3e2ee342adb61354c36f7cd1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T07",
+      "run_id": 1
+    },
+    {
+      "id": "68fa9a176773871e668e419958e5f5194ea36b34bce7d8366c484626bef98bad",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T07",
+      "run_id": 2
+    },
+    {
+      "id": "2bc109ad481621c4f588e30b5724ec20108934fdaa1290fd70bf06f6b84395b7",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T07",
+      "run_id": 3
+    },
+    {
+      "id": "7c5d271c808555b0c939eed3057853208014321df2448909201f35d0b0fc4abc",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T07",
+      "run_id": 4
+    },
+    {
+      "id": "374b208eb11781445444e6de928fbc2b8db143217e9342d4bbc2d582b801cddb",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T07",
+      "run_id": 5
+    },
+    {
+      "id": "e817b30bc090b87a243431391cca9c777eb551f1e39f1d9c914bdedfed6a076a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T08",
+      "run_id": 1
+    },
+    {
+      "id": "c0ab72ff96dfc0f1a7d15a0fe1f048e7f450e18ad91c9e15a6532867ad27b3eb",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T08",
+      "run_id": 2
+    },
+    {
+      "id": "9a0cf9532fb9dbf37befbb02885216c5a40e8e86b9238bf7a3f634e2b12a122c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T08",
+      "run_id": 3
+    },
+    {
+      "id": "66ffca1bac56a59ae975631c54adb6399dbea9174fac5f0b81c2f35531439556",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T08",
+      "run_id": 4
+    },
+    {
+      "id": "37b0bad62abcfe540fae2cb4959cfb912ff325e4d6a5f3502a3dd3db802c27f5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "T08",
+      "run_id": 5
+    },
+    {
+      "id": "63010d2a0d1bf62714e87d70a5331e40af04343a2ad0b8bcab16980c8f3d4452",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S01",
+      "run_id": 1
+    },
+    {
+      "id": "0cb2d2c50263f157c6c8b0e64a6a07188e101f5922792ebfbdd422f73de32119",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S01",
+      "run_id": 2
+    },
+    {
+      "id": "69b9078d41a04199af6ad5284732731a002dadf814f13cfffd6f030ef333bd49",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S01",
+      "run_id": 3
+    },
+    {
+      "id": "b3f5e6bb1e8dc39cf13a256614a180c42237fb898625208e7835af2a698c0743",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S01",
+      "run_id": 4
+    },
+    {
+      "id": "c6c81c1d7fd56cb07a49c54fff162ab84da77eaed1a5aa14ca6150ae6d00c7e1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S01",
+      "run_id": 5
+    },
+    {
+      "id": "1ae236a6da1bbf8f2953ddebf0c630a49c3f64dc599cb3616c3e004250613c73",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S02",
+      "run_id": 1
+    },
+    {
+      "id": "c3cdab115ab24d30b8f564e3f714f79fea852374ee20917cd4631e2781ad0ed0",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S02",
+      "run_id": 2
+    },
+    {
+      "id": "a972a531e8227b59ba2a46bb6034c1f8b6f58fc869b7ada1d1441792c7da8b69",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S02",
+      "run_id": 3
+    },
+    {
+      "id": "a58e70deaa8623d0f5cdb51764622aa4487f4b744e356ec6f2b0a655ab2a6f11",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S02",
+      "run_id": 4
+    },
+    {
+      "id": "b1a8bb64207100e811147a2dfc635b6108b2ba000376ce3c75d8b2da490ba406",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S02",
+      "run_id": 5
+    },
+    {
+      "id": "5e64813d354995ac7cf0685720145eb9c5642046f2dce4294f452452e765d56b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S03",
+      "run_id": 1
+    },
+    {
+      "id": "7edc63bc4af4dee7e9299625f699a0c8ac2e19334090b4f747d1f7e77a936fad",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S03",
+      "run_id": 2
+    },
+    {
+      "id": "2c36fc05dca901a991d0b303b45d14298aa69a04bb213fb177a29d40c54d1025",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S03",
+      "run_id": 3
+    },
+    {
+      "id": "d0e1296139c2d32eb810a339571a6dfc0febcf974877fb113efc671023c74b61",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S03",
+      "run_id": 4
+    },
+    {
+      "id": "293dc0a121cc1a39d2ee551ffb3d1efd0c444408e4c7ae0e1b0e445c67936772",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S03",
+      "run_id": 5
+    },
+    {
+      "id": "8f4c8420de1370dfb6725e15ac3ab3cf5475cc66a7d61cffcfc645518c91f235",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S04",
+      "run_id": 1
+    },
+    {
+      "id": "a2f7effa000e59ca99966afcce42565df7fab9c524a775cf0ab3b0e9bbeb42a4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S04",
+      "run_id": 2
+    },
+    {
+      "id": "dbe690c1582292290c9c810a344c1c396f4c8fc99ec89c2c2076f7cd2dd0c1c5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S04",
+      "run_id": 3
+    },
+    {
+      "id": "b6b26dd2d860a68d5f4ddae924c231f664adb688fe7a43040038f3995cd9ab46",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S04",
+      "run_id": 4
+    },
+    {
+      "id": "e385069bf94db3c44cb79ea1fd6ce7414614918eac5c840162c275a1e0db787f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S04",
+      "run_id": 5
+    },
+    {
+      "id": "611d48f5a03353ecbcc9eb582343ae8ea2ffb769530207a50d4b376ed58a9acd",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S05",
+      "run_id": 1
+    },
+    {
+      "id": "23674af354a20ceb259303842d64060863e4483dd97133e8c587f28fa415a83d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S05",
+      "run_id": 2
+    },
+    {
+      "id": "c012e43ac17ddf4beb2bcb47f39e86e564e3a14555103794c0ea03c6d94e9126",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S05",
+      "run_id": 3
+    },
+    {
+      "id": "1894152356b9f3a3a55081ada9414e1bd5f6ee6e8555568045817dc35f1f4a14",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S05",
+      "run_id": 4
+    },
+    {
+      "id": "25f957fc2ca51420e7a99191c5fec077c7025a445597519e16ebab2efaa21852",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S05",
+      "run_id": 5
+    },
+    {
+      "id": "3602e1954f2e4fed9c0f62497acaadc05bf50666b00acb12713e07475d31494b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S06",
+      "run_id": 1
+    },
+    {
+      "id": "a56f6faea205fe1e4a4fe28f3489568394c90860c2e0f440b471876502d97170",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S06",
+      "run_id": 2
+    },
+    {
+      "id": "30214f23716fe396b32c1975d94c077773473c3d8fcc42327bb2299f0634edb2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S06",
+      "run_id": 3
+    },
+    {
+      "id": "92157d9c84d200caf9c19bc517ef58188d5cdba4f298307c1ec4b99c53f08980",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S06",
+      "run_id": 4
+    },
+    {
+      "id": "744b6fedc5fca520fa2afe8f3a441ed04389cec7e124f63c527bcbd941638c01",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S06",
+      "run_id": 5
+    },
+    {
+      "id": "b6cefc8d55302250d39359da7d5d6e934b7d2b7d58e9320170fa484735da40f4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S07",
+      "run_id": 1
+    },
+    {
+      "id": "2a298ebcbc700ec8f04dabf6f1dafa704fa526e5795d398b605124bf39e24cce",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S07",
+      "run_id": 2
+    },
+    {
+      "id": "d910c73eb1bf211ea6f71ce18b6cd499729e0f22b842bc6b452f04616fd6fe49",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S07",
+      "run_id": 3
+    },
+    {
+      "id": "dc60cfa0b488360fef8ba2596262dcf0bee5ddccfc4789059f73648c93e2473b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S07",
+      "run_id": 4
+    },
+    {
+      "id": "284ce59ed44678e86acf00e57895c398e0f8f3bfbb3d7e1ac9cc3d222f1dfc2f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S07",
+      "run_id": 5
+    },
+    {
+      "id": "809da8fb7717c0b6fd2a25461bc6beddf9ee57c3a0262a0f5e321c7372aebe10",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S08",
+      "run_id": 1
+    },
+    {
+      "id": "437ad987b21594aeebda4e81627c609aa3ccb12ba0e7af0245ffc10f273cf90d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S08",
+      "run_id": 2
+    },
+    {
+      "id": "f56b6848cebe1990bdbe31f250cb0bb974e6e2c8236aae04911f3470fae376ce",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S08",
+      "run_id": 3
+    },
+    {
+      "id": "b2f88495eac07632fd2e4fb75803223a491ec63fb6050f83bbf27c4849bbfb30",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S08",
+      "run_id": 4
+    },
+    {
+      "id": "21582128c97367cc9796cff2100f0d255f77c538b78ec54a4a827c3c038df1a0",
+      "generator_track": "qwen",
+      "condition_id": "G2-C07",
+      "poem_id": "S08",
+      "run_id": 5
+    },
+    {
+      "id": "6c1058f35093278eaca94f4b2ce07ebb46228c4807daeaaf2febf12a07617403",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T01",
+      "run_id": 1
+    },
+    {
+      "id": "0fa84577a2369b610f9593eebcd0a5e7e5dbbdb571aec7bf665d762afd4c6179",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T01",
+      "run_id": 2
+    },
+    {
+      "id": "1e28536b7ea22bb531786144da17bd44d3ab784208621316bf2bc484402effd8",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T01",
+      "run_id": 3
+    },
+    {
+      "id": "f93e64cd7b7def7e2bb5b63d2b3fd412579fddbd4eb1512f96311fc3f1d3f9e0",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T01",
+      "run_id": 4
+    },
+    {
+      "id": "2d847c130c618a2c7a2586330fbc77a5ebb9eb1ee6e595a3dac59e303add3de2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T01",
+      "run_id": 5
+    },
+    {
+      "id": "3e2101bcb1db2242ca2a14258948e8147c754779be6077d1571f0818918cfed4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T02",
+      "run_id": 1
+    },
+    {
+      "id": "2b9b3fb3f5306b678cf4e8e903b0648e6f3f3ba0d2a7c869eade5efce8be497a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T02",
+      "run_id": 2
+    },
+    {
+      "id": "d042085b5bebee82d4c719ff27af9b9f2686ea8429f36f568bb254841576aa2e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T02",
+      "run_id": 3
+    },
+    {
+      "id": "b928e3c6ac52396453e46b7b15ab7d16bf189df186bedd238d4dba3ceaf7f758",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T02",
+      "run_id": 4
+    },
+    {
+      "id": "dbd6f817bfb3733f397c30149c8748d2d5e2c77e6759486cffb1bc212da01956",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T02",
+      "run_id": 5
+    },
+    {
+      "id": "9bf0dd001d362b1f244277dda3a2dbf8dfba1a6f59cbf2d30b18411a798928a7",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T03",
+      "run_id": 1
+    },
+    {
+      "id": "ead8d571dba3ba53f89312a92696e81562ef874e5098ddfc54838f9808e7a0fa",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T03",
+      "run_id": 2
+    },
+    {
+      "id": "6d1cfda11316056e478d2b528b7cedd937d3a3ae78bf1ce7cab3520943db146c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T03",
+      "run_id": 3
+    },
+    {
+      "id": "94174c97d0c71a947f386c6c1479bf9a5242c9a3c54242e4ad9854bab24553b4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T03",
+      "run_id": 4
+    },
+    {
+      "id": "547bde9d7f118952870b4ec2fa729775433dad0bf17f657820ed8d8e2ca08767",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T03",
+      "run_id": 5
+    },
+    {
+      "id": "88176c4c58418110496824f084431107b4ff3784803e3d3a089585ac7e1f1ca3",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T04",
+      "run_id": 1
+    },
+    {
+      "id": "8d939dbe81fb0bd97eb472e05718abe434991ed4a0d1ce02c0e4a40b27e4dc57",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T04",
+      "run_id": 2
+    },
+    {
+      "id": "66019424028f52de16fdf0d01f1b91aa771548fa5ac9bc3d6d1cfd4adf44cc53",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T04",
+      "run_id": 3
+    },
+    {
+      "id": "3625b900879f3531a353279f3401f7906843e3c66b890a0bbea60d75612941d2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T04",
+      "run_id": 4
+    },
+    {
+      "id": "0585d240fc17a6455649bd419af9660d49f6ab65e2ae5643f27d578cd2410258",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T04",
+      "run_id": 5
+    },
+    {
+      "id": "d6e21aa6ad936225ef9e76415008cc2bb94f3fcb3ff968f38d1de36817e2aaa9",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T05",
+      "run_id": 1
+    },
+    {
+      "id": "7c46ebc0b0909b7ba33e94c1821531374fac7a2ef6fc13134b02437a69125280",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T05",
+      "run_id": 2
+    },
+    {
+      "id": "13ae347dbe0a6fd56f09484b161abf3cefdfd7653043147fcbaf9a48bce3a97d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T05",
+      "run_id": 3
+    },
+    {
+      "id": "0e13d30e1212ab93052b33882057f62c4b0200e8ece06d83c8860aa85eceabc2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T05",
+      "run_id": 4
+    },
+    {
+      "id": "d78ed7f1f8932e14592991ae527a05620cac0772adad09dea218d523ca5ad27a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T05",
+      "run_id": 5
+    },
+    {
+      "id": "24f98241bae01b4694a707741a98401ee66fde2ea6bc58440f9937ac12f0ca7d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T06",
+      "run_id": 1
+    },
+    {
+      "id": "df102376b2466f99aac843e5b062c8f7a3b439bba58c9323e421aae692c482e6",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T06",
+      "run_id": 2
+    },
+    {
+      "id": "3006eb0f99acbec6d519b4ee37f95e7d810de6cc47fd47187b8a91f873de40cc",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T06",
+      "run_id": 3
+    },
+    {
+      "id": "06528825fdda1310b5ca778db549877db98f491aa5089c97d332aa965a6c1c13",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T06",
+      "run_id": 4
+    },
+    {
+      "id": "75884696ffc8067f9c2d9ac9e84d3a81ba7576c094d7b7280bfe290133b36168",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T06",
+      "run_id": 5
+    },
+    {
+      "id": "d7190119c123eb01a2d73bd3a5bea9aba15b1861f214ee667dbc959ffada417b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T07",
+      "run_id": 1
+    },
+    {
+      "id": "9ea0a07de92306f89687fbc2bcdaf2070dd6edd1ef31ca23a82d1d02a92b6758",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T07",
+      "run_id": 2
+    },
+    {
+      "id": "ca1f0733c209b39bb1ece461e32fbdcabb10bde1cd848efa0156a92a1ed3b5d7",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T07",
+      "run_id": 3
+    },
+    {
+      "id": "d57841c9680af3c50b7842f2fae1eb32270ca10171211163b4a73c467a217d0e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T07",
+      "run_id": 4
+    },
+    {
+      "id": "9405f0fe8a4860c9345a0930ca3ef4d6f726dd9f4f99da6d0b3f7b9a0ff6b450",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T07",
+      "run_id": 5
+    },
+    {
+      "id": "7916b7b8feaa1c49a762ca2bf7539543163af5d13bf9c2a372c011858a93b633",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T08",
+      "run_id": 1
+    },
+    {
+      "id": "9c0300a3679ae332bc3666c5ac29af7001a4a2eb1efd07ea524f601c1e5a318f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T08",
+      "run_id": 2
+    },
+    {
+      "id": "80e54180310d952030b32e2c7287634834f640d0f1603b2395b26f6a24e405e8",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T08",
+      "run_id": 3
+    },
+    {
+      "id": "ab380f5c2c6f192bdb697e3b2190a9f8ce4313d3b89c0043c56192ce406abda0",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T08",
+      "run_id": 4
+    },
+    {
+      "id": "df3d044fa5b98f98d55f935b47d08828922220df4110dd44e6345071ff779465",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "T08",
+      "run_id": 5
+    },
+    {
+      "id": "74dab0373fe0808677960e6a4188e53572b38a1ad7c92cba0065a991aa09901d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S01",
+      "run_id": 1
+    },
+    {
+      "id": "550b98febefffa4e8eb3281cfa1767fdf108536a911e351eac681a467efa2d2b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S01",
+      "run_id": 2
+    },
+    {
+      "id": "991c5c06810735e44097eb7be58f5141213ff4dc99e91b2376974af067c9ddc2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S01",
+      "run_id": 3
+    },
+    {
+      "id": "c06423a75cc0605029da7129c5646ace7520e0673e9c1bf996058dda847cfe0a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S01",
+      "run_id": 4
+    },
+    {
+      "id": "dbe428b077243c63bc813c863229acfd99e4da10eed0c2e59488fbf0a5965ed4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S01",
+      "run_id": 5
+    },
+    {
+      "id": "a934f6dd50df6b3d9ff86fa07a454f686248f9a5f60a4ff5795e8f5feea3c66f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S02",
+      "run_id": 1
+    },
+    {
+      "id": "1675431059e853a17211522192418485ddcd639fa26c8a098a2a0d23165607cf",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S02",
+      "run_id": 2
+    },
+    {
+      "id": "7dccc8f9eb33d2d4f958bd270a42a5633a954a80df246a1f74e38c9c885b835b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S02",
+      "run_id": 3
+    },
+    {
+      "id": "f04722797a421d11c016352eb67b7a960ef5f2e671d2f3552b5b38b2914119d1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S02",
+      "run_id": 4
+    },
+    {
+      "id": "582d5fc322dca2e8bdf120ea61e838c34ed74805d4267a7a7b584295627a5e62",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S02",
+      "run_id": 5
+    },
+    {
+      "id": "532f1b4948171ac2c01ca2bb2461db9146660c4a0d8ec86c7f2396151e7dd5cd",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S03",
+      "run_id": 1
+    },
+    {
+      "id": "e2704ea5d078b22271ea5fb02db03c401bf71c3df1e5b0b573ff559d2ca95d54",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S03",
+      "run_id": 2
+    },
+    {
+      "id": "5d4c6a19359858139a955a8cfbf4559fa73c2bcff213b922fbad1796ec6594b9",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S03",
+      "run_id": 3
+    },
+    {
+      "id": "f3ce32eae3fed4951e55d4aea90c2e40a8221f7c332cbe9cddc84e53a908af36",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S03",
+      "run_id": 4
+    },
+    {
+      "id": "6e699d47e8b21079a3c601a230e0c5cf897a3c684e4c5bd6c66fe1967a2cea74",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S03",
+      "run_id": 5
+    },
+    {
+      "id": "ab7d381dfeff766894368d994d4bf896bfce3cb8e7cec62b8afb9a37f5c70263",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S04",
+      "run_id": 1
+    },
+    {
+      "id": "84213e1678507155052513e83d833fe1a3d4b72a1b46400d0c183b469e777880",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S04",
+      "run_id": 2
+    },
+    {
+      "id": "ac0dde7e514ebcc4b98b170c49f9010c5d409b3c1efa413cd0815ae30ef03317",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S04",
+      "run_id": 3
+    },
+    {
+      "id": "11702598d13f0abd3c702483c54e7c8b9cc5bcb9d1982b2f92a5d376d17c727e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S04",
+      "run_id": 4
+    },
+    {
+      "id": "1edb1b51b3a2d0411aba8b1a48ba9c95d6807fc2734a0da44c036c4c48411de1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S04",
+      "run_id": 5
+    },
+    {
+      "id": "c4c9fbd4d3f4e7911ad10a5c8942e3c7fc0b0cc1e9ab5fa443bcb66e6652c700",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S05",
+      "run_id": 1
+    },
+    {
+      "id": "fdb90c37f3463f8ffe47835853c51c8775cce6f8860edc6868c96d4b1523edbf",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S05",
+      "run_id": 2
+    },
+    {
+      "id": "acddb1a7754af90424bd5d71798aba02a5c0909906f7bbc735ac10863e7dbfe8",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S05",
+      "run_id": 3
+    },
+    {
+      "id": "d98c6c6e8a1cd37394e10c84a17034817347642f730c6b9744117e2b28f80b5e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S05",
+      "run_id": 4
+    },
+    {
+      "id": "b78f47d6bb0ac33fb572bea1ef40624066f3d7d1fe829d41fd922c88ea3e695d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S05",
+      "run_id": 5
+    },
+    {
+      "id": "38ca808d819506aad193fe453e0c17185eaf5b870148aa6fc3b58a5610c4bd1a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S06",
+      "run_id": 1
+    },
+    {
+      "id": "a6be94a1b615dd4552c446a0956e40a717381490f9d89d08e7cc37b62dc16cd6",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S06",
+      "run_id": 2
+    },
+    {
+      "id": "97652e843cf521cf2b7c12a64a5791e3987cecc71e526bcf001831977daad87c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S06",
+      "run_id": 3
+    },
+    {
+      "id": "f480b76adefb5f06955f7da653a652a760a640adb0294623e52f377e89a27855",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S06",
+      "run_id": 4
+    },
+    {
+      "id": "ba268c12961063dece5d47b5971f2f7bde64506c2f6904a226df91614b9d2898",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S06",
+      "run_id": 5
+    },
+    {
+      "id": "b6276c344660b3faa172d76f940d1e6ae554fecbf20abdb86e76fb421a4b923b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S07",
+      "run_id": 1
+    },
+    {
+      "id": "2999fa1dde896a02258cb19854d0e7d3fa325d6dbd74c76ec5cb4aadd1aec7eb",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S07",
+      "run_id": 2
+    },
+    {
+      "id": "ed053864190b45a5bd26b1ca82cf544ec1ad2e5991abf07a6d8e9177dfc65aef",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S07",
+      "run_id": 3
+    },
+    {
+      "id": "d5b8b7d763b0d03403c6cf4a5dffb65e6516d91e28cdbaaf310947ed52a714f8",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S07",
+      "run_id": 4
+    },
+    {
+      "id": "1831c93d6ba856d5bf22fac7c716241f0753e48f9022555718e0aab00dd82598",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S07",
+      "run_id": 5
+    },
+    {
+      "id": "3ede96bc38607cb0d00c5487f4e2f021fc220fbed4e447cd030ffe9231725875",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S08",
+      "run_id": 1
+    },
+    {
+      "id": "ac298d7a470eefbea9d11912ee6434e54dbd7383d056d98e529dedb6159e519a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S08",
+      "run_id": 2
+    },
+    {
+      "id": "0ee8aa4a0c2b4fe782cc808a7dba1d9245466d59b0ebab85b4e6226b8d2fb2be",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S08",
+      "run_id": 3
+    },
+    {
+      "id": "43955b8771bf379875f7d1698d5c4c545309644b45b1c67e2475605d1bfbfe06",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S08",
+      "run_id": 4
+    },
+    {
+      "id": "321a4c9c5787f8b229a1d552a351e888541633fc7458121e5b9647dfbb06f434",
+      "generator_track": "qwen",
+      "condition_id": "G2-C08",
+      "poem_id": "S08",
+      "run_id": 5
+    },
+    {
+      "id": "4721814cbecb06c713d102d0c8f6a15697b6c342ea67a259edd7f40982b58e5f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T01",
+      "run_id": 1
+    },
+    {
+      "id": "93be8d5eeac9ed11420ef9859631ff357cec0bd05a3851f054045690f8ebc9f2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T01",
+      "run_id": 2
+    },
+    {
+      "id": "f56efb81739a6c0070f57194b68cdf3b72532001844ab9b8fa52360826b07fa5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T01",
+      "run_id": 3
+    },
+    {
+      "id": "d995b98203aef860f72e165415a62f32829e303a0e8e9bce1dc14dda3ea87296",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T01",
+      "run_id": 4
+    },
+    {
+      "id": "e9ae1fed2c3208c30ede8b46186a8d7e4129162d52135acba0e7bd60cd1646e2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T01",
+      "run_id": 5
+    },
+    {
+      "id": "8acd4c2151e270b415656b01d187f623ec9961a61d5d0d70f0267c77cfa32e35",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T02",
+      "run_id": 1
+    },
+    {
+      "id": "1b96b13340ae9942fd9d953143b256eea95fab4c5e5fef881e8b1d0e613c15de",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T02",
+      "run_id": 2
+    },
+    {
+      "id": "b7f555ec40f1dc7e190ce8b6655adea013f99cfd0212d7b7a29d670081d08f58",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T02",
+      "run_id": 3
+    },
+    {
+      "id": "a734bac11024eb142d07ac3e5f5dff7664312c21d8f24dae8e37198b08252a62",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T02",
+      "run_id": 4
+    },
+    {
+      "id": "5edaaafe72154b406fa9add05ca3e73b1ce3475fd05c5c9ba69ff44105be3d6a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T02",
+      "run_id": 5
+    },
+    {
+      "id": "a956f0022e5b8e64e0065b7ba0772b585c9f6f668c8c8cc33f51d477bc776aa0",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T03",
+      "run_id": 1
+    },
+    {
+      "id": "57329067dca3a81f8a603620ff797c5130746c4c48f9f1db0fbe41e6a941c99e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T03",
+      "run_id": 2
+    },
+    {
+      "id": "0359e69280d16d413f527a8d9a6447807e49c187e4656e9e85211181bd0d82b2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T03",
+      "run_id": 3
+    },
+    {
+      "id": "d49fb17f4a1a7a237c72cfe860fa9573a2f35264659227424f385b0cdde85f84",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T03",
+      "run_id": 4
+    },
+    {
+      "id": "3a94ec15f4ad9e8700f9ddb07ace1d00ae4ffe1c570f3a818439ad04a0465205",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T03",
+      "run_id": 5
+    },
+    {
+      "id": "bdabe90041f99f40108dc74ad9ffe411941ede74633a337bb906e4dc2dc6a571",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T04",
+      "run_id": 1
+    },
+    {
+      "id": "64d782ee4654468d57183de4f4c15f2f2c11f7e1fc07c51d4e56fba1c974ead7",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T04",
+      "run_id": 2
+    },
+    {
+      "id": "2ed2e86f2f63c09996a727d2857191898aca18da41900fd753da8eeb530e4e97",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T04",
+      "run_id": 3
+    },
+    {
+      "id": "48c8ad2e0153b9d6182ad236d6ef2e26683f19f3b8398c51d1fe64f1096604b5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T04",
+      "run_id": 4
+    },
+    {
+      "id": "d3e773abdf10269fdf98085d68844af370a68e0d290cf635719ef85d00215083",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T04",
+      "run_id": 5
+    },
+    {
+      "id": "37e88bb136632c2e7f4575bf0b4b99001bbf914d86d89df29a6a7a56a734175f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T05",
+      "run_id": 1
+    },
+    {
+      "id": "88f92796ded2a44250e06e1d56a04013a995ec95b9cb57797f974ad9c8197534",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T05",
+      "run_id": 2
+    },
+    {
+      "id": "74ffe26181550820f601d62fc845c2e08d8b9e51900741f656820d97a4a1c577",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T05",
+      "run_id": 3
+    },
+    {
+      "id": "c4bd04a878e0d58d0995cff4188c6a5428dd0698f1738e208da33ded1a2c7e08",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T05",
+      "run_id": 4
+    },
+    {
+      "id": "f031dfcc6f18424e9bbc1d6d84627a9143e109236091c44c104340401444096f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T05",
+      "run_id": 5
+    },
+    {
+      "id": "0057c9789975f15c9a3930d278cb18fb27a2a27d73aa80e02b0560e85ae811a1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T06",
+      "run_id": 1
+    },
+    {
+      "id": "deacfe8af655657cfc5f034e73d51f10623dbdf40d13254a814dc9d064594709",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T06",
+      "run_id": 2
+    },
+    {
+      "id": "d29b510090e0fc868b0d2fd2a9551c11dd9046e5c040d70b83f94e25ec0763d1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T06",
+      "run_id": 3
+    },
+    {
+      "id": "4c7c7d6b64d17f0a9b30314f15ae9d7b50110dac3c6c2b68c984078b99e1700f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T06",
+      "run_id": 4
+    },
+    {
+      "id": "0311e5c4d210f4907aa2a91d15aab0db0ce1b59ff3fe2461a4960593f159bd30",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T06",
+      "run_id": 5
+    },
+    {
+      "id": "b9a23d3263473d76b62abd1dc5f05c6ee6b6e7692cbe6926cbeec602273abb8b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T07",
+      "run_id": 1
+    },
+    {
+      "id": "bb7d204ae87278b0cd1972ba3cc7d3a80bda5d7dd079faef4c3f5c5f9d56b3bc",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T07",
+      "run_id": 2
+    },
+    {
+      "id": "ea7bd9cf6ea1a43324cdbd51578acfb4c73195e046bc17619655cd49a02fca2d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T07",
+      "run_id": 3
+    },
+    {
+      "id": "656de4c8b295e7f7fca4edb05145696b0f0cd0cbfb1549f25a819617fef679fe",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T07",
+      "run_id": 4
+    },
+    {
+      "id": "e1490c80663a9c3e27319adefd52658f2bcb21415388096e3168275806b0688a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T07",
+      "run_id": 5
+    },
+    {
+      "id": "6b09ba77fd7ac9d66cb188a7aa829dc164d9d1bbdf4099e8546538a67a7ea3bc",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T08",
+      "run_id": 1
+    },
+    {
+      "id": "5b7c7ff49f1a340c8279c55f35f6426ec2958582f1abee62ea9b7f486a6d5d23",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T08",
+      "run_id": 2
+    },
+    {
+      "id": "af73c3eafebe22d67eec7236070a159a7934ef6c6fdc48d45ab21d06c923214f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T08",
+      "run_id": 3
+    },
+    {
+      "id": "82893cef5d2206416d1f8de0e013dca1750508e0956e1353a9afb94582072bd0",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T08",
+      "run_id": 4
+    },
+    {
+      "id": "df3373a2cbf21548401e3510b796b487898cb9cf9464b30fded0c0cc556f3584",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "T08",
+      "run_id": 5
+    },
+    {
+      "id": "61e7c824b5dc46fc89b87a6b4fe529d213566c40eb71563ad21d0fb51f4f5f44",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S01",
+      "run_id": 1
+    },
+    {
+      "id": "58bc16969f6d3ad3c5e6c7804cd40105cf344232f9aee692599cc25b73884455",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S01",
+      "run_id": 2
+    },
+    {
+      "id": "a3fb7054ca7fc30ee7b9711eb73791bcf0176873703ac65b9eb18109665b3234",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S01",
+      "run_id": 3
+    },
+    {
+      "id": "9181c9bc4a30a8840a6a506d62ae0fd42215884ea905aeb50835f721e78461b5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S01",
+      "run_id": 4
+    },
+    {
+      "id": "0823be5a6adf0d79c17d518c96c613bdf39d2bf2af843cc4e309fe70d9886a65",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S01",
+      "run_id": 5
+    },
+    {
+      "id": "a3ee0b79a7a8631c5cbe86f89ed6267a2a2965669ddbddfe5044bf1c17be8cea",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S02",
+      "run_id": 1
+    },
+    {
+      "id": "21735a3c37a9d42a72c9c118ea131799bcb65874e6c9f19cf91b2041aca5bc7e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S02",
+      "run_id": 2
+    },
+    {
+      "id": "fa1625f77d2e740282b0a24e0eb170d18dc098865eacce2639399f58638b6193",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S02",
+      "run_id": 3
+    },
+    {
+      "id": "35a52ba9b287353550aa856cc0c74dd42cbe4e5f31cfc45a3290bc93c6c64f6e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S02",
+      "run_id": 4
+    },
+    {
+      "id": "e7e8960cd460149deefc5c65f8118360c4b885a20fe28da76e0c01873437e4e8",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S02",
+      "run_id": 5
+    },
+    {
+      "id": "4f6f3e2e68837e4be6dd45b763192ee0399e2cafc0fc0619876fd86468d8d27b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S03",
+      "run_id": 1
+    },
+    {
+      "id": "868d23589109b7c4f1c158fb32bdee322a321d74622d20282536df4e29421763",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S03",
+      "run_id": 2
+    },
+    {
+      "id": "430c858959f1aa3c4770670e455f669457dc9c70d93b96e00cfe7bfd436a4e00",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S03",
+      "run_id": 3
+    },
+    {
+      "id": "9b78a6d28615c6f6928bc86f7bbbf4ca8d5ed56810a34626f7d06876c32c23d7",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S03",
+      "run_id": 4
+    },
+    {
+      "id": "070ad1dac35e6e454f403553832f492c3f748b87ad27a1510544c91e6d121388",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S03",
+      "run_id": 5
+    },
+    {
+      "id": "a04e998f44725b44fbea1b4de8aff1426e5b7b57b3b273c10c32c581b0bbc285",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S04",
+      "run_id": 1
+    },
+    {
+      "id": "a2c961869a63f536388a4099d0f01aa23d140de995a624cc875483e2189e3574",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S04",
+      "run_id": 2
+    },
+    {
+      "id": "1d075b19ae1943070a05add27c581c6974b7d71bc019a8982f429582c239463b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S04",
+      "run_id": 3
+    },
+    {
+      "id": "88b05674fbfe8425b13f3f169672c674f4919b9fcce862c01eaf14ae585528e4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S04",
+      "run_id": 4
+    },
+    {
+      "id": "a1c30322af0b3bcc92c60f56b1dcb41f06d979b08badb26c2c5156b96e19e34e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S04",
+      "run_id": 5
+    },
+    {
+      "id": "d22e860eba512c293b59a3f5d173bf18545823a023dde3d3669b3b03fb9e58d2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S05",
+      "run_id": 1
+    },
+    {
+      "id": "5b392678dbc575baf87d5f640de74b4099e9d703a7b1d5c2d68c96d6701d2b3d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S05",
+      "run_id": 2
+    },
+    {
+      "id": "07be5e1be8f7d6e0e639c8c37ab8a9d005f8098832a7771ebc07ad31c4b05084",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S05",
+      "run_id": 3
+    },
+    {
+      "id": "421c46f0e8f57a6897d71e74606652e35ef192cfc51a5091590707b95e7cbe6e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S05",
+      "run_id": 4
+    },
+    {
+      "id": "ed470276432f5471d13e7ae2b7d5a51f93d4de2393ccfd8cb1da2bfd81ef2463",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S05",
+      "run_id": 5
+    },
+    {
+      "id": "1108ad213383832924e2c72ab51bb8560ee2ee882c1a10ce7e7b1d5412cd6040",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S06",
+      "run_id": 1
+    },
+    {
+      "id": "bddc82b14b539b20a28db8181aa72d209a7649377785eddd354a7f25abe9c848",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S06",
+      "run_id": 2
+    },
+    {
+      "id": "9c83a953e0829d07fc1c0fb8c7adfcc6b2b86655a94251542c6a243f142bc778",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S06",
+      "run_id": 3
+    },
+    {
+      "id": "cf3d427328ad57e69aea143b4da0be5481ca1c7ae2eed2dac45c22d183d685c5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S06",
+      "run_id": 4
+    },
+    {
+      "id": "1f9500a047a1a56094ef863445048046263be21ccdb5f1f2ee6c612f6e29c0bd",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S06",
+      "run_id": 5
+    },
+    {
+      "id": "db321b000652aaabe4702e1ff37bff2ee727f6dea43374cd0318fef9c567e29a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S07",
+      "run_id": 1
+    },
+    {
+      "id": "86dfbb63a8ea81a1df35294868e04ca66d8a08d19fdc0ecc1f7ca87f646799fa",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S07",
+      "run_id": 2
+    },
+    {
+      "id": "a22a98359b01bfaaea87fa9ad53c3589466fa0f0378bf27aacbfb8340180b52e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S07",
+      "run_id": 3
+    },
+    {
+      "id": "37e31f0f44c36bd74f6beb638a300c41fac5803d348c7d3418f8059c67fd03b8",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S07",
+      "run_id": 4
+    },
+    {
+      "id": "88447e9aab00e412f9d6fe721760d4f94d68ecd4db78dbc0ac492d375908e765",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S07",
+      "run_id": 5
+    },
+    {
+      "id": "0ed16b48dc88e44de1ea0a3347f599f0562f14fd95f237ac5b989a4eb5aa3a76",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S08",
+      "run_id": 1
+    },
+    {
+      "id": "772b1a282f6313206bf5ef5ef205b766486c331bdc549afbbef0c7f5b43f75a8",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S08",
+      "run_id": 2
+    },
+    {
+      "id": "6ebfc0b12ff363c38f19e5e09f390523d81a58dd6ab6fa0c7b05fb73466eb8da",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S08",
+      "run_id": 3
+    },
+    {
+      "id": "4be8a8d91bd958aae037e51513fa47cd632cc755cc2f8713da5f4bd0d2a20901",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S08",
+      "run_id": 4
+    },
+    {
+      "id": "c186836507791620faf636c9dfbafe94b43ff95e36a819d663dcef8bacd6038d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C09",
+      "poem_id": "S08",
+      "run_id": 5
+    },
+    {
+      "id": "7e41c36810643be654a3a373174494f76d47a8d16297051b010b646f5c592259",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T01",
+      "run_id": 1
+    },
+    {
+      "id": "706e7b346ca0a002d8b2664d866af2e3780a8b80e12e72817dbc0ef623536590",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T01",
+      "run_id": 2
+    },
+    {
+      "id": "e09d988159293cc3c4a690cbb7313a9d623d2ffbc8fd7247d28f28a0bf5afda2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T01",
+      "run_id": 3
+    },
+    {
+      "id": "e32cbb0f6b8cd437d172da7555d67e08d2667569c0322586a19d9b4b0678d117",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T01",
+      "run_id": 4
+    },
+    {
+      "id": "c7d0d45a0944acb04dad024d8abdd87d68d698bfe10c3125610801c1b8a0da4e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T01",
+      "run_id": 5
+    },
+    {
+      "id": "ef7f98bb505b028b88007bd70e2ff486f46d8125e2b443d1a29e1d8eb4d6b182",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T02",
+      "run_id": 1
+    },
+    {
+      "id": "ac66c9a951899b0eae5f192387a02317a1d1ced14a00031acb6c2c8cfd026681",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T02",
+      "run_id": 2
+    },
+    {
+      "id": "4ebfcebc4b216a56f1f6126ae2a1b4df9d8f8649f8a1190c27ae728f630d1822",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T02",
+      "run_id": 3
+    },
+    {
+      "id": "31ab066a929743d3ee0a9cee85ebaf9a709f229bbd179cdbb8c31b41b8f4b88a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T02",
+      "run_id": 4
+    },
+    {
+      "id": "9804ad41d207c292ca527988ef592e9669bc69b7bce0da7e34201c3dfed3c548",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T02",
+      "run_id": 5
+    },
+    {
+      "id": "b1b94cbfc843d6dec65a5c89dd2e04dff064a830c81c500f2cc2161889e31a64",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T03",
+      "run_id": 1
+    },
+    {
+      "id": "2b19461b13cc4c8dd70803ea5a5294bc30d22c29d4c49ace7929296365c39e2c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T03",
+      "run_id": 2
+    },
+    {
+      "id": "9ae5e022c5a7a78b2c52b1c13c5a24f32162e365f54a749de89f4e271a0c62bf",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T03",
+      "run_id": 3
+    },
+    {
+      "id": "476415ce4055a0fdcb6522a913010c847a8df3f980e13b2f8e00751b175f315c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T03",
+      "run_id": 4
+    },
+    {
+      "id": "ac908b2d3b4cda781969399013124a358ef1578e3eb5a16604bf343d684748a9",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T03",
+      "run_id": 5
+    },
+    {
+      "id": "bd91de79a81e8c095bffb43914493262d69fec6ede8ad8a0620ca69888628c9e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T04",
+      "run_id": 1
+    },
+    {
+      "id": "f1eddb80b7afe11c9a2ff205e9a8cfb9328fdc5bc322d02e0d64ee8071252525",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T04",
+      "run_id": 2
+    },
+    {
+      "id": "d7a34f0ff6b39bf87c0a8ccafc010f5ab9f40efa45713d8c47ab4da55c692488",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T04",
+      "run_id": 3
+    },
+    {
+      "id": "5e5cbeaa69833ffb3085918669c38398a5fcc520c513929b1cbee26775cf048e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T04",
+      "run_id": 4
+    },
+    {
+      "id": "a80df0162ee7fc9c97786d19d76e61bf2657bf20e2afacbbdcc40d6ede947e53",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T04",
+      "run_id": 5
+    },
+    {
+      "id": "a944d9b7b4a9362367263224e5dd987d0348e15c628bb8431618a6bac5ba092f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T05",
+      "run_id": 1
+    },
+    {
+      "id": "e686f107e7dd4208d4d5b56550f00f78cbce7969f56f6b593b3e0862fef4d680",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T05",
+      "run_id": 2
+    },
+    {
+      "id": "1253cb693096a211853a69f9bcaa798cf4a107596396095ecaf04043bfd41e54",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T05",
+      "run_id": 3
+    },
+    {
+      "id": "2c3a978e58afb803aeda13ed709f009743ccd7777056158c0c83e954aea5839b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T05",
+      "run_id": 4
+    },
+    {
+      "id": "17efb1fd9927fd24007cc50cbba5a32317d8a8182559ee0489e0fd9b548af93f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T05",
+      "run_id": 5
+    },
+    {
+      "id": "c4e1f6df41a44e1cc979a8762048e18d342e99e85908ff2f142e7368065c5ef5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T06",
+      "run_id": 1
+    },
+    {
+      "id": "aeadd01ac0f4f5fd27e12f4b7b3b56cb277fdd521bc53bf0c6e762b4ef972277",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T06",
+      "run_id": 2
+    },
+    {
+      "id": "c39364f7bda68e487b292a6921a8cb3a9598d247cd9039314ee1b765ee35e7bb",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T06",
+      "run_id": 3
+    },
+    {
+      "id": "77005dd26f5327495d5bbc8499d2a88ee911a3554d0aa9c5cc65c552fa1660bc",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T06",
+      "run_id": 4
+    },
+    {
+      "id": "96582b105e52a0d132928c524e62eb62fa50d3ad6363a78f883027903c2a1e38",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T06",
+      "run_id": 5
+    },
+    {
+      "id": "46e73f351c5df46d5d32df1edbb7e63f077949ede01fb1ae2d75f9b310486afa",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T07",
+      "run_id": 1
+    },
+    {
+      "id": "1d822d0d269715957b5cd1cb5eebac4896dbcf6d0692cd5bddfa7af51548dab4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T07",
+      "run_id": 2
+    },
+    {
+      "id": "d8e657565e1d19ea1682fe13e3882dcbcc29e29934a68e2e278d6bb914244be5",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T07",
+      "run_id": 3
+    },
+    {
+      "id": "ab1a0f8136e8db3c73c3f51987dc0270e391c7077a53443e76e158d40d815899",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T07",
+      "run_id": 4
+    },
+    {
+      "id": "2b13249ae308675fb8f72db545d3ef8aed2605ab73f9349b382b7e85b3c210f4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T07",
+      "run_id": 5
+    },
+    {
+      "id": "2bc08c737da3cec9667dcd5c6f9d03da186a92d0cce52faffbe531224803f3c9",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T08",
+      "run_id": 1
+    },
+    {
+      "id": "1439be392e28c46c45a9fe83852e135ed7dac783743b24ac7a108f0ba7e3e6f6",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T08",
+      "run_id": 2
+    },
+    {
+      "id": "2fb2f084f40e77a18e98dfcd38b442b435aa790ac377086e674510a894cf6fbc",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T08",
+      "run_id": 3
+    },
+    {
+      "id": "65527d8729d3c9cbbd5fd360dc264c878f80b26bd07226e48714e64cf6938f32",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T08",
+      "run_id": 4
+    },
+    {
+      "id": "97cafeb55cfe2a797c2cf28eb2bd530ad7e0d85e163272a353ad076e90055283",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "T08",
+      "run_id": 5
+    },
+    {
+      "id": "82b13d788301773e2b8fcf3988259a9caff3096be874313c8b2a013a0fc9d922",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S01",
+      "run_id": 1
+    },
+    {
+      "id": "d30ec4c334841b6da21e7a944cdb2cfaae525bf346910030e0ddc6c557306a91",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S01",
+      "run_id": 2
+    },
+    {
+      "id": "fcab9cd614f231a7deeabf4bc44e0d61f37220acd5831281a9922252236ad3d7",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S01",
+      "run_id": 3
+    },
+    {
+      "id": "982b4a3fea4e17e50706881380ee8634394fb7cbf0bfb223dd2b17d5aa865976",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S01",
+      "run_id": 4
+    },
+    {
+      "id": "63ef75e4a90bd1ba46343d922d5762a45e2d4eaca7529d8f7f73ab275de6fc20",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S01",
+      "run_id": 5
+    },
+    {
+      "id": "d41fff88ba5564844930135759b475c97aedff83c8c4d3dddcb1fc4c9a17f6a4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S02",
+      "run_id": 1
+    },
+    {
+      "id": "4be513e53ef9fa26a4ab499262c19f4d5adc1eed90db2ef978e45b63191b5a36",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S02",
+      "run_id": 2
+    },
+    {
+      "id": "91bfb0a4e6d5104423319378a888bd45fbbeb08d084434c530e4b4e783586683",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S02",
+      "run_id": 3
+    },
+    {
+      "id": "0fffa5a97286fbfd42021c47b263a004cfd720b5e55b2a1ac759b76d2da96ff2",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S02",
+      "run_id": 4
+    },
+    {
+      "id": "7897d1045181d67e5c7e302abbd3ff74182637070d89418eb4496e40ffbcbc0a",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S02",
+      "run_id": 5
+    },
+    {
+      "id": "19257b49d4ad6f8dca21c76dba41a29a6e61328efe7ed3854841a8376efe6763",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S03",
+      "run_id": 1
+    },
+    {
+      "id": "e9fc2a3dcfa9b36130fa7a15f3214613bc2f137f076902250e49ecb180d3e363",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S03",
+      "run_id": 2
+    },
+    {
+      "id": "1a102734058828f7348d7436ed7ecd1bdd93d17be87c1430bb015c5f8953fa4b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S03",
+      "run_id": 3
+    },
+    {
+      "id": "07ed0797765e8725b1cd69bc1a16a78f4dc1fa787c38c0f07c9a8812c46da930",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S03",
+      "run_id": 4
+    },
+    {
+      "id": "b4594bf16c8116c0049a74be0699f28ea3ea7c3428cb8276f326279c49227137",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S03",
+      "run_id": 5
+    },
+    {
+      "id": "9d7a73793b3edac6a4e74d34e509c587f88314906405bbd8357f6d0bf04eaa2c",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S04",
+      "run_id": 1
+    },
+    {
+      "id": "694f53269f563af212072a7be8f035389e26f9caca882483ff28112a27589cc4",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S04",
+      "run_id": 2
+    },
+    {
+      "id": "b18af3dfa728d346a04b2d78929323a8cda849f4a3aaeb13c20496970a482024",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S04",
+      "run_id": 3
+    },
+    {
+      "id": "d9cda92270d8efad71c92176518c2093a5cc9c0a19f8cec6d16ab85780f75437",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S04",
+      "run_id": 4
+    },
+    {
+      "id": "6552880fbd688026900970f226123a063c9ad9c20a6639a0d7b6ebc3674ef98f",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S04",
+      "run_id": 5
+    },
+    {
+      "id": "863f0d7fdf187ee12674451fa8ba650223d61928b3fc9f11336a2fc523d10d6e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S05",
+      "run_id": 1
+    },
+    {
+      "id": "0494be6b24560402859971c93e0281dff2ee9b6e339ca1829d0f99d9e19dd75b",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S05",
+      "run_id": 2
+    },
+    {
+      "id": "1ed8c48908add80db2ecee050c6377a4830ad75f1b048e9e624f8067f3339412",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S05",
+      "run_id": 3
+    },
+    {
+      "id": "296ba71b0abff9607c1d8f5bc200e40fe0059898b6363339b21c9a5923f84900",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S05",
+      "run_id": 4
+    },
+    {
+      "id": "72316afacd917b196ddb079e18beb147592b55e0551c2c7fd8a7688bf624d068",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S05",
+      "run_id": 5
+    },
+    {
+      "id": "c2fe00c694f686db1cb36dd3933f535a3dc5ee509bbfff104a1c19ac82f0f037",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S06",
+      "run_id": 1
+    },
+    {
+      "id": "e66d372b2c4fd07abb174ca633346b00cb488be9c50f2ae171870f14fd6885f1",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S06",
+      "run_id": 2
+    },
+    {
+      "id": "d3325c353007cc48d5fb29b9c363133989d112ea5e6ab4d2f44e1b7e5fd404df",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S06",
+      "run_id": 3
+    },
+    {
+      "id": "1b483cb09b73507dccfe5a5a66be608203ddfb10d1d0cf70a852bfc187a538b0",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S06",
+      "run_id": 4
+    },
+    {
+      "id": "4d7d6f449480bba808a40d09f13ad19093fd6d82b5e461bc9f50f22758cb4673",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S06",
+      "run_id": 5
+    },
+    {
+      "id": "da37aff14024e3ef4fd79728c93c3277122a1cb7922bd9a3dfba9da3272fe5f8",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S07",
+      "run_id": 1
+    },
+    {
+      "id": "ed4e6f298727a24a6f9a896ef98cce844398c029e83c8d0919c1384f34b42340",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S07",
+      "run_id": 2
+    },
+    {
+      "id": "c190e5e333a7904dba6a06b2b139a55138437e7fbe567dd61717a1f29ac66b5e",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S07",
+      "run_id": 3
+    },
+    {
+      "id": "b8f5bac377be2e90ef112afdcc8f7fa587a7e34f8cbf4ddc9f188bacfbc9312d",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S07",
+      "run_id": 4
+    },
+    {
+      "id": "399403769517b2d5197cf6211e9eda7c4e8d04a653fdc0f8aa715c2789b4ce88",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S07",
+      "run_id": 5
+    },
+    {
+      "id": "ec4cc723a9ccc59722434006f58f8c8b58b6e79e2ee03eee3c7a983ead800955",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S08",
+      "run_id": 1
+    },
+    {
+      "id": "9e60f4cd8729ec28fd35642eb4177e63631231b8bd3e202b52c5d782fcbc5ebf",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S08",
+      "run_id": 2
+    },
+    {
+      "id": "afce680372708a11463f31bc6d01ac7a5669e341088d5c9d5c4167705b8a9831",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S08",
+      "run_id": 3
+    },
+    {
+      "id": "64fd4a1a0ffe75d23b7e62bd5a7d82a4e0876d7f760a0674ec1b2f47c116f198",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S08",
+      "run_id": 4
+    },
+    {
+      "id": "1a94a61f50d30681a6fc9625c9ff2ff593cb2e44b7ff2f8ce79f1b6b2eaf1033",
+      "generator_track": "qwen",
+      "condition_id": "G2-C10",
+      "poem_id": "S08",
+      "run_id": 5
+    }
+  ]
+}
